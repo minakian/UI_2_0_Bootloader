@@ -1,0 +1,595 @@
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0plus
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB33:
+  27              		.file 1 "main.c"
+   1:main.c        **** /* ========================================
+   2:main.c        ****  *
+   3:main.c        ****  * Copyright YOUR COMPANY, THE YEAR
+   4:main.c        ****  * All Rights Reserved
+   5:main.c        ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:main.c        ****  *
+   7:main.c        ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:main.c        ****  * WHICH IS THE PROPERTY OF your company.
+   9:main.c        ****  *
+  10:main.c        ****  * ========================================
+  11:main.c        **** */
+  12:main.c        **** #include "project.h"
+  13:main.c        **** 
+  14:main.c        **** int main(void)
+  15:main.c        **** {
+  28              		.loc 1 15 0
+  29              		.cfi_startproc
+  30              		@ Volatile: function does not return.
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33 0000 10B5     		push	{r4, lr}
+  34              		.cfi_def_cfa_offset 8
+  35              		.cfi_offset 4, -8
+  36              		.cfi_offset 14, -4
+  16:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  37              		.loc 1 16 0
+  38              		.syntax divided
+  39              	@ 16 "main.c" 1
+  40 0002 62B6     		CPSIE   i
+  41              	@ 0 "" 2
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 2
+
+
+  17:main.c        **** 
+  18:main.c        ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  19:main.c        ****     if(Bootload_EN_Read()){
+  42              		.loc 1 19 0
+  43              		.thumb
+  44              		.syntax unified
+  45 0004 FFF7FEFF 		bl	Bootload_EN_Read
+  46              	.LVL0:
+  47 0008 0028     		cmp	r0, #0
+  48 000a 09D0     		beq	.L2
+  20:main.c        ****         Red_LED_Write(0);
+  49              		.loc 1 20 0
+  50 000c 0020     		movs	r0, #0
+  51 000e FFF7FEFF 		bl	Red_LED_Write
+  52              	.LVL1:
+  21:main.c        ****         CyDelay(1000);
+  53              		.loc 1 21 0
+  54 0012 FA20     		movs	r0, #250
+  55 0014 8000     		lsls	r0, r0, #2
+  56 0016 FFF7FEFF 		bl	CyDelay
+  57              	.LVL2:
+  22:main.c        ****         Bootloader_Start();
+  58              		.loc 1 22 0
+  59 001a FFF7FEFF 		bl	Bootloader_Start
+  60              	.LVL3:
+  61 001e 09E0     		b	.L3
+  62              	.L2:
+  23:main.c        ****     } else {
+  24:main.c        ****         Blue_LED_Write(0);
+  63              		.loc 1 24 0
+  64 0020 0020     		movs	r0, #0
+  65 0022 FFF7FEFF 		bl	Blue_LED_Write
+  66              	.LVL4:
+  25:main.c        ****         CyDelay(1000);
+  67              		.loc 1 25 0
+  68 0026 FA20     		movs	r0, #250
+  69 0028 8000     		lsls	r0, r0, #2
+  70 002a FFF7FEFF 		bl	CyDelay
+  71              	.LVL5:
+  26:main.c        ****         Bootloader_Exit(Bootloader_EXIT_TO_BTLDB);
+  72              		.loc 1 26 0
+  73 002e 0020     		movs	r0, #0
+  74 0030 FFF7FEFF 		bl	Bootloader_Exit
+  75              	.LVL6:
+  76              	.L3:
+  77 0034 FEE7     		b	.L3
+  78              		.cfi_endproc
+  79              	.LFE33:
+  80              		.size	main, .-main
+  81 0036 C046     		.text
+  82              	.Letext0:
+  83              		.file 2 "Generated_Source\\PSoC4/Bootload_EN.h"
+  84              		.file 3 "Generated_Source\\PSoC4/Red_LED.h"
+  85              		.file 4 "Generated_Source\\PSoC4/CyLib.h"
+  86              		.file 5 "Generated_Source\\PSoC4/Bootloader.h"
+  87              		.file 6 "Generated_Source\\PSoC4/Blue_LED.h"
+  88              		.section	.debug_info,"",%progbits
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 3
+
+
+  89              	.Ldebug_info0:
+  90 0000 58010000 		.4byte	0x158
+  91 0004 0400     		.2byte	0x4
+  92 0006 00000000 		.4byte	.Ldebug_abbrev0
+  93 000a 04       		.byte	0x4
+  94 000b 01       		.uleb128 0x1
+  95 000c 48010000 		.4byte	.LASF20
+  96 0010 0C       		.byte	0xc
+  97 0011 2B000000 		.4byte	.LASF21
+  98 0015 B0000000 		.4byte	.LASF22
+  99 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 100 001d 00000000 		.4byte	0
+ 101 0021 00000000 		.4byte	.Ldebug_line0
+ 102 0025 02       		.uleb128 0x2
+ 103 0026 01       		.byte	0x1
+ 104 0027 06       		.byte	0x6
+ 105 0028 06010000 		.4byte	.LASF0
+ 106 002c 02       		.uleb128 0x2
+ 107 002d 01       		.byte	0x1
+ 108 002e 08       		.byte	0x8
+ 109 002f 6E000000 		.4byte	.LASF1
+ 110 0033 02       		.uleb128 0x2
+ 111 0034 02       		.byte	0x2
+ 112 0035 05       		.byte	0x5
+ 113 0036 3E010000 		.4byte	.LASF2
+ 114 003a 02       		.uleb128 0x2
+ 115 003b 02       		.byte	0x2
+ 116 003c 07       		.byte	0x7
+ 117 003d F3000000 		.4byte	.LASF3
+ 118 0041 02       		.uleb128 0x2
+ 119 0042 04       		.byte	0x4
+ 120 0043 05       		.byte	0x5
+ 121 0044 81000000 		.4byte	.LASF4
+ 122 0048 02       		.uleb128 0x2
+ 123 0049 04       		.byte	0x4
+ 124 004a 07       		.byte	0x7
+ 125 004b 3F000000 		.4byte	.LASF5
+ 126 004f 02       		.uleb128 0x2
+ 127 0050 08       		.byte	0x8
+ 128 0051 05       		.byte	0x5
+ 129 0052 00000000 		.4byte	.LASF6
+ 130 0056 02       		.uleb128 0x2
+ 131 0057 08       		.byte	0x8
+ 132 0058 07       		.byte	0x7
+ 133 0059 51000000 		.4byte	.LASF7
+ 134 005d 03       		.uleb128 0x3
+ 135 005e 04       		.byte	0x4
+ 136 005f 05       		.byte	0x5
+ 137 0060 696E7400 		.ascii	"int\000"
+ 138 0064 02       		.uleb128 0x2
+ 139 0065 04       		.byte	0x4
+ 140 0066 07       		.byte	0x7
+ 141 0067 0E000000 		.4byte	.LASF8
+ 142 006b 02       		.uleb128 0x2
+ 143 006c 04       		.byte	0x4
+ 144 006d 04       		.byte	0x4
+ 145 006e 68000000 		.4byte	.LASF9
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 4
+
+
+ 146 0072 02       		.uleb128 0x2
+ 147 0073 08       		.byte	0x8
+ 148 0074 04       		.byte	0x4
+ 149 0075 8A000000 		.4byte	.LASF10
+ 150 0079 02       		.uleb128 0x2
+ 151 007a 01       		.byte	0x1
+ 152 007b 08       		.byte	0x8
+ 153 007c 7C000000 		.4byte	.LASF11
+ 154 0080 02       		.uleb128 0x2
+ 155 0081 08       		.byte	0x8
+ 156 0082 04       		.byte	0x4
+ 157 0083 12010000 		.4byte	.LASF12
+ 158 0087 02       		.uleb128 0x2
+ 159 0088 04       		.byte	0x4
+ 160 0089 07       		.byte	0x7
+ 161 008a DA010000 		.4byte	.LASF13
+ 162 008e 04       		.uleb128 0x4
+ 163 008f 32000000 		.4byte	.LASF23
+ 164 0093 01       		.byte	0x1
+ 165 0094 0E       		.byte	0xe
+ 166 0095 5D000000 		.4byte	0x5d
+ 167 0099 00000000 		.4byte	.LFB33
+ 168 009d 36000000 		.4byte	.LFE33-.LFB33
+ 169 00a1 01       		.uleb128 0x1
+ 170 00a2 9C       		.byte	0x9c
+ 171 00a3 19010000 		.4byte	0x119
+ 172 00a7 05       		.uleb128 0x5
+ 173 00a8 08000000 		.4byte	.LVL0
+ 174 00ac 19010000 		.4byte	0x119
+ 175 00b0 06       		.uleb128 0x6
+ 176 00b1 12000000 		.4byte	.LVL1
+ 177 00b5 24010000 		.4byte	0x124
+ 178 00b9 C3000000 		.4byte	0xc3
+ 179 00bd 07       		.uleb128 0x7
+ 180 00be 01       		.uleb128 0x1
+ 181 00bf 50       		.byte	0x50
+ 182 00c0 01       		.uleb128 0x1
+ 183 00c1 30       		.byte	0x30
+ 184 00c2 00       		.byte	0
+ 185 00c3 06       		.uleb128 0x6
+ 186 00c4 1A000000 		.4byte	.LVL2
+ 187 00c8 2F010000 		.4byte	0x12f
+ 188 00cc D8000000 		.4byte	0xd8
+ 189 00d0 07       		.uleb128 0x7
+ 190 00d1 01       		.uleb128 0x1
+ 191 00d2 50       		.byte	0x50
+ 192 00d3 03       		.uleb128 0x3
+ 193 00d4 0A       		.byte	0xa
+ 194 00d5 E803     		.2byte	0x3e8
+ 195 00d7 00       		.byte	0
+ 196 00d8 05       		.uleb128 0x5
+ 197 00d9 1E000000 		.4byte	.LVL3
+ 198 00dd 3A010000 		.4byte	0x13a
+ 199 00e1 06       		.uleb128 0x6
+ 200 00e2 26000000 		.4byte	.LVL4
+ 201 00e6 45010000 		.4byte	0x145
+ 202 00ea F4000000 		.4byte	0xf4
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 5
+
+
+ 203 00ee 07       		.uleb128 0x7
+ 204 00ef 01       		.uleb128 0x1
+ 205 00f0 50       		.byte	0x50
+ 206 00f1 01       		.uleb128 0x1
+ 207 00f2 30       		.byte	0x30
+ 208 00f3 00       		.byte	0
+ 209 00f4 06       		.uleb128 0x6
+ 210 00f5 2E000000 		.4byte	.LVL5
+ 211 00f9 2F010000 		.4byte	0x12f
+ 212 00fd 09010000 		.4byte	0x109
+ 213 0101 07       		.uleb128 0x7
+ 214 0102 01       		.uleb128 0x1
+ 215 0103 50       		.byte	0x50
+ 216 0104 03       		.uleb128 0x3
+ 217 0105 0A       		.byte	0xa
+ 218 0106 E803     		.2byte	0x3e8
+ 219 0108 00       		.byte	0
+ 220 0109 08       		.uleb128 0x8
+ 221 010a 34000000 		.4byte	.LVL6
+ 222 010e 50010000 		.4byte	0x150
+ 223 0112 07       		.uleb128 0x7
+ 224 0113 01       		.uleb128 0x1
+ 225 0114 50       		.byte	0x50
+ 226 0115 01       		.uleb128 0x1
+ 227 0116 30       		.byte	0x30
+ 228 0117 00       		.byte	0
+ 229 0118 00       		.byte	0
+ 230 0119 09       		.uleb128 0x9
+ 231 011a 2D010000 		.4byte	.LASF14
+ 232 011e 2D010000 		.4byte	.LASF14
+ 233 0122 02       		.byte	0x2
+ 234 0123 32       		.byte	0x32
+ 235 0124 09       		.uleb128 0x9
+ 236 0125 91000000 		.4byte	.LASF15
+ 237 0129 91000000 		.4byte	.LASF15
+ 238 012d 03       		.byte	0x3
+ 239 012e 33       		.byte	0x33
+ 240 012f 09       		.uleb128 0x9
+ 241 0130 37000000 		.4byte	.LASF16
+ 242 0134 37000000 		.4byte	.LASF16
+ 243 0138 04       		.byte	0x4
+ 244 0139 D9       		.byte	0xd9
+ 245 013a 09       		.uleb128 0x9
+ 246 013b 9F000000 		.4byte	.LASF17
+ 247 013f 9F000000 		.4byte	.LASF17
+ 248 0143 05       		.byte	0x5
+ 249 0144 E6       		.byte	0xe6
+ 250 0145 09       		.uleb128 0x9
+ 251 0146 1E010000 		.4byte	.LASF18
+ 252 014a 1E010000 		.4byte	.LASF18
+ 253 014e 06       		.byte	0x6
+ 254 014f 33       		.byte	0x33
+ 255 0150 09       		.uleb128 0x9
+ 256 0151 1B000000 		.4byte	.LASF19
+ 257 0155 1B000000 		.4byte	.LASF19
+ 258 0159 05       		.byte	0x5
+ 259 015a ED       		.byte	0xed
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 6
+
+
+ 260 015b 00       		.byte	0
+ 261              		.section	.debug_abbrev,"",%progbits
+ 262              	.Ldebug_abbrev0:
+ 263 0000 01       		.uleb128 0x1
+ 264 0001 11       		.uleb128 0x11
+ 265 0002 01       		.byte	0x1
+ 266 0003 25       		.uleb128 0x25
+ 267 0004 0E       		.uleb128 0xe
+ 268 0005 13       		.uleb128 0x13
+ 269 0006 0B       		.uleb128 0xb
+ 270 0007 03       		.uleb128 0x3
+ 271 0008 0E       		.uleb128 0xe
+ 272 0009 1B       		.uleb128 0x1b
+ 273 000a 0E       		.uleb128 0xe
+ 274 000b 55       		.uleb128 0x55
+ 275 000c 17       		.uleb128 0x17
+ 276 000d 11       		.uleb128 0x11
+ 277 000e 01       		.uleb128 0x1
+ 278 000f 10       		.uleb128 0x10
+ 279 0010 17       		.uleb128 0x17
+ 280 0011 00       		.byte	0
+ 281 0012 00       		.byte	0
+ 282 0013 02       		.uleb128 0x2
+ 283 0014 24       		.uleb128 0x24
+ 284 0015 00       		.byte	0
+ 285 0016 0B       		.uleb128 0xb
+ 286 0017 0B       		.uleb128 0xb
+ 287 0018 3E       		.uleb128 0x3e
+ 288 0019 0B       		.uleb128 0xb
+ 289 001a 03       		.uleb128 0x3
+ 290 001b 0E       		.uleb128 0xe
+ 291 001c 00       		.byte	0
+ 292 001d 00       		.byte	0
+ 293 001e 03       		.uleb128 0x3
+ 294 001f 24       		.uleb128 0x24
+ 295 0020 00       		.byte	0
+ 296 0021 0B       		.uleb128 0xb
+ 297 0022 0B       		.uleb128 0xb
+ 298 0023 3E       		.uleb128 0x3e
+ 299 0024 0B       		.uleb128 0xb
+ 300 0025 03       		.uleb128 0x3
+ 301 0026 08       		.uleb128 0x8
+ 302 0027 00       		.byte	0
+ 303 0028 00       		.byte	0
+ 304 0029 04       		.uleb128 0x4
+ 305 002a 2E       		.uleb128 0x2e
+ 306 002b 01       		.byte	0x1
+ 307 002c 3F       		.uleb128 0x3f
+ 308 002d 19       		.uleb128 0x19
+ 309 002e 03       		.uleb128 0x3
+ 310 002f 0E       		.uleb128 0xe
+ 311 0030 3A       		.uleb128 0x3a
+ 312 0031 0B       		.uleb128 0xb
+ 313 0032 3B       		.uleb128 0x3b
+ 314 0033 0B       		.uleb128 0xb
+ 315 0034 27       		.uleb128 0x27
+ 316 0035 19       		.uleb128 0x19
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 7
+
+
+ 317 0036 49       		.uleb128 0x49
+ 318 0037 13       		.uleb128 0x13
+ 319 0038 8701     		.uleb128 0x87
+ 320 003a 19       		.uleb128 0x19
+ 321 003b 11       		.uleb128 0x11
+ 322 003c 01       		.uleb128 0x1
+ 323 003d 12       		.uleb128 0x12
+ 324 003e 06       		.uleb128 0x6
+ 325 003f 40       		.uleb128 0x40
+ 326 0040 18       		.uleb128 0x18
+ 327 0041 9742     		.uleb128 0x2117
+ 328 0043 19       		.uleb128 0x19
+ 329 0044 01       		.uleb128 0x1
+ 330 0045 13       		.uleb128 0x13
+ 331 0046 00       		.byte	0
+ 332 0047 00       		.byte	0
+ 333 0048 05       		.uleb128 0x5
+ 334 0049 898201   		.uleb128 0x4109
+ 335 004c 00       		.byte	0
+ 336 004d 11       		.uleb128 0x11
+ 337 004e 01       		.uleb128 0x1
+ 338 004f 31       		.uleb128 0x31
+ 339 0050 13       		.uleb128 0x13
+ 340 0051 00       		.byte	0
+ 341 0052 00       		.byte	0
+ 342 0053 06       		.uleb128 0x6
+ 343 0054 898201   		.uleb128 0x4109
+ 344 0057 01       		.byte	0x1
+ 345 0058 11       		.uleb128 0x11
+ 346 0059 01       		.uleb128 0x1
+ 347 005a 31       		.uleb128 0x31
+ 348 005b 13       		.uleb128 0x13
+ 349 005c 01       		.uleb128 0x1
+ 350 005d 13       		.uleb128 0x13
+ 351 005e 00       		.byte	0
+ 352 005f 00       		.byte	0
+ 353 0060 07       		.uleb128 0x7
+ 354 0061 8A8201   		.uleb128 0x410a
+ 355 0064 00       		.byte	0
+ 356 0065 02       		.uleb128 0x2
+ 357 0066 18       		.uleb128 0x18
+ 358 0067 9142     		.uleb128 0x2111
+ 359 0069 18       		.uleb128 0x18
+ 360 006a 00       		.byte	0
+ 361 006b 00       		.byte	0
+ 362 006c 08       		.uleb128 0x8
+ 363 006d 898201   		.uleb128 0x4109
+ 364 0070 01       		.byte	0x1
+ 365 0071 11       		.uleb128 0x11
+ 366 0072 01       		.uleb128 0x1
+ 367 0073 31       		.uleb128 0x31
+ 368 0074 13       		.uleb128 0x13
+ 369 0075 00       		.byte	0
+ 370 0076 00       		.byte	0
+ 371 0077 09       		.uleb128 0x9
+ 372 0078 2E       		.uleb128 0x2e
+ 373 0079 00       		.byte	0
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 8
+
+
+ 374 007a 3F       		.uleb128 0x3f
+ 375 007b 19       		.uleb128 0x19
+ 376 007c 3C       		.uleb128 0x3c
+ 377 007d 19       		.uleb128 0x19
+ 378 007e 6E       		.uleb128 0x6e
+ 379 007f 0E       		.uleb128 0xe
+ 380 0080 03       		.uleb128 0x3
+ 381 0081 0E       		.uleb128 0xe
+ 382 0082 3A       		.uleb128 0x3a
+ 383 0083 0B       		.uleb128 0xb
+ 384 0084 3B       		.uleb128 0x3b
+ 385 0085 0B       		.uleb128 0xb
+ 386 0086 00       		.byte	0
+ 387 0087 00       		.byte	0
+ 388 0088 00       		.byte	0
+ 389              		.section	.debug_aranges,"",%progbits
+ 390 0000 1C000000 		.4byte	0x1c
+ 391 0004 0200     		.2byte	0x2
+ 392 0006 00000000 		.4byte	.Ldebug_info0
+ 393 000a 04       		.byte	0x4
+ 394 000b 00       		.byte	0
+ 395 000c 0000     		.2byte	0
+ 396 000e 0000     		.2byte	0
+ 397 0010 00000000 		.4byte	.LFB33
+ 398 0014 36000000 		.4byte	.LFE33-.LFB33
+ 399 0018 00000000 		.4byte	0
+ 400 001c 00000000 		.4byte	0
+ 401              		.section	.debug_ranges,"",%progbits
+ 402              	.Ldebug_ranges0:
+ 403 0000 00000000 		.4byte	.LFB33
+ 404 0004 36000000 		.4byte	.LFE33
+ 405 0008 00000000 		.4byte	0
+ 406 000c 00000000 		.4byte	0
+ 407              		.section	.debug_line,"",%progbits
+ 408              	.Ldebug_line0:
+ 409 0000 98000000 		.section	.debug_str,"MS",%progbits,1
+ 409      02007B00 
+ 409      00000201 
+ 409      FB0E0D00 
+ 409      01010101 
+ 410              	.LASF6:
+ 411 0000 6C6F6E67 		.ascii	"long long int\000"
+ 411      206C6F6E 
+ 411      6720696E 
+ 411      7400
+ 412              	.LASF8:
+ 413 000e 756E7369 		.ascii	"unsigned int\000"
+ 413      676E6564 
+ 413      20696E74 
+ 413      00
+ 414              	.LASF19:
+ 415 001b 426F6F74 		.ascii	"Bootloader_Exit\000"
+ 415      6C6F6164 
+ 415      65725F45 
+ 415      78697400 
+ 416              	.LASF21:
+ 417 002b 6D61696E 		.ascii	"main.c\000"
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 9
+
+
+ 417      2E6300
+ 418              	.LASF23:
+ 419 0032 6D61696E 		.ascii	"main\000"
+ 419      00
+ 420              	.LASF16:
+ 421 0037 43794465 		.ascii	"CyDelay\000"
+ 421      6C617900 
+ 422              	.LASF5:
+ 423 003f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 423      20756E73 
+ 423      69676E65 
+ 423      6420696E 
+ 423      7400
+ 424              	.LASF7:
+ 425 0051 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 425      206C6F6E 
+ 425      6720756E 
+ 425      7369676E 
+ 425      65642069 
+ 426              	.LASF9:
+ 427 0068 666C6F61 		.ascii	"float\000"
+ 427      7400
+ 428              	.LASF1:
+ 429 006e 756E7369 		.ascii	"unsigned char\000"
+ 429      676E6564 
+ 429      20636861 
+ 429      7200
+ 430              	.LASF11:
+ 431 007c 63686172 		.ascii	"char\000"
+ 431      00
+ 432              	.LASF4:
+ 433 0081 6C6F6E67 		.ascii	"long int\000"
+ 433      20696E74 
+ 433      00
+ 434              	.LASF10:
+ 435 008a 646F7562 		.ascii	"double\000"
+ 435      6C6500
+ 436              	.LASF15:
+ 437 0091 5265645F 		.ascii	"Red_LED_Write\000"
+ 437      4C45445F 
+ 437      57726974 
+ 437      6500
+ 438              	.LASF17:
+ 439 009f 426F6F74 		.ascii	"Bootloader_Start\000"
+ 439      6C6F6164 
+ 439      65725F53 
+ 439      74617274 
+ 439      00
+ 440              	.LASF22:
+ 441 00b0 433A5C55 		.ascii	"C:\\Users\\Minakian\\Documents\\PSoC Creator\\Bootl"
+ 441      73657273 
+ 441      5C4D696E 
+ 441      616B6961 
+ 441      6E5C446F 
+ 442 00de 6F61645C 		.ascii	"oad\\Bootloader.cydsn\000"
+ 442      426F6F74 
+ 442      6C6F6164 
+ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccnP33dR.s 			page 10
+
+
+ 442      65722E63 
+ 442      7964736E 
+ 443              	.LASF3:
+ 444 00f3 73686F72 		.ascii	"short unsigned int\000"
+ 444      7420756E 
+ 444      7369676E 
+ 444      65642069 
+ 444      6E7400
+ 445              	.LASF0:
+ 446 0106 7369676E 		.ascii	"signed char\000"
+ 446      65642063 
+ 446      68617200 
+ 447              	.LASF12:
+ 448 0112 6C6F6E67 		.ascii	"long double\000"
+ 448      20646F75 
+ 448      626C6500 
+ 449              	.LASF18:
+ 450 011e 426C7565 		.ascii	"Blue_LED_Write\000"
+ 450      5F4C4544 
+ 450      5F577269 
+ 450      746500
+ 451              	.LASF14:
+ 452 012d 426F6F74 		.ascii	"Bootload_EN_Read\000"
+ 452      6C6F6164 
+ 452      5F454E5F 
+ 452      52656164 
+ 452      00
+ 453              	.LASF2:
+ 454 013e 73686F72 		.ascii	"short int\000"
+ 454      7420696E 
+ 454      7400
+ 455              	.LASF20:
+ 456 0148 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 456      43313120 
+ 456      352E342E 
+ 456      31203230 
+ 456      31363036 
+ 457 017b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 457      20726576 
+ 457      6973696F 
+ 457      6E203233 
+ 457      37373135 
+ 458 01ae 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 458      67202D66 
+ 458      66756E63 
+ 458      74696F6E 
+ 458      2D736563 
+ 459              	.LASF13:
+ 460 01da 73697A65 		.ascii	"sizetype\000"
+ 460      74797065 
+ 460      00
+ 461              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
