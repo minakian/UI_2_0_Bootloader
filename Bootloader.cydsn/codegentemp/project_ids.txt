@@ -1,6 +1,7 @@
-C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\Bootloader.cyprj|da761ed8-c080-47df-9ac0-b6be2ad07729
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5bf3f1bc-bf2a-459d-bd7a-b9bda0248a2f
-C:\Users\Stephen\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|aa07f84f-17fd-42fc-890a-de9053a1108b
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|80887192-727d-46af-96b7-3b647842fb21
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|aba3d7a5-7337-4d7b-82a2-158c86d78adb
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|7bcff515-59e5-461d-82ae-b84db2b1fccf
+C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\Bootloader.cyprj|f69f7a4c-6eb4-4b54-bfae-5c4acb2d5b3d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fce30c92-a1b1-425d-a7dc-d4fce35908e0
+C:\Users\Stephen\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|e68c3656-b23f-4836-b0e6-56e535a5ba0c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8c0a9c51-d4e3-402d-adb3-58a681de9660
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e376d3a3-b052-4e3a-8556-df8491679550
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|49b42ba7-8be7-4f7c-8daf-290d4ad67b44
+C:\Users\Stephen\Documents\Firmware\PSoC\UI_2_0\UI_2_0.cydsn\UI_2_0.cyprj|2bced269-8e88-4227-b508-c5c2b2e97474
