@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
   55 0017 00       		.byte	0
   56 0018 00       		.byte	0
   57 0019 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 2
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 2
 
 
   58 001a 00       		.byte	0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  112              		.section	.cyflashprotect,"a",%progbits
  113              		.type	cy_meta_flashprotect, %object
  114              		.size	cy_meta_flashprotect, 32
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 3
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 3
 
 
  115              	cy_meta_flashprotect:
@@ -141,13 +141,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  128 000b 01       		.uleb128 0x1
  129 000c 1E000000 		.4byte	.LASF16
  130 0010 0C       		.byte	0xc
- 131 0011 D9000000 		.4byte	.LASF17
- 132 0015 84010000 		.4byte	.LASF18
+ 131 0011 E5000000 		.4byte	.LASF17
+ 132 0015 99010000 		.4byte	.LASF18
  133 0019 00000000 		.4byte	.Ldebug_line0
  134 001d 02       		.uleb128 0x2
  135 001e 01       		.byte	0x1
  136 001f 06       		.byte	0x6
- 137 0020 D0010000 		.4byte	.LASF0
+ 137 0020 CB000000 		.4byte	.LASF0
  138 0024 03       		.uleb128 0x3
  139 0025 00000000 		.4byte	.LASF9
  140 0029 01       		.byte	0x1
@@ -156,34 +156,34 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  143 002f 02       		.uleb128 0x2
  144 0030 01       		.byte	0x1
  145 0031 08       		.byte	0x8
- 146 0032 CB000000 		.4byte	.LASF1
+ 146 0032 D7000000 		.4byte	.LASF1
  147 0036 02       		.uleb128 0x2
  148 0037 02       		.byte	0x2
  149 0038 05       		.byte	0x5
- 150 0039 7A010000 		.4byte	.LASF2
+ 150 0039 86010000 		.4byte	.LASF2
  151 003d 02       		.uleb128 0x2
  152 003e 02       		.byte	0x2
  153 003f 07       		.byte	0x7
- 154 0040 0F010000 		.4byte	.LASF3
+ 154 0040 1B010000 		.4byte	.LASF3
  155 0044 02       		.uleb128 0x2
  156 0045 04       		.byte	0x4
  157 0046 05       		.byte	0x5
- 158 0047 C7010000 		.4byte	.LASF4
+ 158 0047 90010000 		.4byte	.LASF4
  159 004b 02       		.uleb128 0x2
  160 004c 04       		.byte	0x4
  161 004d 07       		.byte	0x7
- 162 004e FD000000 		.4byte	.LASF5
+ 162 004e 09010000 		.4byte	.LASF5
  163 0052 02       		.uleb128 0x2
  164 0053 08       		.byte	0x8
  165 0054 05       		.byte	0x5
- 166 0055 6C010000 		.4byte	.LASF6
+ 166 0055 78010000 		.4byte	.LASF6
  167 0059 02       		.uleb128 0x2
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 4
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 4
 
 
  168 005a 08       		.byte	0x8
  169 005b 07       		.byte	0x7
- 170 005c 2F010000 		.4byte	.LASF7
+ 170 005c 3B010000 		.4byte	.LASF7
  171 0060 04       		.uleb128 0x4
  172 0061 04       		.byte	0x4
  173 0062 05       		.byte	0x5
@@ -191,9 +191,9 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  175 0067 02       		.uleb128 0x2
  176 0068 04       		.byte	0x4
  177 0069 07       		.byte	0x7
- 178 006a 22010000 		.4byte	.LASF8
+ 178 006a 2E010000 		.4byte	.LASF8
  179 006e 03       		.uleb128 0x3
- 180 006f 46010000 		.4byte	.LASF10
+ 180 006f 52010000 		.4byte	.LASF10
  181 0073 02       		.byte	0x2
  182 0074 18       		.byte	0x18
  183 0075 24000000 		.4byte	0x24
@@ -207,7 +207,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  191 0089 02       		.uleb128 0x2
  192 008a 04       		.byte	0x4
  193 008b 07       		.byte	0x7
- 194 008c 63010000 		.4byte	.LASF11
+ 194 008c 6F010000 		.4byte	.LASF11
  195 0090 07       		.uleb128 0x7
  196 0091 6E000000 		.4byte	0x6e
  197 0095 08       		.uleb128 0x8
@@ -228,7 +228,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  212 00b9 1F       		.byte	0x1f
  213 00ba 00       		.byte	0
  214 00bb 08       		.uleb128 0x8
- 215 00bc 4E010000 		.4byte	.LASF13
+ 215 00bc 5A010000 		.4byte	.LASF13
  216 00c0 03       		.byte	0x3
  217 00c1 34       		.byte	0x34
  218 00c2 CC000000 		.4byte	0xcc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  222 00cc 07       		.uleb128 0x7
  223 00cd AB000000 		.4byte	0xab
  224 00d1 05       		.uleb128 0x5
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 5
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 5
 
 
  225 00d2 90000000 		.4byte	0x90
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  279 0012 0B       		.uleb128 0xb
  280 0013 0B       		.uleb128 0xb
  281 0014 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 6
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 6
 
 
  282 0015 0B       		.uleb128 0xb
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  336 004b 08       		.uleb128 0x8
  337 004c 34       		.uleb128 0x34
  338 004d 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 7
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 7
 
 
  339 004e 03       		.uleb128 0x3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  374      73202D66 
  374      66756E63 
  374      74696F6E 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 8
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 8
 
 
  374      2D736563 
@@ -431,82 +431,82 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 1
  378 00bf 63795F6D 		.ascii	"cy_metadata\000"
  378      65746164 
  378      61746100 
- 379              	.LASF1:
- 380 00cb 756E7369 		.ascii	"unsigned char\000"
- 380      676E6564 
- 380      20636861 
- 380      7200
- 381              	.LASF17:
- 382 00d9 47656E65 		.ascii	"Generated_Source\\PSoC4\\cymetadata.c\000"
- 382      72617465 
- 382      645F536F 
- 382      75726365 
- 382      5C50536F 
- 383              	.LASF5:
- 384 00fd 6C6F6E67 		.ascii	"long unsigned int\000"
- 384      20756E73 
- 384      69676E65 
- 384      6420696E 
- 384      7400
- 385              	.LASF3:
- 386 010f 73686F72 		.ascii	"short unsigned int\000"
- 386      7420756E 
- 386      7369676E 
- 386      65642069 
- 386      6E7400
- 387              	.LASF8:
- 388 0122 756E7369 		.ascii	"unsigned int\000"
- 388      676E6564 
- 388      20696E74 
- 388      00
- 389              	.LASF7:
- 390 012f 6C6F6E67 		.ascii	"long long unsigned int\000"
- 390      206C6F6E 
- 390      6720756E 
- 390      7369676E 
- 390      65642069 
- 391              	.LASF10:
- 392 0146 75696E74 		.ascii	"uint8_t\000"
- 392      385F7400 
- 393              	.LASF13:
- 394 014e 63795F6D 		.ascii	"cy_meta_flashprotect\000"
- 394      6574615F 
- 394      666C6173 
- 394      6870726F 
- 394      74656374 
- 395              	.LASF11:
- 396 0163 73697A65 		.ascii	"sizetype\000"
- 396      74797065 
- 396      00
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccpght7U.s 			page 9
+ 379              	.LASF0:
+ 380 00cb 7369676E 		.ascii	"signed char\000"
+ 380      65642063 
+ 380      68617200 
+ 381              	.LASF1:
+ 382 00d7 756E7369 		.ascii	"unsigned char\000"
+ 382      676E6564 
+ 382      20636861 
+ 382      7200
+ 383              	.LASF17:
+ 384 00e5 47656E65 		.ascii	"Generated_Source\\PSoC4\\cymetadata.c\000"
+ 384      72617465 
+ 384      645F536F 
+ 384      75726365 
+ 384      5C50536F 
+ 385              	.LASF5:
+ 386 0109 6C6F6E67 		.ascii	"long unsigned int\000"
+ 386      20756E73 
+ 386      69676E65 
+ 386      6420696E 
+ 386      7400
+ 387              	.LASF3:
+ 388 011b 73686F72 		.ascii	"short unsigned int\000"
+ 388      7420756E 
+ 388      7369676E 
+ 388      65642069 
+ 388      6E7400
+ 389              	.LASF8:
+ 390 012e 756E7369 		.ascii	"unsigned int\000"
+ 390      676E6564 
+ 390      20696E74 
+ 390      00
+ 391              	.LASF7:
+ 392 013b 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 392      206C6F6E 
+ 392      6720756E 
+ 392      7369676E 
+ 392      65642069 
+ 393              	.LASF10:
+ 394 0152 75696E74 		.ascii	"uint8_t\000"
+ 394      385F7400 
+ 395              	.LASF13:
+ 396 015a 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 396      6574615F 
+ 396      666C6173 
+ 396      6870726F 
+ 396      74656374 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\cc0vKqhB.s 			page 9
 
 
- 397              	.LASF6:
- 398 016c 6C6F6E67 		.ascii	"long long int\000"
- 398      206C6F6E 
- 398      6720696E 
- 398      7400
- 399              	.LASF2:
- 400 017a 73686F72 		.ascii	"short int\000"
- 400      7420696E 
+ 397              	.LASF11:
+ 398 016f 73697A65 		.ascii	"sizetype\000"
+ 398      74797065 
+ 398      00
+ 399              	.LASF6:
+ 400 0178 6C6F6E67 		.ascii	"long long int\000"
+ 400      206C6F6E 
+ 400      6720696E 
  400      7400
- 401              	.LASF18:
- 402 0184 433A5C55 		.ascii	"C:\\Users\\Minakian\\Documents\\PSoC Creator\\Bootl"
- 402      73657273 
- 402      5C4D696E 
- 402      616B6961 
- 402      6E5C446F 
- 403 01b2 6F61645C 		.ascii	"oad\\Bootloader.cydsn\000"
- 403      426F6F74 
- 403      6C6F6164 
- 403      65722E63 
- 403      7964736E 
- 404              	.LASF4:
- 405 01c7 6C6F6E67 		.ascii	"long int\000"
- 405      20696E74 
- 405      00
- 406              	.LASF0:
- 407 01d0 7369676E 		.ascii	"signed char\000"
- 407      65642063 
- 407      68617200 
+ 401              	.LASF2:
+ 402 0186 73686F72 		.ascii	"short int\000"
+ 402      7420696E 
+ 402      7400
+ 403              	.LASF4:
+ 404 0190 6C6F6E67 		.ascii	"long int\000"
+ 404      20696E74 
+ 404      00
+ 405              	.LASF18:
+ 406 0199 433A5C55 		.ascii	"C:\\Users\\Stephen\\Documents\\Firmware\\PSoC\\Boot"
+ 406      73657273 
+ 406      5C537465 
+ 406      7068656E 
+ 406      5C446F63 
+ 407 01c6 6C6F6164 		.ascii	"loader\\Bootloader.cydsn\000"
+ 407      65725C42 
+ 407      6F6F746C 
+ 407      6F616465 
+ 407      722E6379 
  408              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

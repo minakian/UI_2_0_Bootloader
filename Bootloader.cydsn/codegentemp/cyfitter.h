@@ -1,7 +1,7 @@
 /*******************************************************************************
 * File Name: cyfitter.h
 * 
-* PSoC Creator  4.1
+* PSoC Creator  4.1 Update 1
 *
 * Description:
 * 
@@ -293,7 +293,7 @@
 
 /* Miscellaneous */
 #define CY_PROJECT_NAME "Bootloader"
-#define CY_VERSION "PSoC Creator  4.1"
+#define CY_VERSION "PSoC Creator  4.1 Update 1"
 #define CYDEV_BANDGAP_VOLTAGE 1.200
 #define CYDEV_BCLK__HFCLK__HZ 24000000U
 #define CYDEV_BCLK__HFCLK__KHZ 24000U

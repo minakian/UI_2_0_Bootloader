@@ -847,7 +847,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x39c2
+.debug_info     0x00000000     0x39c4
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x153 .\CortexM0p\ARM_GCC_541\Release\main.o
  .debug_info    0x00000153       0xfd .\CortexM0p\ARM_GCC_541\Release\cyfitter_cfg.o
@@ -862,10 +862,10 @@ END GROUP
  .debug_info    0x00002c3b      0x40a .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyLFClk.o)
  .debug_info    0x00003045      0x1a0 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Red_LED.o)
  .debug_info    0x000031e5      0x19b .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Blue_LED.o)
- .debug_info    0x00003380       0x91 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyBootAsmGnu.o)
- .debug_info    0x00003411      0x2b1 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C.o)
- .debug_info    0x000036c2      0x17d .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C.o)
- .debug_info    0x0000383f      0x183 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_INT.o)
+ .debug_info    0x00003380       0x93 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyBootAsmGnu.o)
+ .debug_info    0x00003413      0x2b1 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C.o)
+ .debug_info    0x000036c4      0x17d .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C.o)
+ .debug_info    0x00003841      0x183 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_INT.o)
 
 .debug_abbrev   0x00000000     0x1451
  *(.debug_abbrev)
@@ -931,40 +931,40 @@ END GROUP
  .debug_frame   0x00000dbc       0x28 c:/program files (x86)/cypress/psoc creator/4.1/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
  .debug_frame   0x00000de4       0x20 c:/program files (x86)/cypress/psoc creator/4.1/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x17a8
+.debug_str      0x00000000     0x17aa
  *(.debug_str)
- .debug_str     0x00000000      0x1a3 .\CortexM0p\ARM_GCC_541\Release\main.o
-                                0x1e3 (size before relaxing)
- .debug_str     0x000001a3       0x71 .\CortexM0p\ARM_GCC_541\Release\cyfitter_cfg.o
-                                0x1f1 (size before relaxing)
- .debug_str     0x00000214       0x72 .\CortexM0p\ARM_GCC_541\Release\cymetadata.o
-                                0x1dc (size before relaxing)
- .debug_str     0x00000286      0x184 .\CortexM0p\ARM_GCC_541\Release\Cm0plusStart.o
-                                0x337 (size before relaxing)
- .debug_str     0x0000040a      0x49b .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Bootloader.o)
-                                0x68d (size before relaxing)
- .debug_str     0x000008a5      0x131 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_BOOT.o)
-                                0x35b (size before relaxing)
- .debug_str     0x000009d6      0x1a7 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_SLAVE.o)
-                                0x3b9 (size before relaxing)
- .debug_str     0x00000b7d       0xcf .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Bootload_EN.o)
-                                0x265 (size before relaxing)
- .debug_str     0x00000c4c      0x154 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyFlash.o)
-                                0x320 (size before relaxing)
- .debug_str     0x00000da0      0x4c8 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyLib.o)
-                                0x728 (size before relaxing)
- .debug_str     0x00001268      0x2d0 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyLFClk.o)
-                                0x4b2 (size before relaxing)
- .debug_str     0x00001538       0x87 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Red_LED.o)
-                                0x249 (size before relaxing)
- .debug_str     0x000015bf       0x8d .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Blue_LED.o)
-                                0x250 (size before relaxing)
- .debug_str     0x0000164c       0xea .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C.o)
-                                0x2d9 (size before relaxing)
- .debug_str     0x00001736       0x2b .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C.o)
-                                0x246 (size before relaxing)
- .debug_str     0x00001761       0x47 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_INT.o)
-                                0x29c (size before relaxing)
+ .debug_str     0x00000000      0x1a5 .\CortexM0p\ARM_GCC_541\Release\main.o
+                                0x1e5 (size before relaxing)
+ .debug_str     0x000001a5       0x71 .\CortexM0p\ARM_GCC_541\Release\cyfitter_cfg.o
+                                0x1f3 (size before relaxing)
+ .debug_str     0x00000216       0x72 .\CortexM0p\ARM_GCC_541\Release\cymetadata.o
+                                0x1de (size before relaxing)
+ .debug_str     0x00000288      0x184 .\CortexM0p\ARM_GCC_541\Release\Cm0plusStart.o
+                                0x339 (size before relaxing)
+ .debug_str     0x0000040c      0x49b .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Bootloader.o)
+                                0x68f (size before relaxing)
+ .debug_str     0x000008a7      0x131 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_BOOT.o)
+                                0x35d (size before relaxing)
+ .debug_str     0x000009d8      0x1a7 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_SLAVE.o)
+                                0x3bb (size before relaxing)
+ .debug_str     0x00000b7f       0xcf .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Bootload_EN.o)
+                                0x267 (size before relaxing)
+ .debug_str     0x00000c4e      0x154 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyFlash.o)
+                                0x322 (size before relaxing)
+ .debug_str     0x00000da2      0x4c8 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyLib.o)
+                                0x72a (size before relaxing)
+ .debug_str     0x0000126a      0x2d0 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(CyLFClk.o)
+                                0x4b4 (size before relaxing)
+ .debug_str     0x0000153a       0x87 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Red_LED.o)
+                                0x24b (size before relaxing)
+ .debug_str     0x000015c1       0x8d .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(Blue_LED.o)
+                                0x252 (size before relaxing)
+ .debug_str     0x0000164e       0xea .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C.o)
+                                0x2db (size before relaxing)
+ .debug_str     0x00001738       0x2b .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C.o)
+                                0x248 (size before relaxing)
+ .debug_str     0x00001763       0x47 .\CortexM0p\ARM_GCC_541\Release\Bootloader.a(I2C_I2C_INT.o)
+                                0x29e (size before relaxing)
 
 .debug_loc      0x00000000     0x1dde
  *(.debug_loc)
@@ -1106,4 +1106,4 @@ END GROUP
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\Minakian\Documents\PSoC Creator\Bootload\Bootloader.cydsn\CortexM0p\ARM_GCC_541\Release\Bootloader.elf elf32-littlearm)
+OUTPUT(C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\CortexM0p\ARM_GCC_541\Release\Bootloader.elf elf32-littlearm)

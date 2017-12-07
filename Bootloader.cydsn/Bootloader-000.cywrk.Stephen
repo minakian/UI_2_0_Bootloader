@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bootloader-000\UI_2_0\TopDesign">
 <ExpandedNodeIds>
 <v>Bootloader-000</v>
 <v>Bootloader-000\Bootloader</v>
@@ -37,6 +37,23 @@
 <v>Bootloader-000\Bootloader\Source Files\main.c</v>
 <v>Bootloader-000\Bootloader\Generated_Source</v>
 <v>Bootloader-000\Bootloader\Generated_Source\PSoC4</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\TopDesign</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Pins</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Analog</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Clocks</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Interrupts</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\System</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Directives</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Flash Security</v>
+<v>Bootloader-000\UI_2_0\Header Files</v>
+<v>Bootloader-000\UI_2_0\Header Files\cyapicallbacks.h</v>
+<v>Bootloader-000\UI_2_0\Header Files\sine_wave.h</v>
+<v>Bootloader-000\UI_2_0\Source Files</v>
+<v>Bootloader-000\UI_2_0\Source Files\main.c</v>
+<v>Bootloader-000\UI_2_0\Generated_Source</v>
+<v>Bootloader-000\UI_2_0\Generated_Source\PSoC4</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Bootloader-000</v>
@@ -80,6 +97,27 @@
 <v>Bootloader-000\Bootloader\Generated_Source\PSoC4\cyfitter_cfg.h</v>
 <v>Bootloader-000\Bootloader\Generated_Source\PSoC4\cyfittergnu.inc</v>
 <v>Bootloader-000\Bootloader\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>Bootloader-000\Bootloader\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>Bootloader-000\Bootloader\Generated_Source\PSoC4\cymetadata.c</v>
+<v>Bootloader-000\Bootloader\Generated_Source\PSoC4\project.h</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\TopDesign</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Pins</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Analog</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Clocks</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Interrupts</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\System</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Directives</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.cydwr\Flash Security</v>
+<v>Bootloader-000\UI_2_0\Header Files</v>
+<v>Bootloader-000\UI_2_0\Header Files\cyapicallbacks.h</v>
+<v>Bootloader-000\UI_2_0\Header Files\sine_wave.h</v>
+<v>Bootloader-000\UI_2_0\Source Files</v>
+<v>Bootloader-000\UI_2_0\Source Files\main.c</v>
+<v>Bootloader-000\UI_2_0\Generated_Source</v>
+<v>Bootloader-000\UI_2_0\Generated_Source\PSoC4</v>
+<v>Bootloader-000\UI_2_0\Generated_Source\PSoC4\Bootloadable_1</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -88,12 +126,18 @@
 <v>Bootloader-000\Bootloader</v>
 <v>Bootloader-000\Bootloader\TopDesign</v>
 <v>Bootloader-000\Bootloader\TopDesign\TopDesign.cysch</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\TopDesign</v>
+<v>Bootloader-000\UI_2_0\TopDesign\TopDesign.cysch</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Bootloader-000</v>
 <v>Bootloader-000\Bootloader</v>
 <v>Bootloader-000\Bootloader\TopDesign</v>
 <v>Bootloader-000\Bootloader\TopDesign\TopDesign.cysch</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\TopDesign</v>
+<v>Bootloader-000\UI_2_0\TopDesign\TopDesign.cysch</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -175,8 +219,213 @@
 <v>Bootloader-000\Bootloader\Bootloader.gpdsc</v>
 <v>Bootloader-000\Bootloader\Bootloader.rpt</v>
 <v>Bootloader-000\Bootloader\Bootloader_timing.html</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\CortexM0p</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Centroid_LL.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Control.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Filter.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_ISR.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Processing.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Sensing.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Structure.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Tuner.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Gen_Clock.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Gen_Timer.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Gen_Timer_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Blue_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Green_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_Red_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Blue_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Green_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Red_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\TC_ISR_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\TC_ISR_Gen.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\TC_ISR_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\TC_ISR_LED.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\TC_ISR_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\UI_Alert.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\Listing Files\UI_Alert_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\UI_2_0.cyacd</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\UI_2_0.elf</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\UI_2_0.hex</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Debug\UI_2_0.map</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Bootloadable_1.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Centroid_LL.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Control.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Filter.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_INT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_ISR.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Processing.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Sensing.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Structure.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CapSense_Tuner.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Clock_1.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Clock_2.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Cm0plusStart.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\cybootloader.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CyFlash.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CyLFClk.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\CyLib.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\cymetadata.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\cyPm.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\cyutils.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Gen_Clock.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Gen_Timer.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Gen_Timer_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_BOOT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_INT.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_SCBCLK.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_scl.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_scl_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_sda.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_sda_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Blue_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Green_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\LED_Red_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\main.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Blue_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Green_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\PWM_Red_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\TC_ISR_Blue.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\TC_ISR_Gen.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\TC_ISR_Green.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\TC_ISR_LED.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\TC_ISR_Red.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Timer.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\Timer_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\UI_Alert.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\Listing Files\UI_Alert_PM.lst</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\UI_2_0.cyacd</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\UI_2_0.elf</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\UI_2_0.hex</v>
+<v>Bootloader-000\UI_2_0\CortexM0p\ARM_GCC_541\Release\UI_2_0.map</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.gpdsc</v>
+<v>Bootloader-000\UI_2_0\UI_2_0.rpt</v>
+<v>Bootloader-000\UI_2_0\UI_2_0_timing.html</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>Bootloader-000</v>
+<v>Bootloader-000\Bootloader</v>
+<v>Bootloader-000\Bootloader\CortexM0p</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Blue_LED.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Blue_LED_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Bootload_EN.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Bootload_EN_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Bootloader.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Red_LED.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Listing Files\Red_LED_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Bootloader.elf</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Bootloader.hex</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Debug\Bootloader.map</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Blue_LED.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Blue_LED_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Bootload_EN.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Bootload_EN_PM.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Bootloader.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\Cm0plusStart.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\CyFlash.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\CyLFClk.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\CyLib.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\cymetadata.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\cyPm.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\cyutils.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_BOOT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_INT.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>Bootloader-000\Bootloader\CortexM0p\ARM_GCC_541\Release\Listing Files\I2C_PM.lst</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
 <TreeKeysV2>
@@ -196,6 +445,23 @@
 <v>Bootloader-000\Bootloader\cy_pins_v2_20</v>
 <v>Bootloader-000\Bootloader\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Bootloader-000\Bootloader\SCB_P4_v3_20.pdf</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\PSoC 4 Architecture TRM</v>
+<v>Bootloader-000\UI_2_0\PSoC 4000S Family Datasheet</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides\cy_boot_v5_60</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Bootloader-000\UI_2_0\Bootloadable_v1_50.pdf</v>
+<v>Bootloader-000\UI_2_0\CapSense_P4_v4_0.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_clock_v2_20</v>
+<v>Bootloader-000\UI_2_0\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_isr_v1_70</v>
+<v>Bootloader-000\UI_2_0\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_pins_v2_20</v>
+<v>Bootloader-000\UI_2_0\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Bootloader-000\UI_2_0\SCB_P4_v3_20.pdf</v>
+<v>Bootloader-000\UI_2_0\TCPWM_P4_v2_10</v>
+<v>Bootloader-000\UI_2_0\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Bootloader-000</v>
@@ -209,6 +475,23 @@
 <v>Bootloader-000\Bootloader\cy_pins_v2_20</v>
 <v>Bootloader-000\Bootloader\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Bootloader-000\Bootloader\SCB_P4_v3_20.pdf</v>
+<v>Bootloader-000\UI_2_0</v>
+<v>Bootloader-000\UI_2_0\PSoC 4 Architecture TRM</v>
+<v>Bootloader-000\UI_2_0\PSoC 4000S Family Datasheet</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides\cy_boot_v5_60</v>
+<v>Bootloader-000\UI_2_0\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Bootloader-000\UI_2_0\Bootloadable_v1_50.pdf</v>
+<v>Bootloader-000\UI_2_0\CapSense_P4_v4_0.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_clock_v2_20</v>
+<v>Bootloader-000\UI_2_0\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_isr_v1_70</v>
+<v>Bootloader-000\UI_2_0\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Bootloader-000\UI_2_0\cy_pins_v2_20</v>
+<v>Bootloader-000\UI_2_0\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Bootloader-000\UI_2_0\SCB_P4_v3_20.pdf</v>
+<v>Bootloader-000\UI_2_0\TCPWM_P4_v2_10</v>
+<v>Bootloader-000\UI_2_0\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -217,15 +500,19 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\main.c" />
+<name v=".\Bootloader.cydwr" />
+<name v="..\..\UI_2_0\UI_2_0.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1025, 588" SelectedTabbedMdiWindow="05711fc3-d06f-41b2-b4ef-4f597ee1f5b7"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="05711fc3-d06f-41b2-b4ef-4f597ee1f5b7" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
-<config v="" />
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1391, 974" SelectedTabbedMdiWindow="afee48cd-f31d-45ed-b858-1aa720b1a167"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="05711fc3-d06f-41b2-b4ef-4f597ee1f5b7" /><DocumentWindow Key="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\main.c" Guid="3fbeddf6-7cad-4267-a270-f6f6a7863f1a" /><DocumentWindow Key="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\Bootloader.cydwr" Guid="1715f4af-a14a-4455-9c30-1bdf6a678c42" /><DocumentWindow Key="C:\Users\Stephen\Documents\Firmware\PSoC\UI_2_0\UI_2_0.cydsn\TopDesign\TopDesign.cysch" Guid="afee48cd-f31d-45ed-b858-1aa720b1a167" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
 </CyXmlSerializer>

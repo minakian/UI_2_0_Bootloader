@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
   28:Generated_Source\PSoC4/I2C_SCBCLK.c **** * Summary:
   29:Generated_Source\PSoC4/I2C_SCBCLK.c **** *  Starts the clock, aligned to the specified running clock.
   30:Generated_Source\PSoC4/I2C_SCBCLK.c **** *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 2
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 2
 
 
   31:Generated_Source\PSoC4/I2C_SCBCLK.c **** * Parameters:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
   59              		.cfi_endproc
   60              	.LFE0:
   61              		.size	I2C_SCBCLK_StartEx, .-I2C_SCBCLK_StartEx
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 3
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 3
 
 
   62              		.section	.text.I2C_SCBCLK_Stop,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
   71              		.cfi_startproc
   72              		@ args = 0, pretend = 0, frame = 0
   73              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 4
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 4
 
 
   74              		@ link register save eliminated.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  117:Generated_Source\PSoC4/I2C_SCBCLK.c **** 
  118:Generated_Source\PSoC4/I2C_SCBCLK.c **** /*******************************************************************************
  119:Generated_Source\PSoC4/I2C_SCBCLK.c **** * Function Name: I2C_SCBCLK_SetFractionalDividerRegister
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 5
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 5
 
 
  120:Generated_Source\PSoC4/I2C_SCBCLK.c **** ********************************************************************************
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  149:Generated_Source\PSoC4/I2C_SCBCLK.c **** #else
  150:Generated_Source\PSoC4/I2C_SCBCLK.c ****     /* get all but integer divider bits */
  151:Generated_Source\PSoC4/I2C_SCBCLK.c ****     maskVal = I2C_SCBCLK_DIV_REG & (uint32)(~(uint32)I2C_SCBCLK__DIVIDER_MASK);
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 6
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 6
 
 
  152:Generated_Source\PSoC4/I2C_SCBCLK.c ****     /* combine mask and new divider val into 32-bit value */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  174:Generated_Source\PSoC4/I2C_SCBCLK.c **** *
  175:Generated_Source\PSoC4/I2C_SCBCLK.c **** *******************************************************************************/
  176:Generated_Source\PSoC4/I2C_SCBCLK.c **** uint16 I2C_SCBCLK_GetDividerRegister(void)
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 7
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 7
 
 
  177:Generated_Source\PSoC4/I2C_SCBCLK.c **** {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  189              		.loc 1 199 0
  190              		.cfi_startproc
  191              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 8
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 8
 
 
  192              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -450,46 +450,46 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  210 000b 01       		.uleb128 0x1
  211 000c 46000000 		.4byte	.LASF25
  212 0010 0C       		.byte	0xc
- 213 0011 B7010000 		.4byte	.LASF26
- 214 0015 16020000 		.4byte	.LASF27
+ 213 0011 BD010000 		.4byte	.LASF26
+ 214 0015 2B020000 		.4byte	.LASF27
  215 0019 00000000 		.4byte	.Ldebug_ranges0+0
  216 001d 00000000 		.4byte	0
  217 0021 00000000 		.4byte	.Ldebug_line0
  218 0025 02       		.uleb128 0x2
  219 0026 01       		.byte	0x1
  220 0027 06       		.byte	0x6
- 221 0028 62020000 		.4byte	.LASF0
+ 221 0028 DE000000 		.4byte	.LASF0
  222 002c 02       		.uleb128 0x2
  223 002d 01       		.byte	0x1
  224 002e 08       		.byte	0x8
- 225 002f E4000000 		.4byte	.LASF1
+ 225 002f EA000000 		.4byte	.LASF1
  226 0033 02       		.uleb128 0x2
  227 0034 02       		.byte	0x2
  228 0035 05       		.byte	0x5
- 229 0036 0C020000 		.4byte	.LASF2
+ 229 0036 12020000 		.4byte	.LASF2
  230 003a 02       		.uleb128 0x2
  231 003b 02       		.byte	0x2
  232 003c 07       		.byte	0x7
- 233 003d 04010000 		.4byte	.LASF3
+ 233 003d 0A010000 		.4byte	.LASF3
  234 0041 02       		.uleb128 0x2
  235 0042 04       		.byte	0x4
  236 0043 05       		.byte	0x5
- 237 0044 59020000 		.4byte	.LASF4
+ 237 0044 22020000 		.4byte	.LASF4
  238 0048 02       		.uleb128 0x2
  239 0049 04       		.byte	0x4
  240 004a 07       		.byte	0x7
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 9
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 9
 
 
- 241 004b F2000000 		.4byte	.LASF5
+ 241 004b F8000000 		.4byte	.LASF5
  242 004f 02       		.uleb128 0x2
  243 0050 08       		.byte	0x8
  244 0051 05       		.byte	0x5
- 245 0052 F9010000 		.4byte	.LASF6
+ 245 0052 FF010000 		.4byte	.LASF6
  246 0056 02       		.uleb128 0x2
  247 0057 08       		.byte	0x8
  248 0058 07       		.byte	0x7
- 249 0059 A0010000 		.4byte	.LASF7
+ 249 0059 A6010000 		.4byte	.LASF7
  250 005d 03       		.uleb128 0x3
  251 005e 04       		.byte	0x4
  252 005f 05       		.byte	0x5
@@ -497,19 +497,19 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  254 0064 02       		.uleb128 0x2
  255 0065 04       		.byte	0x4
  256 0066 07       		.byte	0x7
- 257 0067 93010000 		.4byte	.LASF8
+ 257 0067 99010000 		.4byte	.LASF8
  258 006b 04       		.uleb128 0x4
- 259 006c DE000000 		.4byte	.LASF9
+ 259 006c 1C020000 		.4byte	.LASF9
  260 0070 02       		.byte	0x2
  261 0071 D201     		.2byte	0x1d2
  262 0073 2C000000 		.4byte	0x2c
  263 0077 04       		.uleb128 0x4
- 264 0078 85010000 		.4byte	.LASF10
+ 264 0078 8B010000 		.4byte	.LASF10
  265 007c 02       		.byte	0x2
  266 007d D301     		.2byte	0x1d3
  267 007f 3A000000 		.4byte	0x3a
  268 0083 04       		.uleb128 0x4
- 269 0084 8C010000 		.4byte	.LASF11
+ 269 0084 92010000 		.4byte	.LASF11
  270 0088 02       		.byte	0x2
  271 0089 D401     		.2byte	0x1d4
  272 008b 48000000 		.4byte	0x48
@@ -520,11 +520,11 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  277 0096 02       		.uleb128 0x2
  278 0097 08       		.byte	0x8
  279 0098 04       		.byte	0x4
- 280 0099 4A010000 		.4byte	.LASF13
+ 280 0099 50010000 		.4byte	.LASF13
  281 009d 02       		.uleb128 0x2
  282 009e 01       		.byte	0x1
  283 009f 08       		.byte	0x8
- 284 00a0 07020000 		.4byte	.LASF14
+ 284 00a0 0D020000 		.4byte	.LASF14
  285 00a4 04       		.uleb128 0x4
  286 00a5 10000000 		.4byte	.LASF15
  287 00a9 02       		.byte	0x2
@@ -533,19 +533,19 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  290 00b0 05       		.uleb128 0x5
  291 00b1 83000000 		.4byte	0x83
  292 00b5 06       		.uleb128 0x6
- 293 00b6 72010000 		.4byte	.LASF16
+ 293 00b6 78010000 		.4byte	.LASF16
  294 00ba 01       		.byte	0x1
  295 00bb 27       		.byte	0x27
  296 00bc 00000000 		.4byte	.LFB0
  297 00c0 1C000000 		.4byte	.LFE0-.LFB0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 10
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 10
 
 
  298 00c4 01       		.uleb128 0x1
  299 00c5 9C       		.byte	0x9c
  300 00c6 DA000000 		.4byte	0xda
  301 00ca 07       		.uleb128 0x7
- 302 00cb 58010000 		.4byte	.LASF18
+ 302 00cb 5E010000 		.4byte	.LASF18
  303 00cf 01       		.byte	0x1
  304 00d0 27       		.byte	0x27
  305 00d1 83000000 		.4byte	0x83
@@ -560,7 +560,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  314 00e9 01       		.uleb128 0x1
  315 00ea 9C       		.byte	0x9c
  316 00eb 06       		.uleb128 0x6
- 317 00ec 17010000 		.4byte	.LASF17
+ 317 00ec 1D010000 		.4byte	.LASF17
  318 00f0 01       		.byte	0x1
  319 00f1 86       		.byte	0x86
  320 00f2 00000000 		.4byte	.LFB2
@@ -569,13 +569,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  323 00fb 9C       		.byte	0x9c
  324 00fc 3B010000 		.4byte	0x13b
  325 0100 07       		.uleb128 0x7
- 326 0101 3F010000 		.4byte	.LASF19
+ 326 0101 45010000 		.4byte	.LASF19
  327 0105 01       		.byte	0x1
  328 0106 86       		.byte	0x86
  329 0107 77000000 		.4byte	0x77
  330 010b 21000000 		.4byte	.LLST1
  331 010f 07       		.uleb128 0x7
- 332 0110 64010000 		.4byte	.LASF20
+ 332 0110 6A010000 		.4byte	.LASF20
  333 0114 01       		.byte	0x1
  334 0115 86       		.byte	0x86
  335 0116 6B000000 		.4byte	0x6b
@@ -587,7 +587,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  341 0125 83000000 		.4byte	0x83
  342 0129 63000000 		.4byte	.LLST3
  343 012d 0A       		.uleb128 0xa
- 344 012e 51010000 		.4byte	.LASF22
+ 344 012e 57010000 		.4byte	.LASF22
  345 0132 01       		.byte	0x1
  346 0133 89       		.byte	0x89
  347 0134 83000000 		.4byte	0x83
@@ -595,10 +595,10 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  349 0139 50       		.byte	0x50
  350 013a 00       		.byte	0
  351 013b 0B       		.uleb128 0xb
- 352 013c DB010000 		.4byte	.LASF23
+ 352 013c E1010000 		.4byte	.LASF23
  353 0140 01       		.byte	0x1
  354 0141 B0       		.byte	0xb0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 11
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 11
 
 
  355 0142 77000000 		.4byte	0x77
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  409 0025 03       		.uleb128 0x3
  410 0026 08       		.uleb128 0x8
  411 0027 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 12
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 12
 
 
  412 0028 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  466 005f 0B       		.uleb128 0xb
  467 0060 49       		.uleb128 0x49
  468 0061 13       		.uleb128 0x13
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 13
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 13
 
 
  469 0062 02       		.uleb128 0x2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  523 0099 18       		.uleb128 0x18
  524 009a 00       		.byte	0
  525 009b 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 14
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 14
 
 
  526 009c 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  580 003a 00000000 		.4byte	0
  581 003e 00000000 		.4byte	0
  582              	.LLST2:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 15
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 15
 
 
  583 0042 00000000 		.4byte	.LVL2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  637 0010 00000000 		.4byte	.LFB2
  638 0014 20000000 		.4byte	.LFE2
  639 0018 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 16
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 16
 
 
  640 001c 10000000 		.4byte	.LFE3
@@ -949,121 +949,121 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 1
  660              	.LASF12:
  661 00d8 666C6F61 		.ascii	"float\000"
  661      7400
- 662              	.LASF9:
- 663 00de 75696E74 		.ascii	"uint8\000"
- 663      3800
+ 662              	.LASF0:
+ 663 00de 7369676E 		.ascii	"signed char\000"
+ 663      65642063 
+ 663      68617200 
  664              	.LASF1:
- 665 00e4 756E7369 		.ascii	"unsigned char\000"
+ 665 00ea 756E7369 		.ascii	"unsigned char\000"
  665      676E6564 
  665      20636861 
  665      7200
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 17
+
+
  666              	.LASF5:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 17
-
-
- 667 00f2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 667 00f8 6C6F6E67 		.ascii	"long unsigned int\000"
  667      20756E73 
  667      69676E65 
  667      6420696E 
  667      7400
  668              	.LASF3:
- 669 0104 73686F72 		.ascii	"short unsigned int\000"
+ 669 010a 73686F72 		.ascii	"short unsigned int\000"
  669      7420756E 
  669      7369676E 
  669      65642069 
  669      6E7400
  670              	.LASF17:
- 671 0117 4932435F 		.ascii	"I2C_SCBCLK_SetFractionalDividerRegister\000"
+ 671 011d 4932435F 		.ascii	"I2C_SCBCLK_SetFractionalDividerRegister\000"
  671      53434243 
  671      4C4B5F53 
  671      65744672 
  671      61637469 
  672              	.LASF19:
- 673 013f 636C6B44 		.ascii	"clkDivider\000"
+ 673 0145 636C6B44 		.ascii	"clkDivider\000"
  673      69766964 
  673      657200
  674              	.LASF13:
- 675 014a 646F7562 		.ascii	"double\000"
+ 675 0150 646F7562 		.ascii	"double\000"
  675      6C6500
  676              	.LASF22:
- 677 0151 72656756 		.ascii	"regVal\000"
+ 677 0157 72656756 		.ascii	"regVal\000"
  677      616C00
  678              	.LASF18:
- 679 0158 616C6967 		.ascii	"alignClkDiv\000"
+ 679 015e 616C6967 		.ascii	"alignClkDiv\000"
  679      6E436C6B 
  679      44697600 
  680              	.LASF20:
- 681 0164 636C6B46 		.ascii	"clkFractional\000"
+ 681 016a 636C6B46 		.ascii	"clkFractional\000"
  681      72616374 
  681      696F6E61 
  681      6C00
  682              	.LASF16:
- 683 0172 4932435F 		.ascii	"I2C_SCBCLK_StartEx\000"
+ 683 0178 4932435F 		.ascii	"I2C_SCBCLK_StartEx\000"
  683      53434243 
  683      4C4B5F53 
  683      74617274 
  683      457800
  684              	.LASF10:
- 685 0185 75696E74 		.ascii	"uint16\000"
+ 685 018b 75696E74 		.ascii	"uint16\000"
  685      313600
  686              	.LASF11:
- 687 018c 75696E74 		.ascii	"uint32\000"
+ 687 0192 75696E74 		.ascii	"uint32\000"
  687      333200
  688              	.LASF8:
- 689 0193 756E7369 		.ascii	"unsigned int\000"
+ 689 0199 756E7369 		.ascii	"unsigned int\000"
  689      676E6564 
  689      20696E74 
  689      00
  690              	.LASF7:
- 691 01a0 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 691 01a6 6C6F6E67 		.ascii	"long long unsigned int\000"
  691      206C6F6E 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccutUrwK.s 			page 18
+
+
  691      6720756E 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc1AjVgu.s 			page 18
-
-
  691      7369676E 
  691      65642069 
  692              	.LASF26:
- 693 01b7 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2C_SCBCLK.c\000"
+ 693 01bd 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2C_SCBCLK.c\000"
  693      72617465 
  693      645F536F 
  693      75726365 
  693      5C50536F 
  694              	.LASF23:
- 695 01db 4932435F 		.ascii	"I2C_SCBCLK_GetDividerRegister\000"
+ 695 01e1 4932435F 		.ascii	"I2C_SCBCLK_GetDividerRegister\000"
  695      53434243 
  695      4C4B5F47 
  695      65744469 
  695      76696465 
  696              	.LASF6:
- 697 01f9 6C6F6E67 		.ascii	"long long int\000"
+ 697 01ff 6C6F6E67 		.ascii	"long long int\000"
  697      206C6F6E 
  697      6720696E 
  697      7400
  698              	.LASF14:
- 699 0207 63686172 		.ascii	"char\000"
+ 699 020d 63686172 		.ascii	"char\000"
  699      00
  700              	.LASF2:
- 701 020c 73686F72 		.ascii	"short int\000"
+ 701 0212 73686F72 		.ascii	"short int\000"
  701      7420696E 
  701      7400
- 702              	.LASF27:
- 703 0216 433A5C55 		.ascii	"C:\\Users\\Minakian\\Documents\\PSoC Creator\\Bootl"
- 703      73657273 
- 703      5C4D696E 
- 703      616B6961 
- 703      6E5C446F 
- 704 0244 6F61645C 		.ascii	"oad\\Bootloader.cydsn\000"
- 704      426F6F74 
- 704      6C6F6164 
- 704      65722E63 
- 704      7964736E 
- 705              	.LASF4:
- 706 0259 6C6F6E67 		.ascii	"long int\000"
- 706      20696E74 
- 706      00
- 707              	.LASF0:
- 708 0262 7369676E 		.ascii	"signed char\000"
- 708      65642063 
- 708      68617200 
+ 702              	.LASF9:
+ 703 021c 75696E74 		.ascii	"uint8\000"
+ 703      3800
+ 704              	.LASF4:
+ 705 0222 6C6F6E67 		.ascii	"long int\000"
+ 705      20696E74 
+ 705      00
+ 706              	.LASF27:
+ 707 022b 433A5C55 		.ascii	"C:\\Users\\Stephen\\Documents\\Firmware\\PSoC\\Boot"
+ 707      73657273 
+ 707      5C537465 
+ 707      7068656E 
+ 707      5C446F63 
+ 708 0258 6C6F6164 		.ascii	"loader\\Bootloader.cydsn\000"
+ 708      65725C42 
+ 708      6F6F746C 
+ 708      6F616465 
+ 708      722E6379 
  709              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

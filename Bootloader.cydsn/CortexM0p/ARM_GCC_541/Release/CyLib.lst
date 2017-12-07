@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
   28:Generated_Source\PSoC4/CyLib.c **** uint32 cydelayFreqKhz = (CYDEV_BCLK__SYSCLK__HZ + CY_DELAY_1K_MINUS_1_THRESHOLD) / CY_DELAY_1K_THRE
   29:Generated_Source\PSoC4/CyLib.c **** uint8  cydelayFreqMhz = (uint8)((CYDEV_BCLK__SYSCLK__HZ + CY_DELAY_1M_MINUS_1_THRESHOLD) / CY_DELAY
   30:Generated_Source\PSoC4/CyLib.c **** uint32 cydelay32kMs   = CY_DELAY_MS_OVERFLOW * ((CYDEV_BCLK__SYSCLK__HZ + CY_DELAY_1K_MINUS_1_THRES
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 2
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 2
 
 
   31:Generated_Source\PSoC4/CyLib.c ****                         CY_DELAY_1K_THRESHOLD);
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
   85:Generated_Source\PSoC4/CyLib.c **** /* Stored CY_SYS_CLK_IMO_TRIM4_REG when modified for USB lock */
   86:Generated_Source\PSoC4/CyLib.c **** #if (CY_IP_IMO_TRIMMABLE_BY_USB && CY_IP_SRSSV2)
   87:Generated_Source\PSoC4/CyLib.c ****     uint32 CySysClkImoTrim4 = 0u;
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 3
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 3
 
 
   88:Generated_Source\PSoC4/CyLib.c **** #endif /* (CY_IP_IMO_TRIMMABLE_BY_USB && CY_IP_SRSSV2) */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
   44 000c 7047     		bx	lr
   45              	.L3:
   46 000e C046     		.align	2
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 4
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 4
 
 
   47              	.L2:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  166:Generated_Source\PSoC4/CyLib.c ****     * should be called.
  167:Generated_Source\PSoC4/CyLib.c ****     *
  168:Generated_Source\PSoC4/CyLib.c ****     * For PSoC 4200L devices, note that the IMO can lock to either WCO or USB
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 5
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 5
 
 
  169:Generated_Source\PSoC4/CyLib.c ****     * but not both.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  223:Generated_Source\PSoC4/CyLib.c ****             /* For the WCO locking mode, the IMO gain needs to be CY_SYS_CLK_IMO_TRIM4_GAIN */
  224:Generated_Source\PSoC4/CyLib.c ****             #if(CY_IP_SRSSV2)
  225:Generated_Source\PSoC4/CyLib.c ****                 if ((CY_SYS_CLK_IMO_TRIM4_REG & CY_SYS_CLK_IMO_TRIM4_GAIN_MASK) == 0u)
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 6
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 6
 
 
  226:Generated_Source\PSoC4/CyLib.c ****                 {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  280:Generated_Source\PSoC4/CyLib.c ****     *
  281:Generated_Source\PSoC4/CyLib.c ****     * This function is applicable for PSoC 4100M / PSoC 4200M / PSoC 4000S /
  282:Generated_Source\PSoC4/CyLib.c ****     * PSoC 4100S / PSoC 4400 / PSoC 4200L.
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 7
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 7
 
 
  283:Generated_Source\PSoC4/CyLib.c ****     *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  104 0006 034A     		ldr	r2, .L8
  150:Generated_Source\PSoC4/CyLib.c **** 
  105              		.loc 1 150 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 8
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 8
 
 
  106              		@ sp needed
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  137              		@ sp needed
  306:Generated_Source\PSoC4/CyLib.c ****         return ((0u != (CY_SYS_CLK_WCO_CONFIG_REG & CY_SYS_CLK_WCO_CONFIG_DPLL_ENABLE)) ?
  138              		.loc 1 306 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 9
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 9
 
 
  139 0002 1868     		ldr	r0, [r3]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  344:Generated_Source\PSoC4/CyLib.c ****         #endif  /* (CY_IP_SRSSV2) */
  345:Generated_Source\PSoC4/CyLib.c **** 
  346:Generated_Source\PSoC4/CyLib.c ****         CY_SYS_CLK_USBDEVv2_CR1_REG |= CY_SYS_CLK_USBDEVv2_CR1_ENABLE_LOCK;
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 10
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 10
 
 
  347:Generated_Source\PSoC4/CyLib.c ****     }
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  401:Generated_Source\PSoC4/CyLib.c **** *
  402:Generated_Source\PSoC4/CyLib.c **** * Selects the direct source for the HFCLK.
  403:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 11
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 11
 
 
  404:Generated_Source\PSoC4/CyLib.c **** * The new source must be running and stable before calling this function.
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  441:Generated_Source\PSoC4/CyLib.c ****     if ((CY_SYS_CLK_HFCLK_PLL0 == clkSelect) || (CY_SYS_CLK_HFCLK_PLL1 == clkSelect))
  442:Generated_Source\PSoC4/CyLib.c ****     {
  443:Generated_Source\PSoC4/CyLib.c ****         tmpReg |= (clkSelect & CY_SYS_CLK_SELECT_HFCLK_SEL_MASK);
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 12
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 12
 
 
  444:Generated_Source\PSoC4/CyLib.c ****     }
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  461:Generated_Source\PSoC4/CyLib.c **** * Enables / disables the pump clock.
  462:Generated_Source\PSoC4/CyLib.c **** *
  463:Generated_Source\PSoC4/CyLib.c **** * \param enable  
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 13
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 13
 
 
  464:Generated_Source\PSoC4/CyLib.c **** * CY_SYS_CLK_PUMP_DISABLE - Disables the pump clock
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  231 0014 3021     		movs	r1, #48
  493:Generated_Source\PSoC4/CyLib.c ****                                   CY_SYS_CLK_SELECT_PUMP_SEL_MASK;
  232              		.loc 1 493 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 14
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 14
 
 
  233 0016 1A68     		ldr	r2, [r3]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  514:Generated_Source\PSoC4/CyLib.c **** 
  515:Generated_Source\PSoC4/CyLib.c ****     interruptState = CyEnterCriticalSection();
  269              		.loc 1 515 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 15
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 15
 
 
  270 0002 FFF7FEFF 		bl	CyEnterCriticalSection
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  534:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
  535:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysClkWriteSysclkDiv
  536:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 16
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 16
 
 
  537:Generated_Source\PSoC4/CyLib.c **** *
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  573:Generated_Source\PSoC4/CyLib.c ****                             (CY_SYS_CLK_SELECT_REG & ((uint32)(~(uint32)(CY_SYS_CLK_SELECT_SYSCLK_D
  321              		.loc 1 573 0
  322 000a 054D     		ldr	r5, .L27
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 17
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 17
 
 
  572:Generated_Source\PSoC4/CyLib.c ****                             (CY_SYS_CLK_SELECT_REG & ((uint32)(~(uint32)(CY_SYS_CLK_SELECT_SYSCLK_D
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  592:Generated_Source\PSoC4/CyLib.c **** *
  593:Generated_Source\PSoC4/CyLib.c **** * For PSoC 4200M and PSoC 4200L device families, if WCO lock feature is enabled
  594:Generated_Source\PSoC4/CyLib.c **** * then this API will disable the lock, write the new IMO frequency and then
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 18
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 18
 
 
  595:Generated_Source\PSoC4/CyLib.c **** * re-enable the lock.
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  649:Generated_Source\PSoC4/CyLib.c ****         #if (CY_IP_IMO_TRIMMABLE_BY_WCO)
  650:Generated_Source\PSoC4/CyLib.c ****             if(0u != CySysClkImoGetWcoLock())
  651:Generated_Source\PSoC4/CyLib.c ****             {
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 19
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 19
 
 
  652:Generated_Source\PSoC4/CyLib.c ****                 wcoLock = 1u;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  706:Generated_Source\PSoC4/CyLib.c ****                 bgTrim4 = CY_SFLASH_IMO_ABS1_REG;
  707:Generated_Source\PSoC4/CyLib.c ****                 bgTrim5 = CY_SFLASH_IMO_TMPCO1_REG;
  708:Generated_Source\PSoC4/CyLib.c ****             }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 20
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 20
 
 
  709:Generated_Source\PSoC4/CyLib.c ****             else if(freq <= CY_SFLASH_IMO_MAXF2_REG)
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  763:Generated_Source\PSoC4/CyLib.c ****             {
  764:Generated_Source\PSoC4/CyLib.c ****                 /* Set new IMO frequency */
  765:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_TRIM2_REG = cyImoFreqMhz2Reg[freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFSET
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 21
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 21
 
 
  766:Generated_Source\PSoC4/CyLib.c ****                 CyDelayCycles(CY_SYS_CLK_IMO_FREQ_TIMEOUT_CYCLES);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  820:Generated_Source\PSoC4/CyLib.c ****             }
  821:Generated_Source\PSoC4/CyLib.c ****         #endif  /* (CY_IP_IMO_TRIMMABLE_BY_USB) */
  822:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 22
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 22
 
 
  823:Generated_Source\PSoC4/CyLib.c ****         CyExitCriticalSection(interruptState);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  877:Generated_Source\PSoC4/CyLib.c **** 
  878:Generated_Source\PSoC4/CyLib.c ****             #endif  /* (CYDEV_IMO_TRIMMED_BY_USB == 0u) */
  879:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 23
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 23
 
 
  880:Generated_Source\PSoC4/CyLib.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  934:Generated_Source\PSoC4/CyLib.c ****         
  935:Generated_Source\PSoC4/CyLib.c ****             #if (CY_IP_IMO_TRIMMABLE_BY_USB)
  936:Generated_Source\PSoC4/CyLib.c ****                 if (1u == usbLock)
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 24
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 24
 
 
  937:Generated_Source\PSoC4/CyLib.c ****                 {
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  364              		.cfi_offset 14, -4
  365              		.loc 1 982 0
  366 0002 0400     		movs	r4, r0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 25
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 25
 
 
  983:Generated_Source\PSoC4/CyLib.c ****         uint8  interruptState;
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  406              	.LFB12:
  993:Generated_Source\PSoC4/CyLib.c **** #endif /* (CY_IP_SRSSLT) */
  994:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 26
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 26
 
 
  995:Generated_Source\PSoC4/CyLib.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1049:Generated_Source\PSoC4/CyLib.c ****             else
 1050:Generated_Source\PSoC4/CyLib.c ****             {
 1051:Generated_Source\PSoC4/CyLib.c ****                 /* Init BLE core */
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 27
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 27
 
 
 1052:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_BLESS_MT_DELAY_CFG_REG = CY_SYS_BLESS_MT_DELAY_CFG_INIT;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1106:Generated_Source\PSoC4/CyLib.c ****                 {
 1107:Generated_Source\PSoC4/CyLib.c ****                     /* Wait until RX_FIFO_NOT_EMPTY state */
 1108:Generated_Source\PSoC4/CyLib.c ****                 }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 28
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 28
 
 
 1109:Generated_Source\PSoC4/CyLib.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1163:Generated_Source\PSoC4/CyLib.c ****     *
 1164:Generated_Source\PSoC4/CyLib.c ****     * If ECO is disabled when it is sourcing HFCLK, the CPU will halt. In addition,
 1165:Generated_Source\PSoC4/CyLib.c ****     * for PSoC 4100 BLE / PSoC 4200 BLE devices, the BLE sub-system will stop
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 29
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 29
 
 
 1166:Generated_Source\PSoC4/CyLib.c ****     * functioning.
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1220:Generated_Source\PSoC4/CyLib.c ****         return (returnValue);
 1221:Generated_Source\PSoC4/CyLib.c ****     }
 1222:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 30
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 30
 
 
 1223:Generated_Source\PSoC4/CyLib.c ****     #if (CY_IP_ECO_BLESS || CY_IP_ECO_BLESSV3)
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1277:Generated_Source\PSoC4/CyLib.c ****         * 4200L devices only.
 1278:Generated_Source\PSoC4/CyLib.c ****         *
 1279:Generated_Source\PSoC4/CyLib.c ****         * The following parameters can be trimmed for ECO. The affected registers are
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 31
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 31
 
 
 1280:Generated_Source\PSoC4/CyLib.c ****         * ECO_TRIM0 and ECO_TRIM1.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1334:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_GTRIM1       If result = 0
 1335:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_GTRIM2       If result = 2
 1336:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_GTRIM2       If result = 3
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 32
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 32
 
 
 1337:Generated_Source\PSoC4/CyLib.c ****         *
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1391:Generated_Source\PSoC4/CyLib.c ****         {
 1392:Generated_Source\PSoC4/CyLib.c ****             cystatus returnStatus = CYRET_SUCCESS;
 1393:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 33
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 33
 
 
 1394:Generated_Source\PSoC4/CyLib.c ****             uint32 wDTrim;
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1448:Generated_Source\PSoC4/CyLib.c **** 
 1449:Generated_Source\PSoC4/CyLib.c ****                 /* Calculate amplifier gain trim. */
 1450:Generated_Source\PSoC4/CyLib.c ****                 gmMin = (uint32) (((((CY_SYS_CLK_ECO_GMMIN_COEFFICIENT * freq * cLoad) / 1000) * ((
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 34
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 34
 
 
 1451:Generated_Source\PSoC4/CyLib.c ****                 if (gmMin > 3u)
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1505:Generated_Source\PSoC4/CyLib.c **** 
 1506:Generated_Source\PSoC4/CyLib.c ****     #endif /* CY_IP_ECO_BLESS */
 1507:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 35
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 35
 
 
 1508:Generated_Source\PSoC4/CyLib.c **** #endif /* (CY_IP_ECO) */
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1562:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_PLL_BASE.pll[pll].config |= CY_SYS_CLK_PLL_CONFIG_ISOLATE;
 1563:Generated_Source\PSoC4/CyLib.c ****             CyExitCriticalSection(interruptState);
 1564:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 36
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 36
 
 
 1565:Generated_Source\PSoC4/CyLib.c ****             if(wait != 0u)
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1619:Generated_Source\PSoC4/CyLib.c ****         if(0u != returnStatus)
 1620:Generated_Source\PSoC4/CyLib.c ****         {
 1621:Generated_Source\PSoC4/CyLib.c ****             returnStatus = CY_SYS_CLK_PLL_BASE.pll[pll].status & CY_SYS_CLK_PLL_STATUS_LOCKED;
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 37
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 37
 
 
 1622:Generated_Source\PSoC4/CyLib.c ****         }
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1676:Generated_Source\PSoC4/CyLib.c ****     * \param feedback The P divider. Range 4 - 259. Control bits for the feedback
 1677:Generated_Source\PSoC4/CyLib.c ****     * divider.
 1678:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 38
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 38
 
 
 1679:Generated_Source\PSoC4/CyLib.c ****     * \param reference The Q divider. Range 1 - 64. Divide by the reference.
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1733:Generated_Source\PSoC4/CyLib.c ****     * The PLL must not be the system clock source when calling this function.
 1734:Generated_Source\PSoC4/CyLib.c ****     * The PLL output will glitch during this function call.
 1735:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 39
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 39
 
 
 1736:Generated_Source\PSoC4/CyLib.c ****     * When the PLL's reference input is higher than HFCLK frequency the device may 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1790:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
 1791:Generated_Source\PSoC4/CyLib.c ****     static uint32 CySysClkPllGetBypassMode(uint32 pll)
 1792:Generated_Source\PSoC4/CyLib.c ****     {
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 40
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 40
 
 
 1793:Generated_Source\PSoC4/CyLib.c ****         uint32 returnValue;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1847:Generated_Source\PSoC4/CyLib.c ****     * Function Name: CySysClkPllGetUnlockStatus
 1848:Generated_Source\PSoC4/CyLib.c ****     ****************************************************************************//**
 1849:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 41
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 41
 
 
 1850:Generated_Source\PSoC4/CyLib.c ****     *  Returns a non-zero value if the specified PLL output was unlocked.
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1904:Generated_Source\PSoC4/CyLib.c ****     * CY_SYS_PLL_OUTPUT_DIV4       Divide by 4
 1905:Generated_Source\PSoC4/CyLib.c ****     * CY_SYS_PLL_OUTPUT_DIV8       Divide by 8
 1906:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 42
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 42
 
 
 1907:Generated_Source\PSoC4/CyLib.c ****     * \param freqTol The tolerance in ppm, 10 ppm is equal to 0.001%.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 1961:Generated_Source\PSoC4/CyLib.c ****                     fvco = ((inputFreq * p) / q);
 1962:Generated_Source\PSoC4/CyLib.c **** 
 1963:Generated_Source\PSoC4/CyLib.c ****                     /* Calculate the frequency error (FERR) */
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 43
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 43
 
 
 1964:Generated_Source\PSoC4/CyLib.c ****                     ferr = ((1000000 * ((int32) fvco - (int32) pllFreq))/ (int32) pllFreq);
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2018:Generated_Source\PSoC4/CyLib.c **** 
 2019:Generated_Source\PSoC4/CyLib.c ****         interruptState = CyEnterCriticalSection();
 2020:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 44
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 44
 
 
 2021:Generated_Source\PSoC4/CyLib.c ****         if (pll < CY_IP_PLL_NR)
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2075:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_PLL_BASE.pll[pll].config = tmpReg;
 2076:Generated_Source\PSoC4/CyLib.c **** 
 2077:Generated_Source\PSoC4/CyLib.c ****             returnStatus = CYRET_SUCCESS;
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 45
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 45
 
 
 2078:Generated_Source\PSoC4/CyLib.c ****         }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2132:Generated_Source\PSoC4/CyLib.c **** 
 2133:Generated_Source\PSoC4/CyLib.c ****         /* Clear the false event */
 2134:Generated_Source\PSoC4/CyLib.c ****         CySysLvdClearInterrupt();
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 46
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 46
 
 
 2135:Generated_Source\PSoC4/CyLib.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2189:Generated_Source\PSoC4/CyLib.c **** 
 2190:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
 2191:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysGetResetReason
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 47
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 47
 
 
 2192:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  431              		.loc 1 2218 0
  432 000e 7047     		bx	lr
  433              	.L34:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 48
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 48
 
 
  434              		.align	2
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  462              		.loc 1 2242 0
  463              		@ sp needed
 2239:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 49
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 49
 
 
  464              		.loc 1 2239 0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  502              	.LFE14:
  503              		.size	CyEnableInts, .-CyEnableInts
  504              		.section	.text.CyIntSetSysVector,"ax",%progbits
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 50
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 50
 
 
  505              		.align	1
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2291:Generated_Source\PSoC4/CyLib.c **** 
 2292:Generated_Source\PSoC4/CyLib.c ****     return(oldIsr);
 2293:Generated_Source\PSoC4/CyLib.c **** }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 51
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 51
 
 
  526              		.loc 1 2293 0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  553 0004 9B05     		lsls	r3, r3, #22
  554 0006 C018     		adds	r0, r0, r3
  555 0008 0068     		ldr	r0, [r0]
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 52
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 52
 
 
 2320:Generated_Source\PSoC4/CyLib.c **** }
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2347:Generated_Source\PSoC4/CyLib.c **** 
 2348:Generated_Source\PSoC4/CyLib.c ****     return(oldIsr);
 2349:Generated_Source\PSoC4/CyLib.c **** }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 53
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 53
 
 
  583              		.loc 1 2349 0
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2370:Generated_Source\PSoC4/CyLib.c **** }
  616              		.loc 1 2370 0
  617              		@ sp needed
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 54
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 54
 
 
  618 0008 7047     		bx	lr
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  651 0008 B540     		lsls	r5, r5, r6
 2383:Generated_Source\PSoC4/CyLib.c ****     uint8 interruptState;
  652              		.loc 1 2383 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 55
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 55
 
 
  653 000a 0F00     		movs	r7, r1
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  691              	.L50:
  692 0030 00E400E0 		.word	-536812544
  693              		.cfi_endproc
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 56
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 56
 
 
  694              	.LFE19:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  725 0016 0800     		movs	r0, r1
  726              	.LVL48:
 2425:Generated_Source\PSoC4/CyLib.c **** }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 57
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 57
 
 
  727              		.loc 1 2425 0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  764 000a 1360     		str	r3, [r2]
  765              		.loc 1 2440 0
  766 000c 7047     		bx	lr
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 58
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 58
 
 
  767              	.L57:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  801              		.loc 1 2459 0
  802 0010 7047     		bx	lr
  803              	.L60:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 59
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 59
 
 
  804 0012 C046     		.align	2
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  842              	.LFE23:
  843              		.size	CyIntDisable, .-CyIntDisable
  844              		.section	.text.CyIntSetPending,"ax",%progbits
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 60
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 60
 
 
  845              		.align	1
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  884              	CyIntClearPending:
  885              	.LFB25:
 2489:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 61
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 61
 
 
 2490:Generated_Source\PSoC4/CyLib.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2509:Generated_Source\PSoC4/CyLib.c **** *
 2510:Generated_Source\PSoC4/CyLib.c **** *  Halts the CPU.
 2511:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 62
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 62
 
 
 2512:Generated_Source\PSoC4/CyLib.c **** *  \param reason: Value to be used during debugging.
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2539:Generated_Source\PSoC4/CyLib.c **** void CySoftwareReset(void)
 2540:Generated_Source\PSoC4/CyLib.c **** {
  947              		.loc 1 2540 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 63
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 63
 
 
  948              		.cfi_startproc
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2557:Generated_Source\PSoC4/CyLib.c **** *
 2558:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
 2559:Generated_Source\PSoC4/CyLib.c **** void CyDelay(uint32 milliseconds)
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 64
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 64
 
 
 2560:Generated_Source\PSoC4/CyLib.c **** {
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1023              	.LVL65:
  1024              		.loc 1 2571 0
  1025 0022 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 65
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 65
 
 
  1026              	.L79:
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1073 0016 1268     		ldr	r2, [r2]
  212:Generated_Source\PSoC4/CyLib.c ****                                         CY_SYS_CLK_IMO_SELECT_FREQ_SHIFT) + CY_SYS_CLK_IMO_MIN_FREQ
  1074              		.loc 1 212 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 66
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 66
 
 
  1075 0018 9B00     		lsls	r3, r3, #2
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  251:Generated_Source\PSoC4/CyLib.c **** 
  1118              		.loc 1 251 0
  1119 004c EB18     		adds	r3, r5, r3
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 67
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 67
 
 
  1120              	.LVL74:
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1160              		.loc 1 263 0
  1161 0074 8021     		movs	r1, #128
  1162 0076 104A     		ldr	r2, .L89+36
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 68
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 68
 
 
  1163 0078 C905     		lsls	r1, r1, #23
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1209              		.type	CySysClkWriteImoFreq, %function
  1210              	CySysClkWriteImoFreq:
  1211              	.LFB10:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 69
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 69
 
 
  829:Generated_Source\PSoC4/CyLib.c ****         uint8  interruptState;
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1257              	.LVL88:
  856:Generated_Source\PSoC4/CyLib.c ****                     CySysClkImoDisableWcoLock();
  1258              		.loc 1 856 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 70
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 70
 
 
  1259 002c 0096     		str	r6, [sp]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1301 005e 0B60     		str	r3, [r1]
  911:Generated_Source\PSoC4/CyLib.c **** 
  1302              		.loc 1 911 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 71
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 71
 
 
  1303 0060 3220     		movs	r0, #50
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1347              		@ sp needed
  1348 0098 F7BD     		pop	{r0, r1, r2, r4, r5, r6, r7, pc}
  1349              	.L102:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 72
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 72
 
 
  1350 009a C046     		.align	2
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1389              		.loc 1 2585 0
  1390 000c 10BD     		pop	{r4, pc}
  1391              	.L105:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 73
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 73
 
 
  1392 000e C046     		.align	2
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1427 000c 0A4B     		ldr	r3, .L109+4
  1428 000e 2361     		str	r3, [r4, #16]
  1429              	.L108:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 74
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 74
 
 
 2605:Generated_Source\PSoC4/CyLib.c ****     }
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2614:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysTick_Start
 2615:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
 2616:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 75
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 75
 
 
 2617:Generated_Source\PSoC4/CyLib.c **** *  Starts the system timer (SysTick): configures SysTick to generate interrupt
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2662:Generated_Source\PSoC4/CyLib.c ****     {
 2663:Generated_Source\PSoC4/CyLib.c ****         CySysTickCallbacks[i] = (void *) 0;
  1483              		.loc 1 2663 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 76
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 76
 
 
  1484 0002 0024     		movs	r4, #0
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2714:Generated_Source\PSoC4/CyLib.c **** *  Enables the SysTick interrupt.
 2715:Generated_Source\PSoC4/CyLib.c **** *
 2716:Generated_Source\PSoC4/CyLib.c **** * \sideeffect
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 77
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 77
 
 
 2717:Generated_Source\PSoC4/CyLib.c **** *  Clears SysTick count flag if it was set
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2771:Generated_Source\PSoC4/CyLib.c ****     return(CY_SYS_SYST_RVR_REG & CY_SYS_SYST_RVR_CNT_MASK);
 2772:Generated_Source\PSoC4/CyLib.c **** }
 2773:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 78
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 78
 
 
 2774:Generated_Source\PSoC4/CyLib.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1493              		.loc 1 2663 0
  1494 0006 0C4B     		ldr	r3, .L112
  1495              	.LBB31:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 79
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 79
 
 
  1496              	.LBB32:
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1544              	.LVL114:
  1545              	.LBE28:
  1546              	.LBE30:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 80
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 80
 
 
  1547              	.LBE38:
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2857:Generated_Source\PSoC4/CyLib.c **** * \return
 2858:Generated_Source\PSoC4/CyLib.c ****     *  Returns non-zero value if flag is set, otherwise zero is returned.
 2859:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 81
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 81
 
 
 2860:Generated_Source\PSoC4/CyLib.c **** *
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1595              		@ frame_needed = 0, uses_anonymous_args = 0
  1596              		@ link register save eliminated.
 2706:Generated_Source\PSoC4/CyLib.c **** }
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 82
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 82
 
 
  1597              		.loc 1 2706 0
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1643              		.cfi_endproc
  1644              	.LFE35:
  1645              		.size	CySysTickEnableInterrupt, .-CySysTickEnableInterrupt
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 83
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 83
 
 
  1646              		.section	.text.CySysTickEnable,"ax",%progbits
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1693              		@ args = 0, pretend = 0, frame = 0
  1694              		@ frame_needed = 0, uses_anonymous_args = 0
  1695 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 84
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 84
 
 
  1696              		.cfi_def_cfa_offset 8
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2738:Generated_Source\PSoC4/CyLib.c **** }
  1742              		.loc 1 2738 0
  1743 0004 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 85
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 85
 
 
  1744 0006 8B43     		bics	r3, r1
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1793              		.loc 1 2770 0
  1794              		.cfi_startproc
  1795              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 86
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 86
 
 
  1796              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1841 000c 18E000E0 		.word	-536813544
  1842              		.cfi_endproc
  1843              	.LFE39:
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 87
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 87
 
 
  1844              		.size	CySysTickGetValue, .-CySysTickGetValue
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  1892              	.LFE40:
  1893              		.size	CySysTickSetClockSource, .-CySysTickSetClockSource
  1894              		.section	.text.CySysTickGetClockSource,"ax",%progbits
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 88
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 88
 
 
  1895              		.align	1
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2867:Generated_Source\PSoC4/CyLib.c **** }
  1941              		.loc 1 2867 0
  1942 0002 1868     		ldr	r0, [r3]
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 89
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 89
 
 
  1943 0004 C003     		lsls	r0, r0, #15
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2916:Generated_Source\PSoC4/CyLib.c **** 
 2917:Generated_Source\PSoC4/CyLib.c ****     retVal = CySysTickCallbacks[number];
 2918:Generated_Source\PSoC4/CyLib.c ****     CySysTickCallbacks[number] = function;
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 90
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 90
 
 
 2919:Generated_Source\PSoC4/CyLib.c ****     return (retVal);
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2957:Generated_Source\PSoC4/CyLib.c ****         for (i=0u; i < CY_SYS_SYST_NUM_OF_CALLBACKS; i++)
 2958:Generated_Source\PSoC4/CyLib.c ****         {
 2959:Generated_Source\PSoC4/CyLib.c ****             if (CySysTickCallbacks[i] != (void *) 0)
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 91
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 91
 
 
  1977              		.loc 1 2959 0
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2020              		.loc 1 2880 0
  2021 0004 1A60     		str	r2, [r3]
 2881:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 92
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 92
 
 
  2022              		.loc 1 2881 0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2938:Generated_Source\PSoC4/CyLib.c ****     return ((cySysTickCallback) CySysTickCallbacks[number]);
  2071              		.loc 1 2938 0
  2072              		.cfi_startproc
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 93
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 93
 
 
  2073              		@ args = 0, pretend = 0, frame = 0
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
 2985:Generated_Source\PSoC4/CyLib.c ****     uniqueId[0u]  =  (uint32)(* (reg8 *) CYREG_SFLASH_DIE_LOT0  );
  2106              		.loc 1 2985 0
  2107 0000 144B     		ldr	r3, .L172
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 94
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 94
 
 
 2986:Generated_Source\PSoC4/CyLib.c ****     uniqueId[0u] |= ((uint32)(* (reg8 *) CYREG_SFLASH_DIE_LOT1  ) <<  8u);
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2134 0022 1206     		lsls	r2, r2, #24
  2135 0024 1343     		orrs	r3, r2
  2136 0026 0360     		str	r3, [r0]
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 95
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 95
 
 
 2990:Generated_Source\PSoC4/CyLib.c ****     uniqueId[1u] |= ((uint32)(* (reg8 *) CYREG_SFLASH_DIE_Y     ) <<  8u);
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2183              		.global	CySysTickInitVar
  2184              		.global	cydelay32kMs
  2185              		.global	cydelayFreqMhz
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 96
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 96
 
 
  2186              		.global	cydelayFreqKhz
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2240              		.bss
  2241              		.align	2
  2242              		.set	.LANCHOR2,. + 0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 97
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 97
 
 
  2243              		.type	CySysTickCallbacks, %object
@@ -5786,10 +5786,10 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2261 0006 00000000 		.4byte	.Ldebug_abbrev0
  2262 000a 04       		.byte	0x4
  2263 000b 01       		.uleb128 0x1
- 2264 000c B2010000 		.4byte	.LASF107
+ 2264 000c 6F010000 		.4byte	.LASF107
  2265 0010 0C       		.byte	0xc
- 2266 0011 E2060000 		.4byte	.LASF108
- 2267 0015 28010000 		.4byte	.LASF109
+ 2266 0011 E4060000 		.4byte	.LASF108
+ 2267 0015 17060000 		.4byte	.LASF109
  2268 0019 58000000 		.4byte	.Ldebug_ranges0+0x58
  2269 001d 00000000 		.4byte	0
  2270 0021 00000000 		.4byte	.Ldebug_line0
@@ -5800,25 +5800,25 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2275 002c 02       		.uleb128 0x2
  2276 002d 01       		.byte	0x1
  2277 002e 08       		.byte	0x8
- 2278 002f 3D050000 		.4byte	.LASF1
+ 2278 002f FA040000 		.4byte	.LASF1
  2279 0033 02       		.uleb128 0x2
  2280 0034 02       		.byte	0x2
  2281 0035 05       		.byte	0x5
- 2282 0036 52050000 		.4byte	.LASF2
+ 2282 0036 0F050000 		.4byte	.LASF2
  2283 003a 02       		.uleb128 0x2
  2284 003b 02       		.byte	0x2
  2285 003c 07       		.byte	0x7
- 2286 003d AF030000 		.4byte	.LASF3
+ 2286 003d 6C030000 		.4byte	.LASF3
  2287 0041 02       		.uleb128 0x2
  2288 0042 04       		.byte	0x4
  2289 0043 05       		.byte	0x5
- 2290 0044 9C010000 		.4byte	.LASF4
+ 2290 0044 59010000 		.4byte	.LASF4
  2291 0048 02       		.uleb128 0x2
  2292 0049 04       		.byte	0x4
  2293 004a 07       		.byte	0x7
- 2294 004b 52030000 		.4byte	.LASF5
+ 2294 004b 0F030000 		.4byte	.LASF5
  2295 004f 02       		.uleb128 0x2
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 98
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 98
 
 
  2296 0050 08       		.byte	0x8
@@ -5835,9 +5835,9 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2307 0064 02       		.uleb128 0x2
  2308 0065 04       		.byte	0x4
  2309 0066 07       		.byte	0x7
- 2310 0067 36030000 		.4byte	.LASF8
+ 2310 0067 F3020000 		.4byte	.LASF8
  2311 006b 04       		.uleb128 0x4
- 2312 006c 6E020000 		.4byte	.LASF9
+ 2312 006c 2B020000 		.4byte	.LASF9
  2313 0070 02       		.byte	0x2
  2314 0071 D201     		.2byte	0x1d2
  2315 0073 2C000000 		.4byte	0x2c
@@ -5847,41 +5847,41 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2319 007d D301     		.2byte	0x1d3
  2320 007f 3A000000 		.4byte	0x3a
  2321 0083 04       		.uleb128 0x4
- 2322 0084 97020000 		.4byte	.LASF11
+ 2322 0084 54020000 		.4byte	.LASF11
  2323 0088 02       		.byte	0x2
  2324 0089 D401     		.2byte	0x1d4
  2325 008b 48000000 		.4byte	0x48
  2326 008f 02       		.uleb128 0x2
  2327 0090 04       		.byte	0x4
  2328 0091 04       		.byte	0x4
- 2329 0092 D9040000 		.4byte	.LASF12
+ 2329 0092 96040000 		.4byte	.LASF12
  2330 0096 02       		.uleb128 0x2
  2331 0097 08       		.byte	0x8
  2332 0098 04       		.byte	0x4
- 2333 0099 8A020000 		.4byte	.LASF13
+ 2333 0099 47020000 		.4byte	.LASF13
  2334 009d 02       		.uleb128 0x2
  2335 009e 01       		.byte	0x1
  2336 009f 08       		.byte	0x8
- 2337 00a0 A8050000 		.4byte	.LASF14
+ 2337 00a0 65050000 		.4byte	.LASF14
  2338 00a4 04       		.uleb128 0x4
- 2339 00a5 31050000 		.4byte	.LASF15
+ 2339 00a5 EE040000 		.4byte	.LASF15
  2340 00a9 02       		.byte	0x2
  2341 00aa 7C02     		.2byte	0x27c
  2342 00ac B0000000 		.4byte	0xb0
  2343 00b0 05       		.uleb128 0x5
  2344 00b1 6B000000 		.4byte	0x6b
  2345 00b5 04       		.uleb128 0x4
- 2346 00b6 41040000 		.4byte	.LASF16
+ 2346 00b6 FE030000 		.4byte	.LASF16
  2347 00ba 02       		.byte	0x2
  2348 00bb 7E02     		.2byte	0x27e
  2349 00bd C1000000 		.4byte	0xc1
  2350 00c1 05       		.uleb128 0x5
  2351 00c2 83000000 		.4byte	0x83
  2352 00c6 04       		.uleb128 0x4
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 99
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 99
 
 
- 2353 00c7 C5050000 		.4byte	.LASF17
+ 2353 00c7 82050000 		.4byte	.LASF17
  2354 00cb 02       		.byte	0x2
  2355 00cc 8E02     		.2byte	0x28e
  2356 00ce D2000000 		.4byte	0xd2
@@ -5892,18 +5892,18 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2361 00d9 02       		.uleb128 0x2
  2362 00da 08       		.byte	0x8
  2363 00db 04       		.byte	0x4
- 2364 00dc 7E040000 		.4byte	.LASF18
+ 2364 00dc 3B040000 		.4byte	.LASF18
  2365 00e0 02       		.uleb128 0x2
  2366 00e1 04       		.byte	0x4
  2367 00e2 07       		.byte	0x7
- 2368 00e3 63040000 		.4byte	.LASF19
+ 2368 00e3 20040000 		.4byte	.LASF19
  2369 00e7 08       		.uleb128 0x8
- 2370 00e8 F5040000 		.4byte	.LASF20
+ 2370 00e8 B2040000 		.4byte	.LASF20
  2371 00ec 03       		.byte	0x3
  2372 00ed F5       		.byte	0xf5
  2373 00ee D2000000 		.4byte	0xd2
  2374 00f2 09       		.uleb128 0x9
- 2375 00f3 BB020000 		.4byte	.LASF26
+ 2375 00f3 78020000 		.4byte	.LASF26
  2376 00f7 01       		.byte	0x1
  2377 00f8 AF       		.byte	0xaf
  2378 00f9 01       		.byte	0x1
@@ -5919,7 +5919,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2388 010f B6       		.byte	0xb6
  2389 0110 6B000000 		.4byte	0x6b
  2390 0114 0A       		.uleb128 0xa
- 2391 0115 C2030000 		.4byte	.LASF23
+ 2391 0115 7F030000 		.4byte	.LASF23
  2392 0119 01       		.byte	0x1
  2393 011a B7       		.byte	0xb7
  2394 011b 83000000 		.4byte	0x83
@@ -5929,28 +5929,28 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2398 0125 B8       		.byte	0xb8
  2399 0126 83000000 		.4byte	0x83
  2400 012a 0A       		.uleb128 0xa
- 2401 012b 4E060000 		.4byte	.LASF25
+ 2401 012b 0B060000 		.4byte	.LASF25
  2402 012f 01       		.byte	0x1
  2403 0130 B9       		.byte	0xb9
  2404 0131 C1000000 		.4byte	0xc1
  2405 0135 00       		.byte	0
  2406 0136 0B       		.uleb128 0xb
- 2407 0137 C9030000 		.4byte	.LASF27
+ 2407 0137 86030000 		.4byte	.LASF27
  2408 013b 01       		.byte	0x1
  2409 013c 010B     		.2byte	0xb01
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 100
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 100
 
 
  2410 013e 01       		.byte	0x1
  2411 013f 50010000 		.4byte	0x150
  2412 0143 0C       		.uleb128 0xc
- 2413 0144 06030000 		.4byte	.LASF29
+ 2413 0144 C3020000 		.4byte	.LASF29
  2414 0148 01       		.byte	0x1
  2415 0149 010B     		.2byte	0xb01
  2416 014b 83000000 		.4byte	0x83
  2417 014f 00       		.byte	0
  2418 0150 0D       		.uleb128 0xd
- 2419 0151 8E050000 		.4byte	.LASF110
+ 2419 0151 4B050000 		.4byte	.LASF110
  2420 0155 01       		.byte	0x1
  2421 0156 860B     		.2byte	0xb86
  2422 0158 01       		.byte	0x1
@@ -5962,43 +5962,43 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2428 0163 83000000 		.4byte	0x83
  2429 0167 00       		.byte	0
  2430 0168 0F       		.uleb128 0xf
- 2431 0169 43030000 		.4byte	.LASF111
+ 2431 0169 00030000 		.4byte	.LASF111
  2432 016d 01       		.byte	0x1
  2433 016e 3E0B     		.2byte	0xb3e
  2434 0170 01       		.byte	0x1
  2435 0171 0B       		.uleb128 0xb
- 2436 0172 15070000 		.4byte	.LASF28
+ 2436 0172 17070000 		.4byte	.LASF28
  2437 0176 01       		.byte	0x1
  2438 0177 C10A     		.2byte	0xac1
  2439 0179 01       		.byte	0x1
  2440 017a 8B010000 		.4byte	0x18b
  2441 017e 0C       		.uleb128 0xc
- 2442 017f 00030000 		.4byte	.LASF30
+ 2442 017f BD020000 		.4byte	.LASF30
  2443 0183 01       		.byte	0x1
  2444 0184 C10A     		.2byte	0xac1
  2445 0186 83000000 		.4byte	0x83
  2446 018a 00       		.byte	0
  2447 018b 10       		.uleb128 0x10
- 2448 018c 15040000 		.4byte	.LASF112
+ 2448 018c D2030000 		.4byte	.LASF112
  2449 0190 01       		.byte	0x1
  2450 0191 E708     		.2byte	0x8e7
  2451 0193 C6000000 		.4byte	0xc6
  2452 0197 01       		.byte	0x1
  2453 0198 CD010000 		.4byte	0x1cd
  2454 019c 0C       		.uleb128 0xc
- 2455 019d F0030000 		.4byte	.LASF31
+ 2455 019d AD030000 		.4byte	.LASF31
  2456 01a1 01       		.byte	0x1
  2457 01a2 E708     		.2byte	0x8e7
  2458 01a4 6B000000 		.4byte	0x6b
  2459 01a8 0C       		.uleb128 0xc
- 2460 01a9 8A040000 		.4byte	.LASF32
+ 2460 01a9 47040000 		.4byte	.LASF32
  2461 01ad 01       		.byte	0x1
  2462 01ae E708     		.2byte	0x8e7
  2463 01b0 C6000000 		.4byte	0xc6
  2464 01b4 11       		.uleb128 0x11
  2465 01b5 4B000000 		.4byte	.LASF33
  2466 01b9 01       		.byte	0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 101
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 101
 
 
  2467 01ba E908     		.2byte	0x8e9
@@ -6013,7 +6013,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2476 01ce 04       		.byte	0x4
  2477 01cf C6000000 		.4byte	0xc6
  2478 01d3 12       		.uleb128 0x12
- 2479 01d4 B9060000 		.4byte	.LASF35
+ 2479 01d4 BB060000 		.4byte	.LASF35
  2480 01d8 01       		.byte	0x1
  2481 01d9 6B       		.byte	0x6b
  2482 01da 00000000 		.4byte	.LFB1
@@ -6021,7 +6021,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2484 01e2 01       		.uleb128 0x1
  2485 01e3 9C       		.byte	0x9c
  2486 01e4 13       		.uleb128 0x13
- 2487 01e5 27040000 		.4byte	.LASF36
+ 2487 01e5 E4030000 		.4byte	.LASF36
  2488 01e9 01       		.byte	0x1
  2489 01ea 1D01     		.2byte	0x11d
  2490 01ec 00000000 		.4byte	.LFB4
@@ -6029,7 +6029,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2492 01f4 01       		.uleb128 0x1
  2493 01f5 9C       		.byte	0x9c
  2494 01f6 14       		.uleb128 0x14
- 2495 01f7 64030000 		.4byte	.LASF37
+ 2495 01f7 21030000 		.4byte	.LASF37
  2496 01fb 01       		.byte	0x1
  2497 01fc 8B       		.byte	0x8b
  2498 01fd 00000000 		.4byte	.LFB2
@@ -6042,7 +6042,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2505 0210 E4010000 		.4byte	0x1e4
  2506 0214 00       		.byte	0
  2507 0215 16       		.uleb128 0x16
- 2508 0216 7E010000 		.4byte	.LASF83
+ 2508 0216 3B010000 		.4byte	.LASF83
  2509 021a 01       		.byte	0x1
  2510 021b 3001     		.2byte	0x130
  2511 021d 83000000 		.4byte	0x83
@@ -6058,12 +6058,12 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2521 0237 20000000 		.4byte	.LFE6-.LFB6
  2522 023b 01       		.uleb128 0x1
  2523 023c 9C       		.byte	0x9c
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 102
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 102
 
 
  2524 023d 84020000 		.4byte	0x284
  2525 0241 18       		.uleb128 0x18
- 2526 0242 7A050000 		.4byte	.LASF41
+ 2526 0242 37050000 		.4byte	.LASF41
  2527 0246 01       		.byte	0x1
  2528 0247 AD01     		.2byte	0x1ad
  2529 0249 83000000 		.4byte	0x83
@@ -6075,7 +6075,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2535 0259 6B000000 		.4byte	0x6b
  2536 025d 2C000000 		.4byte	.LLST1
  2537 0261 19       		.uleb128 0x19
- 2538 0262 0E070000 		.4byte	.LASF39
+ 2538 0262 10070000 		.4byte	.LASF39
  2539 0266 01       		.byte	0x1
  2540 0267 B001     		.2byte	0x1b0
  2541 0269 83000000 		.4byte	0x83
@@ -6088,7 +6088,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2548 027f 350C0000 		.4byte	0xc35
  2549 0283 00       		.byte	0
  2550 0284 17       		.uleb128 0x17
- 2551 0285 59020000 		.4byte	.LASF40
+ 2551 0285 16020000 		.4byte	.LASF40
  2552 0289 01       		.byte	0x1
  2553 028a D901     		.2byte	0x1d9
  2554 028c 00000000 		.4byte	.LFB7
@@ -6097,7 +6097,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2557 0295 9C       		.byte	0x9c
  2558 0296 A9020000 		.4byte	0x2a9
  2559 029a 1A       		.uleb128 0x1a
- 2560 029b 83020000 		.4byte	.LASF42
+ 2560 029b 40020000 		.4byte	.LASF42
  2561 029f 01       		.byte	0x1
  2562 02a0 D901     		.2byte	0x1d9
  2563 02a2 83000000 		.4byte	0x83
@@ -6105,7 +6105,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2565 02a7 50       		.byte	0x50
  2566 02a8 00       		.byte	0
  2567 02a9 1B       		.uleb128 0x1b
- 2568 02aa A3020000 		.4byte	.LASF47
+ 2568 02aa 60020000 		.4byte	.LASF47
  2569 02ae 01       		.byte	0x1
  2570 02af FE01     		.2byte	0x1fe
  2571 02b1 83000000 		.4byte	0x83
@@ -6118,13 +6118,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2578 02c4 11010000 		.4byte	.LASF22
  2579 02c8 01       		.byte	0x1
  2580 02c9 0002     		.2byte	0x200
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 103
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 103
 
 
  2581 02cb 6B000000 		.4byte	0x6b
  2582 02cf 5D000000 		.4byte	.LLST3
  2583 02d3 19       		.uleb128 0x19
- 2584 02d4 92040000 		.4byte	.LASF43
+ 2584 02d4 4F040000 		.4byte	.LASF43
  2585 02d8 01       		.byte	0x1
  2586 02d9 0102     		.2byte	0x201
  2587 02db 83000000 		.4byte	0x83
@@ -6137,7 +6137,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2594 02f1 350C0000 		.4byte	0xc35
  2595 02f5 00       		.byte	0
  2596 02f6 17       		.uleb128 0x17
- 2597 02f7 F8050000 		.4byte	.LASF44
+ 2597 02f7 B5050000 		.4byte	.LASF44
  2598 02fb 01       		.byte	0x1
  2599 02fc 3502     		.2byte	0x235
  2600 02fe 00000000 		.4byte	.LFB9
@@ -6146,7 +6146,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2603 0307 9C       		.byte	0x9c
  2604 0308 3F030000 		.4byte	0x33f
  2605 030c 18       		.uleb128 0x18
- 2606 030d B1060000 		.4byte	.LASF45
+ 2606 030d B3060000 		.4byte	.LASF45
  2607 0311 01       		.byte	0x1
  2608 0312 3502     		.2byte	0x235
  2609 0314 83000000 		.4byte	0x83
@@ -6165,7 +6165,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2622 033a 350C0000 		.4byte	0xc35
  2623 033e 00       		.byte	0
  2624 033f 17       		.uleb128 0x17
- 2625 0340 E2050000 		.4byte	.LASF46
+ 2625 0340 9F050000 		.4byte	.LASF46
  2626 0344 01       		.byte	0x1
  2627 0345 D503     		.2byte	0x3d5
  2628 0347 00000000 		.4byte	.LFB11
@@ -6174,11 +6174,11 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2631 0350 9C       		.byte	0x9c
  2632 0351 88030000 		.4byte	0x388
  2633 0355 18       		.uleb128 0x18
- 2634 0356 B1060000 		.4byte	.LASF45
+ 2634 0356 B3060000 		.4byte	.LASF45
  2635 035a 01       		.byte	0x1
  2636 035b D503     		.2byte	0x3d5
  2637 035d 83000000 		.4byte	0x83
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 104
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 104
 
 
  2638 0361 D1000000 		.4byte	.LLST7
@@ -6196,7 +6196,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2650 0383 350C0000 		.4byte	0xc35
  2651 0387 00       		.byte	0
  2652 0388 1B       		.uleb128 0x1b
- 2653 0389 9B030000 		.4byte	.LASF48
+ 2653 0389 58030000 		.4byte	.LASF48
  2654 038d 01       		.byte	0x1
  2655 038e A008     		.2byte	0x8a0
  2656 0390 83000000 		.4byte	0x83
@@ -6206,13 +6206,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2660 039d 9C       		.byte	0x9c
  2661 039e C3030000 		.4byte	0x3c3
  2662 03a2 18       		.uleb128 0x18
- 2663 03a3 4B050000 		.4byte	.LASF49
+ 2663 03a3 08050000 		.4byte	.LASF49
  2664 03a7 01       		.byte	0x1
  2665 03a8 A008     		.2byte	0x8a0
  2666 03aa 83000000 		.4byte	0x83
  2667 03ae 10010000 		.4byte	.LLST9
  2668 03b2 19       		.uleb128 0x19
- 2669 03b3 56040000 		.4byte	.LASF50
+ 2669 03b3 13040000 		.4byte	.LASF50
  2670 03b7 01       		.byte	0x1
  2671 03b8 A208     		.2byte	0x8a2
  2672 03ba 83000000 		.4byte	0x83
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2692 03eb 00       		.byte	0
  2693 03ec 17       		.uleb128 0x17
  2694 03ed 8F000000 		.4byte	.LASF53
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 105
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 105
 
 
  2695 03f1 01       		.byte	0x1
@@ -6249,7 +6249,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2700 03fd 9C       		.byte	0x9c
  2701 03fe 11040000 		.4byte	0x411
  2702 0402 1A       		.uleb128 0x1a
- 2703 0403 9E020000 		.4byte	.LASF54
+ 2703 0403 5B020000 		.4byte	.LASF54
  2704 0407 01       		.byte	0x1
  2705 0408 CE08     		.2byte	0x8ce
  2706 040a 83000000 		.4byte	0x83
@@ -6279,7 +6279,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2730 0440 00000020 		.4byte	0x20000000
  2731 0444 00       		.byte	0
  2732 0445 1B       		.uleb128 0x1b
- 2733 0446 68050000 		.4byte	.LASF55
+ 2733 0446 25050000 		.4byte	.LASF55
  2734 044a 01       		.byte	0x1
  2735 044b 0909     		.2byte	0x909
  2736 044d C6000000 		.4byte	0xc6
@@ -6289,7 +6289,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2740 045a 9C       		.byte	0x9c
  2741 045b 80040000 		.4byte	0x480
  2742 045f 18       		.uleb128 0x18
- 2743 0460 F0030000 		.4byte	.LASF31
+ 2743 0460 AD030000 		.4byte	.LASF31
  2744 0464 01       		.byte	0x1
  2745 0465 0909     		.2byte	0x909
  2746 0467 6B000000 		.4byte	0x6b
@@ -6298,14 +6298,14 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2749 0470 00000000 		.4byte	.LASF34
  2750 0474 01       		.byte	0x1
  2751 0475 0B09     		.2byte	0x90b
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 106
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 106
 
 
  2752 0477 CD010000 		.4byte	0x1cd
  2753 047b 00000020 		.4byte	0x20000000
  2754 047f 00       		.byte	0
  2755 0480 1B       		.uleb128 0x1b
- 2756 0481 E1030000 		.4byte	.LASF56
+ 2756 0481 9E030000 		.4byte	.LASF56
  2757 0485 01       		.byte	0x1
  2758 0486 1F09     		.2byte	0x91f
  2759 0488 C6000000 		.4byte	0xc6
@@ -6315,13 +6315,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2763 0495 9C       		.byte	0x9c
  2764 0496 D7040000 		.4byte	0x4d7
  2765 049a 18       		.uleb128 0x18
- 2766 049b F0030000 		.4byte	.LASF31
+ 2766 049b AD030000 		.4byte	.LASF31
  2767 049f 01       		.byte	0x1
  2768 04a0 1F09     		.2byte	0x91f
  2769 04a2 6B000000 		.4byte	0x6b
  2770 04a6 92010000 		.4byte	.LLST13
  2771 04aa 1A       		.uleb128 0x1a
- 2772 04ab 8A040000 		.4byte	.LASF32
+ 2772 04ab 47040000 		.4byte	.LASF32
  2773 04af 01       		.byte	0x1
  2774 04b0 1F09     		.2byte	0x91f
  2775 04b2 C6000000 		.4byte	0xc6
@@ -6342,7 +6342,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2790 04d2 00000020 		.4byte	0x20000000
  2791 04d6 00       		.byte	0
  2792 04d7 1B       		.uleb128 0x1b
- 2793 04d8 07050000 		.4byte	.LASF57
+ 2793 04d8 C4040000 		.4byte	.LASF57
  2794 04dc 01       		.byte	0x1
  2795 04dd 3B09     		.2byte	0x93b
  2796 04df C6000000 		.4byte	0xc6
@@ -6352,13 +6352,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2800 04ec 9C       		.byte	0x9c
  2801 04ed 12050000 		.4byte	0x512
  2802 04f1 18       		.uleb128 0x18
- 2803 04f2 F0030000 		.4byte	.LASF31
+ 2803 04f2 AD030000 		.4byte	.LASF31
  2804 04f6 01       		.byte	0x1
  2805 04f7 3B09     		.2byte	0x93b
  2806 04f9 6B000000 		.4byte	0x6b
  2807 04fd B3010000 		.4byte	.LLST14
  2808 0501 22       		.uleb128 0x22
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 107
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 107
 
 
  2809 0502 00000000 		.4byte	.LASF34
@@ -6368,7 +6368,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2813 050d 00000020 		.4byte	0x20000000
  2814 0511 00       		.byte	0
  2815 0512 17       		.uleb128 0x17
- 2816 0513 C8040000 		.4byte	.LASF58
+ 2816 0513 85040000 		.4byte	.LASF58
  2817 0517 01       		.byte	0x1
  2818 0518 4E09     		.2byte	0x94e
  2819 051a 00000000 		.4byte	.LFB19
@@ -6377,13 +6377,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2822 0523 9C       		.byte	0x9c
  2823 0524 8B050000 		.4byte	0x58b
  2824 0528 18       		.uleb128 0x18
- 2825 0529 F0030000 		.4byte	.LASF31
+ 2825 0529 AD030000 		.4byte	.LASF31
  2826 052d 01       		.byte	0x1
  2827 052e 4E09     		.2byte	0x94e
  2828 0530 6B000000 		.4byte	0x6b
  2829 0534 D4010000 		.4byte	.LLST15
  2830 0538 18       		.uleb128 0x18
- 2831 0539 F7030000 		.4byte	.LASF59
+ 2831 0539 B4030000 		.4byte	.LASF59
  2832 053d 01       		.byte	0x1
  2833 053e 4E09     		.2byte	0x94e
  2834 0540 6B000000 		.4byte	0x6b
@@ -6395,13 +6395,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2840 0550 6B000000 		.4byte	0x6b
  2841 0554 16020000 		.4byte	.LLST17
  2842 0558 19       		.uleb128 0x19
- 2843 0559 91020000 		.4byte	.LASF60
+ 2843 0559 4E020000 		.4byte	.LASF60
  2844 055d 01       		.byte	0x1
  2845 055e 5109     		.2byte	0x951
  2846 0560 83000000 		.4byte	0x83
  2847 0564 29020000 		.4byte	.LLST18
  2848 0568 19       		.uleb128 0x19
- 2849 0569 00030000 		.4byte	.LASF30
+ 2849 0569 BD020000 		.4byte	.LASF30
  2850 056d 01       		.byte	0x1
  2851 056e 5209     		.2byte	0x952
  2852 0570 83000000 		.4byte	0x83
@@ -6414,11 +6414,11 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2859 0586 350C0000 		.4byte	0xc35
  2860 058a 00       		.byte	0
  2861 058b 1B       		.uleb128 0x1b
- 2862 058c D4020000 		.4byte	.LASF61
+ 2862 058c 91020000 		.4byte	.LASF61
  2863 0590 01       		.byte	0x1
  2864 0591 7009     		.2byte	0x970
  2865 0593 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 108
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 108
 
 
  2866 0597 00000000 		.4byte	.LFB20
@@ -6427,20 +6427,20 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2869 05a0 9C       		.byte	0x9c
  2870 05a1 C6050000 		.4byte	0x5c6
  2871 05a5 18       		.uleb128 0x18
- 2872 05a6 F0030000 		.4byte	.LASF31
+ 2872 05a6 AD030000 		.4byte	.LASF31
  2873 05aa 01       		.byte	0x1
  2874 05ab 7009     		.2byte	0x970
  2875 05ad 6B000000 		.4byte	0x6b
  2876 05b1 5A020000 		.4byte	.LLST20
  2877 05b5 19       		.uleb128 0x19
- 2878 05b6 F7030000 		.4byte	.LASF59
+ 2878 05b6 B4030000 		.4byte	.LASF59
  2879 05ba 01       		.byte	0x1
  2880 05bb 7209     		.2byte	0x972
  2881 05bd 6B000000 		.4byte	0x6b
  2882 05c1 7B020000 		.4byte	.LLST21
  2883 05c5 00       		.byte	0
  2884 05c6 17       		.uleb128 0x17
- 2885 05c7 5C050000 		.4byte	.LASF62
+ 2885 05c7 19050000 		.4byte	.LASF62
  2886 05cb 01       		.byte	0x1
  2887 05cc 8509     		.2byte	0x985
  2888 05ce 00000000 		.4byte	.LFB21
@@ -6449,7 +6449,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2891 05d7 9C       		.byte	0x9c
  2892 05d8 ED050000 		.4byte	0x5ed
  2893 05dc 18       		.uleb128 0x18
- 2894 05dd F0030000 		.4byte	.LASF31
+ 2894 05dd AD030000 		.4byte	.LASF31
  2895 05e1 01       		.byte	0x1
  2896 05e2 8509     		.2byte	0x985
  2897 05e4 6B000000 		.4byte	0x6b
@@ -6466,33 +6466,33 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2908 0602 9C       		.byte	0x9c
  2909 0603 18060000 		.4byte	0x618
  2910 0607 18       		.uleb128 0x18
- 2911 0608 F0030000 		.4byte	.LASF31
+ 2911 0608 AD030000 		.4byte	.LASF31
  2912 060c 01       		.byte	0x1
  2913 060d 9709     		.2byte	0x997
  2914 060f 6B000000 		.4byte	0x6b
  2915 0613 BD020000 		.4byte	.LLST23
  2916 0617 00       		.byte	0
  2917 0618 17       		.uleb128 0x17
- 2918 0619 A5010000 		.4byte	.LASF64
+ 2918 0619 62010000 		.4byte	.LASF64
  2919 061d 01       		.byte	0x1
  2920 061e A709     		.2byte	0x9a7
  2921 0620 00000000 		.4byte	.LFB23
  2922 0624 14000000 		.4byte	.LFE23-.LFB23
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 109
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 109
 
 
  2923 0628 01       		.uleb128 0x1
  2924 0629 9C       		.byte	0x9c
  2925 062a 3F060000 		.4byte	0x63f
  2926 062e 18       		.uleb128 0x18
- 2927 062f F0030000 		.4byte	.LASF31
+ 2927 062f AD030000 		.4byte	.LASF31
  2928 0633 01       		.byte	0x1
  2929 0634 A709     		.2byte	0x9a7
  2930 0636 6B000000 		.4byte	0x6b
  2931 063a DE020000 		.4byte	.LLST24
  2932 063e 00       		.byte	0
  2933 063f 17       		.uleb128 0x17
- 2934 0640 8B030000 		.4byte	.LASF65
+ 2934 0640 48030000 		.4byte	.LASF65
  2935 0644 01       		.byte	0x1
  2936 0645 B509     		.2byte	0x9b5
  2937 0647 00000000 		.4byte	.LFB24
@@ -6501,14 +6501,14 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2940 0650 9C       		.byte	0x9c
  2941 0651 66060000 		.4byte	0x666
  2942 0655 18       		.uleb128 0x18
- 2943 0656 F0030000 		.4byte	.LASF31
+ 2943 0656 AD030000 		.4byte	.LASF31
  2944 065a 01       		.byte	0x1
  2945 065b B509     		.2byte	0x9b5
  2946 065d 6B000000 		.4byte	0x6b
  2947 0661 FF020000 		.4byte	.LLST25
  2948 0665 00       		.byte	0
  2949 0666 17       		.uleb128 0x17
- 2950 0667 6C040000 		.4byte	.LASF66
+ 2950 0667 29040000 		.4byte	.LASF66
  2951 066b 01       		.byte	0x1
  2952 066c C409     		.2byte	0x9c4
  2953 066e 00000000 		.4byte	.LFB25
@@ -6517,14 +6517,14 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2956 0677 9C       		.byte	0x9c
  2957 0678 8D060000 		.4byte	0x68d
  2958 067c 18       		.uleb128 0x18
- 2959 067d F0030000 		.4byte	.LASF31
+ 2959 067d AD030000 		.4byte	.LASF31
  2960 0681 01       		.byte	0x1
  2961 0682 C409     		.2byte	0x9c4
  2962 0684 6B000000 		.4byte	0x6b
  2963 0688 20030000 		.4byte	.LLST26
  2964 068c 00       		.byte	0
  2965 068d 17       		.uleb128 0x17
- 2966 068e 36050000 		.4byte	.LASF67
+ 2966 068e F3040000 		.4byte	.LASF67
  2967 0692 01       		.byte	0x1
  2968 0693 D309     		.2byte	0x9d3
  2969 0695 00000000 		.4byte	.LFB26
@@ -6533,12 +6533,12 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2972 069e 9C       		.byte	0x9c
  2973 069f B2060000 		.4byte	0x6b2
  2974 06a3 1A       		.uleb128 0x1a
- 2975 06a4 4B050000 		.4byte	.LASF49
+ 2975 06a4 08050000 		.4byte	.LASF49
  2976 06a8 01       		.byte	0x1
  2977 06a9 D309     		.2byte	0x9d3
  2978 06ab 6B000000 		.4byte	0x6b
  2979 06af 01       		.uleb128 0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 110
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 110
 
 
  2980 06b0 50       		.byte	0x50
@@ -6552,7 +6552,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2988 06c2 01       		.uleb128 0x1
  2989 06c3 9C       		.byte	0x9c
  2990 06c4 17       		.uleb128 0x17
- 2991 06c5 5A060000 		.4byte	.LASF69
+ 2991 06c5 5C060000 		.4byte	.LASF69
  2992 06c9 01       		.byte	0x1
  2993 06ca FF09     		.2byte	0x9ff
  2994 06cc 00000000 		.4byte	.LFB28
@@ -6561,7 +6561,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  2997 06d5 9C       		.byte	0x9c
  2998 06d6 FD060000 		.4byte	0x6fd
  2999 06da 18       		.uleb128 0x18
- 3000 06db 16050000 		.4byte	.LASF70
+ 3000 06db D3040000 		.4byte	.LASF70
  3001 06df 01       		.byte	0x1
  3002 06e0 FF09     		.2byte	0x9ff
  3003 06e2 83000000 		.4byte	0x83
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3034 0737 26       		.uleb128 0x26
  3035 0738 FE000000 		.4byte	0xfe
  3036 073c 5F030000 		.4byte	.LLST28
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 111
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 111
 
 
  3037 0740 26       		.uleb128 0x26
@@ -6655,10 +6655,10 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3088 07a9 560C0000 		.4byte	0xc56
  3089 07ad 00       		.byte	0
  3090 07ae 17       		.uleb128 0x17
- 3091 07af 00040000 		.4byte	.LASF71
+ 3091 07af BD030000 		.4byte	.LASF71
  3092 07b3 01       		.byte	0x1
  3093 07b4 3C03     		.2byte	0x33c
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 112
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 112
 
 
  3094 07b6 00000000 		.4byte	.LFB10
@@ -6679,13 +6679,13 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3109 07dc 6B000000 		.4byte	0x6b
  3110 07e0 41040000 		.4byte	.LLST33
  3111 07e4 19       		.uleb128 0x19
- 3112 07e5 37060000 		.4byte	.LASF72
+ 3112 07e5 F4050000 		.4byte	.LASF72
  3113 07e9 01       		.byte	0x1
  3114 07ea 3F03     		.2byte	0x33f
  3115 07ec 6B000000 		.4byte	0x6b
  3116 07f0 55040000 		.4byte	.LLST34
  3117 07f4 19       		.uleb128 0x19
- 3118 07f5 94010000 		.4byte	.LASF73
+ 3118 07f5 51010000 		.4byte	.LASF73
  3119 07f9 01       		.byte	0x1
  3120 07fa 4203     		.2byte	0x342
  3121 07fc 83000000 		.4byte	0x83
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3148 0841 01       		.uleb128 0x1
  3149 0842 50       		.byte	0x50
  3150 0843 02       		.uleb128 0x2
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 113
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 113
 
 
  3151 0844 08       		.byte	0x8
@@ -6741,7 +6741,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3168 0861 00       		.byte	0
  3169 0862 00       		.byte	0
  3170 0863 17       		.uleb128 0x17
- 3171 0864 84050000 		.4byte	.LASF74
+ 3171 0864 41050000 		.4byte	.LASF74
  3172 0868 01       		.byte	0x1
  3173 0869 160A     		.2byte	0xa16
  3174 086b 00000000 		.4byte	.LFB29
@@ -6750,7 +6750,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3177 0874 9C       		.byte	0x9c
  3178 0875 93080000 		.4byte	0x893
  3179 0879 18       		.uleb128 0x18
- 3180 087a 01070000 		.4byte	.LASF75
+ 3180 087a 03070000 		.4byte	.LASF75
  3181 087e 01       		.byte	0x1
  3182 087f 160A     		.2byte	0xa16
  3183 0881 77000000 		.4byte	0x77
@@ -6776,9 +6776,9 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3203 08b5 C6040000 		.4byte	.LLST37
  3204 08b9 00       		.byte	0
  3205 08ba 2A       		.uleb128 0x2a
- 3206 08bb F2020000 		.4byte	.LASF77
+ 3206 08bb AF020000 		.4byte	.LASF77
  3207 08bf 01       		.byte	0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 114
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 114
 
 
  3208 08c0 610A     		.2byte	0xa61
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3262 094f 2C000000 		.4byte	.LBB39
  3263 0953 04000000 		.4byte	.LBE39-.LBB39
  3264 0957 01       		.byte	0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 115
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 115
 
 
  3265 0958 700A     		.2byte	0xa70
@@ -6855,7 +6855,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3276 0976 710A     		.2byte	0xa71
  3277 0978 00       		.byte	0
  3278 0979 13       		.uleb128 0x13
- 3279 097a A3060000 		.4byte	.LASF78
+ 3279 097a A5060000 		.4byte	.LASF78
  3280 097e 01       		.byte	0x1
  3281 097f 900A     		.2byte	0xa90
  3282 0981 00000000 		.4byte	.LFB34
@@ -6871,7 +6871,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3292 099b 01       		.uleb128 0x1
  3293 099c 9C       		.byte	0x9c
  3294 099d 17       		.uleb128 0x17
- 3295 099e D2050000 		.4byte	.LASF80
+ 3295 099e 8F050000 		.4byte	.LASF80
  3296 09a2 01       		.byte	0x1
  3297 09a3 7F0A     		.2byte	0xa7f
  3298 09a5 00000000 		.4byte	.LFB33
@@ -6884,7 +6884,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3305 09b8 8B090000 		.4byte	0x98b
  3306 09bc 00       		.byte	0
  3307 09bd 17       		.uleb128 0x17
- 3308 09be 47040000 		.4byte	.LASF81
+ 3308 09be 04040000 		.4byte	.LASF81
  3309 09c2 01       		.byte	0x1
  3310 09c3 440A     		.2byte	0xa44
  3311 09c5 00000000 		.4byte	.LFB31
@@ -6898,12 +6898,12 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3319 09dc 15       		.uleb128 0x15
  3320 09dd 16000000 		.4byte	.LVL119
  3321 09e1 9D090000 		.4byte	0x99d
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 116
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 116
 
 
  3322 09e5 00       		.byte	0
  3323 09e6 13       		.uleb128 0x13
- 3324 09e7 7A060000 		.4byte	.LASF82
+ 3324 09e7 7C060000 		.4byte	.LASF82
  3325 09eb 01       		.byte	0x1
  3326 09ec B00A     		.2byte	0xab0
  3327 09ee 00000000 		.4byte	.LFB36
@@ -6922,7 +6922,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3340 0a10 A1050000 		.4byte	.LLST45
  3341 0a14 00       		.byte	0
  3342 0a15 16       		.uleb128 0x16
- 3343 0a16 6B010000 		.4byte	.LASF84
+ 3343 0a16 28010000 		.4byte	.LASF84
  3344 0a1a 01       		.byte	0x1
  3345 0a1b D10A     		.2byte	0xad1
  3346 0a1d 83000000 		.4byte	0x83
@@ -6931,7 +6931,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3349 0a29 01       		.uleb128 0x1
  3350 0a2a 9C       		.byte	0x9c
  3351 0a2b 16       		.uleb128 0x16
- 3352 0a2c A8040000 		.4byte	.LASF85
+ 3352 0a2c 65040000 		.4byte	.LASF85
  3353 0a30 01       		.byte	0x1
  3354 0a31 E10A     		.2byte	0xae1
  3355 0a33 83000000 		.4byte	0x83
@@ -6958,10 +6958,10 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3376 0a69 00       		.byte	0
  3377 0a6a 00       		.byte	0
  3378 0a6b 16       		.uleb128 0x16
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 117
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 117
 
 
- 3379 0a6c 62060000 		.4byte	.LASF86
+ 3379 0a6c 64060000 		.4byte	.LASF86
  3380 0a70 01       		.byte	0x1
  3381 0a71 1A0B     		.2byte	0xb1a
  3382 0a73 83000000 		.4byte	0x83
@@ -6970,7 +6970,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3385 0a7f 01       		.uleb128 0x1
  3386 0a80 9C       		.byte	0x9c
  3387 0a81 16       		.uleb128 0x16
- 3388 0a82 20030000 		.4byte	.LASF87
+ 3388 0a82 DD020000 		.4byte	.LASF87
  3389 0a86 01       		.byte	0x1
  3390 0a87 310B     		.2byte	0xb31
  3391 0a89 83000000 		.4byte	0x83
@@ -7005,7 +7005,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3420 0ad9 01       		.uleb128 0x1
  3421 0ada 9C       		.byte	0x9c
  3422 0adb 1B       		.uleb128 0x1b
- 3423 0adc 0F060000 		.4byte	.LASF88
+ 3423 0adc CC050000 		.4byte	.LASF88
  3424 0ae0 01       		.byte	0x1
  3425 0ae1 610B     		.2byte	0xb61
  3426 0ae3 E7000000 		.4byte	0xe7
@@ -7015,16 +7015,16 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3430 0af0 9C       		.byte	0x9c
  3431 0af1 220B0000 		.4byte	0xb22
  3432 0af5 18       		.uleb128 0x18
- 3433 0af6 F0030000 		.4byte	.LASF31
+ 3433 0af6 AD030000 		.4byte	.LASF31
  3434 0afa 01       		.byte	0x1
  3435 0afb 610B     		.2byte	0xb61
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 118
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 118
 
 
  3436 0afd 83000000 		.4byte	0x83
  3437 0b01 D6050000 		.4byte	.LLST47
  3438 0b05 1A       		.uleb128 0x1a
- 3439 0b06 9F040000 		.4byte	.LASF89
+ 3439 0b06 5C040000 		.4byte	.LASF89
  3440 0b0a 01       		.byte	0x1
  3441 0b0b 610B     		.2byte	0xb61
  3442 0b0d E7000000 		.4byte	0xe7
@@ -7039,7 +7039,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3451 0b20 50       		.byte	0x50
  3452 0b21 00       		.byte	0
  3453 0b22 1B       		.uleb128 0x1b
- 3454 0b23 44020000 		.4byte	.LASF91
+ 3454 0b23 01020000 		.4byte	.LASF91
  3455 0b27 01       		.byte	0x1
  3456 0b28 790B     		.2byte	0xb79
  3457 0b2a E7000000 		.4byte	0xe7
@@ -7049,14 +7049,14 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3461 0b37 9C       		.byte	0x9c
  3462 0b38 4D0B0000 		.4byte	0xb4d
  3463 0b3c 18       		.uleb128 0x18
- 3464 0b3d F0030000 		.4byte	.LASF31
+ 3464 0b3d AD030000 		.4byte	.LASF31
  3465 0b41 01       		.byte	0x1
  3466 0b42 790B     		.2byte	0xb79
  3467 0b44 83000000 		.4byte	0x83
  3468 0b48 F7050000 		.4byte	.LLST48
  3469 0b4c 00       		.byte	0
  3470 0b4d 17       		.uleb128 0x17
- 3471 0b4e 12030000 		.4byte	.LASF92
+ 3471 0b4e CF020000 		.4byte	.LASF92
  3472 0b52 01       		.byte	0x1
  3473 0b53 A60B     		.2byte	0xba6
  3474 0b55 00000000 		.4byte	.LFB47
@@ -7065,7 +7065,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3477 0b5e 9C       		.byte	0x9c
  3478 0b5f 720B0000 		.4byte	0xb72
  3479 0b63 1A       		.uleb128 0x1a
- 3480 0b64 45060000 		.4byte	.LASF93
+ 3480 0b64 02060000 		.4byte	.LASF93
  3481 0b68 01       		.byte	0x1
  3482 0b69 A60B     		.2byte	0xba6
  3483 0b6b 720B0000 		.4byte	0xb72
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3490 0b78 32       		.uleb128 0x32
  3491 0b79 E7000000 		.4byte	0xe7
  3492 0b7d 880B0000 		.4byte	0xb88
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 119
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 119
 
 
  3493 0b81 33       		.uleb128 0x33
@@ -7086,7 +7086,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3495 0b86 04       		.byte	0x4
  3496 0b87 00       		.byte	0
  3497 0b88 34       		.uleb128 0x34
- 3498 0b89 24060000 		.4byte	.LASF94
+ 3498 0b89 E1050000 		.4byte	.LASF94
  3499 0b8d 01       		.byte	0x1
  3500 0b8e 22       		.byte	0x22
  3501 0b8f 780B0000 		.4byte	0xb78
@@ -7094,7 +7094,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3503 0b94 03       		.byte	0x3
  3504 0b95 00000000 		.4byte	CySysTickCallbacks
  3505 0b99 35       		.uleb128 0x35
- 3506 0b9a BA040000 		.4byte	.LASF95
+ 3506 0b9a 77040000 		.4byte	.LASF95
  3507 0b9e 01       		.byte	0x1
  3508 0b9f 1B       		.byte	0x1b
  3509 0ba0 83000000 		.4byte	0x83
@@ -7102,7 +7102,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3511 0ba5 03       		.byte	0x3
  3512 0ba6 00000000 		.4byte	cydelayFreqHz
  3513 0baa 35       		.uleb128 0x35
- 3514 0bab 74020000 		.4byte	.LASF96
+ 3514 0bab 31020000 		.4byte	.LASF96
  3515 0baf 01       		.byte	0x1
  3516 0bb0 1C       		.byte	0x1c
  3517 0bb1 83000000 		.4byte	0x83
@@ -7110,7 +7110,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3519 0bb6 03       		.byte	0x3
  3520 0bb7 00000000 		.4byte	cydelayFreqKhz
  3521 0bbb 35       		.uleb128 0x35
- 3522 0bbc 94060000 		.4byte	.LASF97
+ 3522 0bbc 96060000 		.4byte	.LASF97
  3523 0bc0 01       		.byte	0x1
  3524 0bc1 1D       		.byte	0x1d
  3525 0bc2 6B000000 		.4byte	0x6b
@@ -7118,7 +7118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3527 0bc7 03       		.byte	0x3
  3528 0bc8 00000000 		.4byte	cydelayFreqMhz
  3529 0bcc 35       		.uleb128 0x35
- 3530 0bcd E5020000 		.4byte	.LASF98
+ 3530 0bcd A2020000 		.4byte	.LASF98
  3531 0bd1 01       		.byte	0x1
  3532 0bd2 1E       		.byte	0x1e
  3533 0bd3 83000000 		.4byte	0x83
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3547 0bf3 FE0B0000 		.4byte	0xbfe
  3548 0bf7 33       		.uleb128 0x33
  3549 0bf8 E0000000 		.4byte	0xe0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 120
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 120
 
 
  3550 0bfc 16       		.byte	0x16
@@ -7146,7 +7146,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3552 0bfe 36       		.uleb128 0x36
  3553 0bff 6B000000 		.4byte	0x6b
  3554 0c03 35       		.uleb128 0x35
- 3555 0c04 AD050000 		.4byte	.LASF100
+ 3555 0c04 6A050000 		.4byte	.LASF100
  3556 0c08 01       		.byte	0x1
  3557 0c09 4C       		.byte	0x4c
  3558 0c0a 140C0000 		.4byte	0xc14
@@ -7164,23 +7164,23 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3570 0c25 03       		.byte	0x3
  3571 0c26 00000000 		.4byte	CySysClkPumpConfig
  3572 0c2a 37       		.uleb128 0x37
- 3573 0c2b 74030000 		.4byte	.LASF102
- 3574 0c2f 74030000 		.4byte	.LASF102
+ 3573 0c2b 31030000 		.4byte	.LASF102
+ 3574 0c2f 31030000 		.4byte	.LASF102
  3575 0c33 03       		.byte	0x3
  3576 0c34 E5       		.byte	0xe5
  3577 0c35 37       		.uleb128 0x37
- 3578 0c36 DF040000 		.4byte	.LASF103
- 3579 0c3a DF040000 		.4byte	.LASF103
+ 3578 0c36 9C040000 		.4byte	.LASF103
+ 3579 0c3a 9C040000 		.4byte	.LASF103
  3580 0c3e 03       		.byte	0x3
  3581 0c3f E6       		.byte	0xe6
  3582 0c40 37       		.uleb128 0x37
- 3583 0c41 23050000 		.4byte	.LASF104
- 3584 0c45 23050000 		.4byte	.LASF104
+ 3583 0c41 E0040000 		.4byte	.LASF104
+ 3584 0c45 E0040000 		.4byte	.LASF104
  3585 0c49 03       		.byte	0x3
  3586 0c4a DC       		.byte	0xdc
  3587 0c4b 37       		.uleb128 0x37
- 3588 0c4c CA060000 		.4byte	.LASF105
- 3589 0c50 CA060000 		.4byte	.LASF105
+ 3588 0c4c CC060000 		.4byte	.LASF105
+ 3589 0c50 CC060000 		.4byte	.LASF105
  3590 0c54 04       		.byte	0x4
  3591 0c55 52       		.byte	0x52
  3592 0c56 37       		.uleb128 0x37
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3604 0004 0E       		.uleb128 0xe
  3605 0005 13       		.uleb128 0x13
  3606 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 121
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 121
 
 
  3607 0007 03       		.uleb128 0x3
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3661 003d 06       		.uleb128 0x6
  3662 003e 0F       		.uleb128 0xf
  3663 003f 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 122
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 122
 
 
  3664 0040 0B       		.uleb128 0xb
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3718 0076 49       		.uleb128 0x49
  3719 0077 13       		.uleb128 0x13
  3720 0078 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 123
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 123
 
 
  3721 0079 00       		.byte	0
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3775 00af 08       		.uleb128 0x8
  3776 00b0 3A       		.uleb128 0x3a
  3777 00b1 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 124
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 124
 
 
  3778 00b2 3B       		.uleb128 0x3b
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3832 00e8 13       		.uleb128 0x13
  3833 00e9 00       		.byte	0
  3834 00ea 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 125
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 125
 
 
  3835 00eb 12       		.uleb128 0x12
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3889 0123 0B       		.uleb128 0xb
  3890 0124 3B       		.uleb128 0x3b
  3891 0125 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 126
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 126
 
 
  3892 0126 27       		.uleb128 0x27
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  3946 0160 0E       		.uleb128 0xe
  3947 0161 3A       		.uleb128 0x3a
  3948 0162 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 127
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 127
 
 
  3949 0163 3B       		.uleb128 0x3b
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4003 019a 05       		.uleb128 0x5
  4004 019b 49       		.uleb128 0x49
  4005 019c 13       		.uleb128 0x13
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 128
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 128
 
 
  4006 019d 02       		.uleb128 0x2
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4060 01d4 06       		.uleb128 0x6
  4061 01d5 40       		.uleb128 0x40
  4062 01d6 18       		.uleb128 0x18
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 129
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 129
 
 
  4063 01d7 9742     		.uleb128 0x2117
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4117 020e 06       		.uleb128 0x6
  4118 020f 00       		.byte	0
  4119 0210 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 130
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 130
 
 
  4120 0211 23       		.uleb128 0x23
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4174 024c 00       		.byte	0
  4175 024d 00       		.byte	0
  4176 024e 29       		.uleb128 0x29
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 131
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 131
 
 
  4177 024f 898201   		.uleb128 0x4109
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4231 0288 01       		.uleb128 0x1
  4232 0289 55       		.uleb128 0x55
  4233 028a 17       		.uleb128 0x17
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 132
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 132
 
 
  4234 028b 58       		.uleb128 0x58
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4288 02c1 12       		.uleb128 0x12
  4289 02c2 06       		.uleb128 0x6
  4290 02c3 40       		.uleb128 0x40
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 133
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 133
 
 
  4291 02c4 18       		.uleb128 0x18
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4345 02fc 00       		.byte	0
  4346 02fd 35       		.uleb128 0x35
  4347 02fe 34       		.uleb128 0x34
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 134
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 134
 
 
  4348 02ff 00       		.byte	0
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4402 0020 F3       		.byte	0xf3
  4403 0021 01       		.uleb128 0x1
  4404 0022 50       		.byte	0x50
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 135
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 135
 
 
  4405 0023 9F       		.byte	0x9f
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4459 00b0 0400     		.2byte	0x4
  4460 00b2 F3       		.byte	0xf3
  4461 00b3 01       		.uleb128 0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 136
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 136
 
 
  4462 00b4 50       		.byte	0x50
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4516 013b 1A       		.byte	0x1a
  4517 013c 9F       		.byte	0x9f
  4518 013d 0C000000 		.4byte	.LVL23
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 137
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 137
 
 
  4519 0141 14000000 		.4byte	.LFE12
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4573 01c6 0400     		.2byte	0x4
  4574 01c8 F3       		.byte	0xf3
  4575 01c9 01       		.uleb128 0x1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 138
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 138
 
 
  4576 01ca 50       		.byte	0x50
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4630 0251 57       		.byte	0x57
  4631 0252 00000000 		.4byte	0
  4632 0256 00000000 		.4byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 139
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 139
 
 
  4633              	.LLST20:
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4687 02c8 06000000 		.4byte	.LVL52
  4688 02cc 18000000 		.4byte	.LFE22
  4689 02d0 0400     		.2byte	0x4
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 140
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 140
 
 
  4690 02d2 F3       		.byte	0xf3
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4744 0350 22000000 		.4byte	.LVL65
  4745 0354 0100     		.2byte	0x1
  4746 0356 54       		.byte	0x54
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 141
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 141
 
 
  4747 0357 00000000 		.4byte	0
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4800 03dc 70       		.byte	0x70
  4801 03dd 00       		.sleb128 0
  4802 03de 22       		.byte	0x22
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 142
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 142
 
 
  4803 03df 12       		.byte	0x12
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4857 0449 0200     		.2byte	0x2
  4858 044b 91       		.byte	0x91
  4859 044c 64       		.sleb128 -28
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 143
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 143
 
 
  4860 044d 00000000 		.4byte	0
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4914 04d5 48000000 		.4byte	.LFE30
  4915 04d9 0400     		.2byte	0x4
  4916 04db F3       		.byte	0xf3
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 144
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 144
 
 
  4917 04dc 01       		.uleb128 0x1
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  4971 0561 3F       		.byte	0x3f
  4972 0562 9F       		.byte	0x9f
  4973 0563 00000000 		.4byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 145
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 145
 
 
  4974 0567 00000000 		.4byte	0
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5028 05ee 9F       		.byte	0x9f
  5029 05ef 00000000 		.4byte	0
  5030 05f3 00000000 		.4byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 146
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 146
 
 
  5031              	.LLST48:
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5085 0090 00000000 		.4byte	.LFB19
  5086 0094 34000000 		.4byte	.LFE19-.LFB19
  5087 0098 00000000 		.4byte	.LFB20
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 147
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 147
 
 
  5088 009c 20000000 		.4byte	.LFE20-.LFB20
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5142 0174 10000000 		.4byte	.LFE44-.LFB44
  5143 0178 00000000 		.4byte	.LFB45
  5144 017c 0C000000 		.4byte	.LFE45-.LFB45
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 148
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 148
 
 
  5145 0180 00000000 		.4byte	.LFB47
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5199 00c0 00000000 		.4byte	.LFB16
  5200 00c4 0C000000 		.4byte	.LFE16
  5201 00c8 00000000 		.4byte	.LFB17
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 149
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 149
 
 
  5202 00cc 10000000 		.4byte	.LFE17
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5256 01a4 10000000 		.4byte	.LFE42
  5257 01a8 00000000 		.4byte	.LFB46
  5258 01ac 24000000 		.4byte	.LFE46
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 150
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 150
 
 
  5259 01b0 00000000 		.4byte	.LFB43
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5289      206C6F6E 
  5289      6720756E 
  5289      7369676E 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 151
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 151
 
 
  5289      65642069 
@@ -9058,487 +9058,487 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 1
  5311      746500
  5312              	.LASF24:
  5313 0120 6C664C69 		.ascii	"lfLimit\000"
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 152
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 152
 
 
  5313      6D697400 
- 5314              	.LASF109:
- 5315 0128 433A5C55 		.ascii	"C:\\Users\\Minakian\\Documents\\PSoC Creator\\Bootl"
- 5315      73657273 
- 5315      5C4D696E 
- 5315      616B6961 
- 5315      6E5C446F 
- 5316 0156 6F61645C 		.ascii	"oad\\Bootloader.cydsn\000"
- 5316      426F6F74 
- 5316      6C6F6164 
- 5316      65722E63 
- 5316      7964736E 
- 5317              	.LASF84:
- 5318 016b 43795379 		.ascii	"CySysTickGetReload\000"
- 5318      73546963 
- 5318      6B476574 
- 5318      52656C6F 
- 5318      616400
- 5319              	.LASF83:
- 5320 017e 43795379 		.ascii	"CySysClkImoGetWcoLock\000"
- 5320      73436C6B 
- 5320      496D6F47 
- 5320      65745763 
- 5320      6F4C6F63 
- 5321              	.LASF73:
- 5322 0194 77636F4C 		.ascii	"wcoLock\000"
- 5322      6F636B00 
- 5323              	.LASF4:
- 5324 019c 6C6F6E67 		.ascii	"long int\000"
- 5324      20696E74 
- 5324      00
- 5325              	.LASF64:
- 5326 01a5 4379496E 		.ascii	"CyIntDisable\000"
- 5326      74446973 
- 5326      61626C65 
- 5326      00
- 5327              	.LASF107:
- 5328 01b2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 5328      43313120 
- 5328      352E342E 
- 5328      31203230 
- 5328      31363036 
- 5329 01e5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 5329      20726576 
- 5329      6973696F 
- 5329      6E203233 
- 5329      37373135 
- 5330 0218 67202D4F 		.ascii	"g -Os -ffunction-sections -ffat-lto-objects\000"
- 5330      73202D66 
- 5330      66756E63 
- 5330      74696F6E 
- 5330      2D736563 
- 5331              	.LASF91:
- 5332 0244 43795379 		.ascii	"CySysTickGetCallback\000"
- 5332      73546963 
- 5332      6B476574 
- 5332      43616C6C 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 153
+ 5314              	.LASF84:
+ 5315 0128 43795379 		.ascii	"CySysTickGetReload\000"
+ 5315      73546963 
+ 5315      6B476574 
+ 5315      52656C6F 
+ 5315      616400
+ 5316              	.LASF83:
+ 5317 013b 43795379 		.ascii	"CySysClkImoGetWcoLock\000"
+ 5317      73436C6B 
+ 5317      496D6F47 
+ 5317      65745763 
+ 5317      6F4C6F63 
+ 5318              	.LASF73:
+ 5319 0151 77636F4C 		.ascii	"wcoLock\000"
+ 5319      6F636B00 
+ 5320              	.LASF4:
+ 5321 0159 6C6F6E67 		.ascii	"long int\000"
+ 5321      20696E74 
+ 5321      00
+ 5322              	.LASF64:
+ 5323 0162 4379496E 		.ascii	"CyIntDisable\000"
+ 5323      74446973 
+ 5323      61626C65 
+ 5323      00
+ 5324              	.LASF107:
+ 5325 016f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 5325      43313120 
+ 5325      352E342E 
+ 5325      31203230 
+ 5325      31363036 
+ 5326 01a2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 5326      20726576 
+ 5326      6973696F 
+ 5326      6E203233 
+ 5326      37373135 
+ 5327 01d5 67202D4F 		.ascii	"g -Os -ffunction-sections -ffat-lto-objects\000"
+ 5327      73202D66 
+ 5327      66756E63 
+ 5327      74696F6E 
+ 5327      2D736563 
+ 5328              	.LASF91:
+ 5329 0201 43795379 		.ascii	"CySysTickGetCallback\000"
+ 5329      73546963 
+ 5329      6B476574 
+ 5329      43616C6C 
+ 5329      6261636B 
+ 5330              	.LASF40:
+ 5331 0216 43795379 		.ascii	"CySysEnablePumpClock\000"
+ 5331      73456E61 
+ 5331      626C6550 
+ 5331      756D7043 
+ 5331      6C6F636B 
+ 5332              	.LASF9:
+ 5333 022b 75696E74 		.ascii	"uint8\000"
+ 5333      3800
+ 5334              	.LASF96:
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 153
 
 
- 5332      6261636B 
- 5333              	.LASF40:
- 5334 0259 43795379 		.ascii	"CySysEnablePumpClock\000"
- 5334      73456E61 
- 5334      626C6550 
- 5334      756D7043 
- 5334      6C6F636B 
- 5335              	.LASF9:
- 5336 026e 75696E74 		.ascii	"uint8\000"
- 5336      3800
- 5337              	.LASF96:
- 5338 0274 63796465 		.ascii	"cydelayFreqKhz\000"
- 5338      6C617946 
- 5338      7265714B 
- 5338      687A00
- 5339              	.LASF42:
- 5340 0283 656E6162 		.ascii	"enable\000"
- 5340      6C6500
- 5341              	.LASF13:
- 5342 028a 646F7562 		.ascii	"double\000"
- 5342      6C6500
- 5343              	.LASF60:
- 5344 0291 73686966 		.ascii	"shift\000"
- 5344      7400
- 5345              	.LASF11:
- 5346 0297 75696E74 		.ascii	"uint32\000"
- 5346      333200
- 5347              	.LASF54:
- 5348 029e 6D61736B 		.ascii	"mask\000"
- 5348      00
- 5349              	.LASF47:
- 5350 02a3 43795379 		.ascii	"CySysClkGetSysclkSource\000"
- 5350      73436C6B 
- 5350      47657453 
- 5350      7973636C 
- 5350      6B536F75 
- 5351              	.LASF26:
- 5352 02bb 43795379 		.ascii	"CySysClkImoEnableWcoLock\000"
- 5352      73436C6B 
- 5352      496D6F45 
- 5352      6E61626C 
- 5352      6557636F 
- 5353              	.LASF61:
- 5354 02d4 4379496E 		.ascii	"CyIntGetPriority\000"
- 5354      74476574 
- 5354      5072696F 
- 5354      72697479 
- 5354      00
- 5355              	.LASF98:
- 5356 02e5 63796465 		.ascii	"cydelay32kMs\000"
- 5356      6C617933 
- 5356      326B4D73 
- 5356      00
- 5357              	.LASF77:
- 5358 02f2 43795379 		.ascii	"CySysTickInit\000"
- 5358      73546963 
- 5358      6B496E69 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 154
+ 5335 0231 63796465 		.ascii	"cydelayFreqKhz\000"
+ 5335      6C617946 
+ 5335      7265714B 
+ 5335      687A00
+ 5336              	.LASF42:
+ 5337 0240 656E6162 		.ascii	"enable\000"
+ 5337      6C6500
+ 5338              	.LASF13:
+ 5339 0247 646F7562 		.ascii	"double\000"
+ 5339      6C6500
+ 5340              	.LASF60:
+ 5341 024e 73686966 		.ascii	"shift\000"
+ 5341      7400
+ 5342              	.LASF11:
+ 5343 0254 75696E74 		.ascii	"uint32\000"
+ 5343      333200
+ 5344              	.LASF54:
+ 5345 025b 6D61736B 		.ascii	"mask\000"
+ 5345      00
+ 5346              	.LASF47:
+ 5347 0260 43795379 		.ascii	"CySysClkGetSysclkSource\000"
+ 5347      73436C6B 
+ 5347      47657453 
+ 5347      7973636C 
+ 5347      6B536F75 
+ 5348              	.LASF26:
+ 5349 0278 43795379 		.ascii	"CySysClkImoEnableWcoLock\000"
+ 5349      73436C6B 
+ 5349      496D6F45 
+ 5349      6E61626C 
+ 5349      6557636F 
+ 5350              	.LASF61:
+ 5351 0291 4379496E 		.ascii	"CyIntGetPriority\000"
+ 5351      74476574 
+ 5351      5072696F 
+ 5351      72697479 
+ 5351      00
+ 5352              	.LASF98:
+ 5353 02a2 63796465 		.ascii	"cydelay32kMs\000"
+ 5353      6C617933 
+ 5353      326B4D73 
+ 5353      00
+ 5354              	.LASF77:
+ 5355 02af 43795379 		.ascii	"CySysTickInit\000"
+ 5355      73546963 
+ 5355      6B496E69 
+ 5355      7400
+ 5356              	.LASF30:
+ 5357 02bd 76616C75 		.ascii	"value\000"
+ 5357      6500
+ 5358              	.LASF29:
+ 5359 02c3 636C6F63 		.ascii	"clockSource\000"
+ 5359      6B536F75 
+ 5359      72636500 
+ 5360              	.LASF92:
+ 5361 02cf 43794765 		.ascii	"CyGetUniqueId\000"
+ 5361      74556E69 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 154
 
 
- 5358      7400
- 5359              	.LASF30:
- 5360 0300 76616C75 		.ascii	"value\000"
- 5360      6500
- 5361              	.LASF29:
- 5362 0306 636C6F63 		.ascii	"clockSource\000"
- 5362      6B536F75 
- 5362      72636500 
- 5363              	.LASF92:
- 5364 0312 43794765 		.ascii	"CyGetUniqueId\000"
- 5364      74556E69 
- 5364      71756549 
- 5364      6400
- 5365              	.LASF87:
- 5366 0320 43795379 		.ascii	"CySysTickGetCountFlag\000"
- 5366      73546963 
- 5366      6B476574 
- 5366      436F756E 
- 5366      74466C61 
- 5367              	.LASF8:
- 5368 0336 756E7369 		.ascii	"unsigned int\000"
- 5368      676E6564 
- 5368      20696E74 
- 5368      00
- 5369              	.LASF111:
- 5370 0343 43795379 		.ascii	"CySysTickClear\000"
- 5370      73546963 
- 5370      6B436C65 
- 5370      617200
- 5371              	.LASF5:
- 5372 0352 6C6F6E67 		.ascii	"long unsigned int\000"
- 5372      20756E73 
- 5372      69676E65 
- 5372      6420696E 
- 5372      7400
- 5373              	.LASF37:
- 5374 0364 43795379 		.ascii	"CySysClkImoStop\000"
- 5374      73436C6B 
- 5374      496D6F53 
- 5374      746F7000 
- 5375              	.LASF102:
- 5376 0374 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 5376      74657243 
- 5376      72697469 
- 5376      63616C53 
- 5376      65637469 
- 5377              	.LASF65:
- 5378 038b 4379496E 		.ascii	"CyIntSetPending\000"
- 5378      74536574 
- 5378      50656E64 
- 5378      696E6700 
- 5379              	.LASF48:
- 5380 039b 43795379 		.ascii	"CySysGetResetReason\000"
- 5380      73476574 
- 5380      52657365 
- 5380      74526561 
- 5380      736F6E00 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 155
+ 5361      71756549 
+ 5361      6400
+ 5362              	.LASF87:
+ 5363 02dd 43795379 		.ascii	"CySysTickGetCountFlag\000"
+ 5363      73546963 
+ 5363      6B476574 
+ 5363      436F756E 
+ 5363      74466C61 
+ 5364              	.LASF8:
+ 5365 02f3 756E7369 		.ascii	"unsigned int\000"
+ 5365      676E6564 
+ 5365      20696E74 
+ 5365      00
+ 5366              	.LASF111:
+ 5367 0300 43795379 		.ascii	"CySysTickClear\000"
+ 5367      73546963 
+ 5367      6B436C65 
+ 5367      617200
+ 5368              	.LASF5:
+ 5369 030f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 5369      20756E73 
+ 5369      69676E65 
+ 5369      6420696E 
+ 5369      7400
+ 5370              	.LASF37:
+ 5371 0321 43795379 		.ascii	"CySysClkImoStop\000"
+ 5371      73436C6B 
+ 5371      496D6F53 
+ 5371      746F7000 
+ 5372              	.LASF102:
+ 5373 0331 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 5373      74657243 
+ 5373      72697469 
+ 5373      63616C53 
+ 5373      65637469 
+ 5374              	.LASF65:
+ 5375 0348 4379496E 		.ascii	"CyIntSetPending\000"
+ 5375      74536574 
+ 5375      50656E64 
+ 5375      696E6700 
+ 5376              	.LASF48:
+ 5377 0358 43795379 		.ascii	"CySysGetResetReason\000"
+ 5377      73476574 
+ 5377      52657365 
+ 5377      74526561 
+ 5377      736F6E00 
+ 5378              	.LASF3:
+ 5379 036c 73686F72 		.ascii	"short unsigned int\000"
+ 5379      7420756E 
+ 5379      7369676E 
+ 5379      65642069 
+ 5379      6E7400
+ 5380              	.LASF23:
+ 5381 037f 72656754 		.ascii	"regTmp\000"
+ 5381      6D7000
+ 5382              	.LASF27:
+ 5383 0386 43795379 		.ascii	"CySysTickSetClockSource\000"
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 155
 
 
- 5381              	.LASF3:
- 5382 03af 73686F72 		.ascii	"short unsigned int\000"
- 5382      7420756E 
- 5382      7369676E 
- 5382      65642069 
- 5382      6E7400
- 5383              	.LASF23:
- 5384 03c2 72656754 		.ascii	"regTmp\000"
- 5384      6D7000
- 5385              	.LASF27:
- 5386 03c9 43795379 		.ascii	"CySysTickSetClockSource\000"
- 5386      73546963 
- 5386      6B536574 
- 5386      436C6F63 
- 5386      6B536F75 
- 5387              	.LASF56:
- 5388 03e1 4379496E 		.ascii	"CyIntSetVector\000"
- 5388      74536574 
- 5388      56656374 
- 5388      6F7200
- 5389              	.LASF31:
- 5390 03f0 6E756D62 		.ascii	"number\000"
- 5390      657200
- 5391              	.LASF59:
- 5392 03f7 7072696F 		.ascii	"priority\000"
- 5392      72697479 
- 5392      00
- 5393              	.LASF71:
- 5394 0400 43795379 		.ascii	"CySysClkWriteImoFreq\000"
- 5394      73436C6B 
- 5394      57726974 
- 5394      65496D6F 
- 5394      46726571 
- 5395              	.LASF112:
- 5396 0415 4379496E 		.ascii	"CyIntSetSysVector\000"
- 5396      74536574 
- 5396      53797356 
- 5396      6563746F 
- 5396      7200
- 5397              	.LASF36:
- 5398 0427 43795379 		.ascii	"CySysClkImoDisableWcoLock\000"
- 5398      73436C6B 
- 5398      496D6F44 
- 5398      69736162 
- 5398      6C655763 
- 5399              	.LASF16:
- 5400 0441 72656733 		.ascii	"reg32\000"
- 5400      3200
- 5401              	.LASF81:
- 5402 0447 43795379 		.ascii	"CySysTickStart\000"
- 5402      73546963 
- 5402      6B537461 
- 5402      727400
- 5403              	.LASF50:
- 5404 0456 72657475 		.ascii	"returnStatus\000"
- 5404      726E5374 
- 5404      61747573 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 156
+ 5383      73546963 
+ 5383      6B536574 
+ 5383      436C6F63 
+ 5383      6B536F75 
+ 5384              	.LASF56:
+ 5385 039e 4379496E 		.ascii	"CyIntSetVector\000"
+ 5385      74536574 
+ 5385      56656374 
+ 5385      6F7200
+ 5386              	.LASF31:
+ 5387 03ad 6E756D62 		.ascii	"number\000"
+ 5387      657200
+ 5388              	.LASF59:
+ 5389 03b4 7072696F 		.ascii	"priority\000"
+ 5389      72697479 
+ 5389      00
+ 5390              	.LASF71:
+ 5391 03bd 43795379 		.ascii	"CySysClkWriteImoFreq\000"
+ 5391      73436C6B 
+ 5391      57726974 
+ 5391      65496D6F 
+ 5391      46726571 
+ 5392              	.LASF112:
+ 5393 03d2 4379496E 		.ascii	"CyIntSetSysVector\000"
+ 5393      74536574 
+ 5393      53797356 
+ 5393      6563746F 
+ 5393      7200
+ 5394              	.LASF36:
+ 5395 03e4 43795379 		.ascii	"CySysClkImoDisableWcoLock\000"
+ 5395      73436C6B 
+ 5395      496D6F44 
+ 5395      69736162 
+ 5395      6C655763 
+ 5396              	.LASF16:
+ 5397 03fe 72656733 		.ascii	"reg32\000"
+ 5397      3200
+ 5398              	.LASF81:
+ 5399 0404 43795379 		.ascii	"CySysTickStart\000"
+ 5399      73546963 
+ 5399      6B537461 
+ 5399      727400
+ 5400              	.LASF50:
+ 5401 0413 72657475 		.ascii	"returnStatus\000"
+ 5401      726E5374 
+ 5401      61747573 
+ 5401      00
+ 5402              	.LASF19:
+ 5403 0420 73697A65 		.ascii	"sizetype\000"
+ 5403      74797065 
+ 5403      00
+ 5404              	.LASF66:
+ 5405 0429 4379496E 		.ascii	"CyIntClearPending\000"
+ 5405      74436C65 
+ 5405      61725065 
+ 5405      6E64696E 
+ 5405      6700
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 156
 
 
- 5404      00
- 5405              	.LASF19:
- 5406 0463 73697A65 		.ascii	"sizetype\000"
- 5406      74797065 
- 5406      00
- 5407              	.LASF66:
- 5408 046c 4379496E 		.ascii	"CyIntClearPending\000"
- 5408      74436C65 
- 5408      61725065 
- 5408      6E64696E 
- 5408      6700
- 5409              	.LASF18:
- 5410 047e 6C6F6E67 		.ascii	"long double\000"
- 5410      20646F75 
- 5410      626C6500 
- 5411              	.LASF32:
- 5412 048a 61646472 		.ascii	"address\000"
- 5412      65737300 
- 5413              	.LASF43:
- 5414 0492 73797363 		.ascii	"sysclkSource\000"
- 5414      6C6B536F 
- 5414      75726365 
- 5414      00
- 5415              	.LASF89:
- 5416 049f 66756E63 		.ascii	"function\000"
- 5416      74696F6E 
- 5416      00
- 5417              	.LASF85:
- 5418 04a8 43795379 		.ascii	"CySysTickGetValue\000"
- 5418      73546963 
- 5418      6B476574 
- 5418      56616C75 
- 5418      6500
- 5419              	.LASF95:
- 5420 04ba 63796465 		.ascii	"cydelayFreqHz\000"
- 5420      6C617946 
- 5420      72657148 
- 5420      7A00
- 5421              	.LASF58:
- 5422 04c8 4379496E 		.ascii	"CyIntSetPriority\000"
- 5422      74536574 
- 5422      5072696F 
- 5422      72697479 
- 5422      00
- 5423              	.LASF12:
- 5424 04d9 666C6F61 		.ascii	"float\000"
- 5424      7400
- 5425              	.LASF103:
- 5426 04df 43794578 		.ascii	"CyExitCriticalSection\000"
- 5426      69744372 
- 5426      69746963 
- 5426      616C5365 
- 5426      6374696F 
- 5427              	.LASF20:
- 5428 04f5 63795379 		.ascii	"cySysTickCallback\000"
- 5428      73546963 
- 5428      6B43616C 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 157
+ 5406              	.LASF18:
+ 5407 043b 6C6F6E67 		.ascii	"long double\000"
+ 5407      20646F75 
+ 5407      626C6500 
+ 5408              	.LASF32:
+ 5409 0447 61646472 		.ascii	"address\000"
+ 5409      65737300 
+ 5410              	.LASF43:
+ 5411 044f 73797363 		.ascii	"sysclkSource\000"
+ 5411      6C6B536F 
+ 5411      75726365 
+ 5411      00
+ 5412              	.LASF89:
+ 5413 045c 66756E63 		.ascii	"function\000"
+ 5413      74696F6E 
+ 5413      00
+ 5414              	.LASF85:
+ 5415 0465 43795379 		.ascii	"CySysTickGetValue\000"
+ 5415      73546963 
+ 5415      6B476574 
+ 5415      56616C75 
+ 5415      6500
+ 5416              	.LASF95:
+ 5417 0477 63796465 		.ascii	"cydelayFreqHz\000"
+ 5417      6C617946 
+ 5417      72657148 
+ 5417      7A00
+ 5418              	.LASF58:
+ 5419 0485 4379496E 		.ascii	"CyIntSetPriority\000"
+ 5419      74536574 
+ 5419      5072696F 
+ 5419      72697479 
+ 5419      00
+ 5420              	.LASF12:
+ 5421 0496 666C6F61 		.ascii	"float\000"
+ 5421      7400
+ 5422              	.LASF103:
+ 5423 049c 43794578 		.ascii	"CyExitCriticalSection\000"
+ 5423      69744372 
+ 5423      69746963 
+ 5423      616C5365 
+ 5423      6374696F 
+ 5424              	.LASF20:
+ 5425 04b2 63795379 		.ascii	"cySysTickCallback\000"
+ 5425      73546963 
+ 5425      6B43616C 
+ 5425      6C626163 
+ 5425      6B00
+ 5426              	.LASF57:
+ 5427 04c4 4379496E 		.ascii	"CyIntGetVector\000"
+ 5427      74476574 
+ 5427      56656374 
+ 5427      6F7200
+ 5428              	.LASF70:
+ 5429 04d3 6D696C6C 		.ascii	"milliseconds\000"
+ 5429      69736563 
+ 5429      6F6E6473 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 157
 
 
- 5428      6C626163 
- 5428      6B00
- 5429              	.LASF57:
- 5430 0507 4379496E 		.ascii	"CyIntGetVector\000"
- 5430      74476574 
- 5430      56656374 
- 5430      6F7200
- 5431              	.LASF70:
- 5432 0516 6D696C6C 		.ascii	"milliseconds\000"
- 5432      69736563 
- 5432      6F6E6473 
- 5432      00
- 5433              	.LASF104:
- 5434 0523 43794465 		.ascii	"CyDelayCycles\000"
- 5434      6C617943 
- 5434      79636C65 
- 5434      7300
- 5435              	.LASF15:
- 5436 0531 72656738 		.ascii	"reg8\000"
- 5436      00
- 5437              	.LASF67:
- 5438 0536 43794861 		.ascii	"CyHalt\000"
- 5438      6C7400
- 5439              	.LASF1:
- 5440 053d 756E7369 		.ascii	"unsigned char\000"
- 5440      676E6564 
- 5440      20636861 
- 5440      7200
- 5441              	.LASF49:
- 5442 054b 72656173 		.ascii	"reason\000"
- 5442      6F6E00
- 5443              	.LASF2:
- 5444 0552 73686F72 		.ascii	"short int\000"
- 5444      7420696E 
- 5444      7400
- 5445              	.LASF62:
- 5446 055c 4379496E 		.ascii	"CyIntEnable\000"
- 5446      74456E61 
- 5446      626C6500 
- 5447              	.LASF55:
- 5448 0568 4379496E 		.ascii	"CyIntGetSysVector\000"
- 5448      74476574 
- 5448      53797356 
- 5448      6563746F 
- 5448      7200
- 5449              	.LASF41:
- 5450 057a 636C6B53 		.ascii	"clkSelect\000"
- 5450      656C6563 
- 5450      7400
- 5451              	.LASF74:
- 5452 0584 43794465 		.ascii	"CyDelayUs\000"
- 5452      6C617955 
- 5452      7300
- 5453              	.LASF110:
- 5454 058e 43795379 		.ascii	"CySysTickServiceCallbacks\000"
- 5454      73546963 
- 5454      6B536572 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 158
+ 5429      00
+ 5430              	.LASF104:
+ 5431 04e0 43794465 		.ascii	"CyDelayCycles\000"
+ 5431      6C617943 
+ 5431      79636C65 
+ 5431      7300
+ 5432              	.LASF15:
+ 5433 04ee 72656738 		.ascii	"reg8\000"
+ 5433      00
+ 5434              	.LASF67:
+ 5435 04f3 43794861 		.ascii	"CyHalt\000"
+ 5435      6C7400
+ 5436              	.LASF1:
+ 5437 04fa 756E7369 		.ascii	"unsigned char\000"
+ 5437      676E6564 
+ 5437      20636861 
+ 5437      7200
+ 5438              	.LASF49:
+ 5439 0508 72656173 		.ascii	"reason\000"
+ 5439      6F6E00
+ 5440              	.LASF2:
+ 5441 050f 73686F72 		.ascii	"short int\000"
+ 5441      7420696E 
+ 5441      7400
+ 5442              	.LASF62:
+ 5443 0519 4379496E 		.ascii	"CyIntEnable\000"
+ 5443      74456E61 
+ 5443      626C6500 
+ 5444              	.LASF55:
+ 5445 0525 4379496E 		.ascii	"CyIntGetSysVector\000"
+ 5445      74476574 
+ 5445      53797356 
+ 5445      6563746F 
+ 5445      7200
+ 5446              	.LASF41:
+ 5447 0537 636C6B53 		.ascii	"clkSelect\000"
+ 5447      656C6563 
+ 5447      7400
+ 5448              	.LASF74:
+ 5449 0541 43794465 		.ascii	"CyDelayUs\000"
+ 5449      6C617955 
+ 5449      7300
+ 5450              	.LASF110:
+ 5451 054b 43795379 		.ascii	"CySysTickServiceCallbacks\000"
+ 5451      73546963 
+ 5451      6B536572 
+ 5451      76696365 
+ 5451      43616C6C 
+ 5452              	.LASF14:
+ 5453 0565 63686172 		.ascii	"char\000"
+ 5453      00
+ 5454              	.LASF100:
+ 5455 056a 6379496D 		.ascii	"cyImoFreqMhz2DpllOffset\000"
+ 5455      6F467265 
+ 5455      714D687A 
+ 5455      3244706C 
+ 5455      6C4F6666 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 158
 
 
- 5454      76696365 
- 5454      43616C6C 
- 5455              	.LASF14:
- 5456 05a8 63686172 		.ascii	"char\000"
- 5456      00
- 5457              	.LASF100:
- 5458 05ad 6379496D 		.ascii	"cyImoFreqMhz2DpllOffset\000"
- 5458      6F467265 
- 5458      714D687A 
- 5458      3244706C 
- 5458      6C4F6666 
- 5459              	.LASF17:
- 5460 05c5 63796973 		.ascii	"cyisraddress\000"
- 5460      72616464 
- 5460      72657373 
- 5460      00
- 5461              	.LASF80:
- 5462 05d2 43795379 		.ascii	"CySysTickEnable\000"
- 5462      73546963 
- 5462      6B456E61 
- 5462      626C6500 
- 5463              	.LASF46:
- 5464 05e2 43795379 		.ascii	"CySysClkWriteHfclkDiv\000"
- 5464      73436C6B 
- 5464      57726974 
- 5464      65486663 
- 5464      6C6B4469 
- 5465              	.LASF44:
- 5466 05f8 43795379 		.ascii	"CySysClkWriteSysclkDiv\000"
- 5466      73436C6B 
- 5466      57726974 
- 5466      65537973 
- 5466      636C6B44 
- 5467              	.LASF88:
- 5468 060f 43795379 		.ascii	"CySysTickSetCallback\000"
- 5468      73546963 
- 5468      6B536574 
- 5468      43616C6C 
- 5468      6261636B 
- 5469              	.LASF94:
- 5470 0624 43795379 		.ascii	"CySysTickCallbacks\000"
- 5470      73546963 
- 5470      6B43616C 
- 5470      6C626163 
- 5470      6B7300
- 5471              	.LASF72:
- 5472 0637 696D6F54 		.ascii	"imoTrim1Value\000"
- 5472      72696D31 
- 5472      56616C75 
- 5472      6500
- 5473              	.LASF93:
- 5474 0645 756E6971 		.ascii	"uniqueId\000"
- 5474      75654964 
- 5474      00
- 5475              	.LASF25:
- 5476 064e 666C6173 		.ascii	"flashCtlReg\000"
- 5476      6843746C 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 159
+ 5456              	.LASF17:
+ 5457 0582 63796973 		.ascii	"cyisraddress\000"
+ 5457      72616464 
+ 5457      72657373 
+ 5457      00
+ 5458              	.LASF80:
+ 5459 058f 43795379 		.ascii	"CySysTickEnable\000"
+ 5459      73546963 
+ 5459      6B456E61 
+ 5459      626C6500 
+ 5460              	.LASF46:
+ 5461 059f 43795379 		.ascii	"CySysClkWriteHfclkDiv\000"
+ 5461      73436C6B 
+ 5461      57726974 
+ 5461      65486663 
+ 5461      6C6B4469 
+ 5462              	.LASF44:
+ 5463 05b5 43795379 		.ascii	"CySysClkWriteSysclkDiv\000"
+ 5463      73436C6B 
+ 5463      57726974 
+ 5463      65537973 
+ 5463      636C6B44 
+ 5464              	.LASF88:
+ 5465 05cc 43795379 		.ascii	"CySysTickSetCallback\000"
+ 5465      73546963 
+ 5465      6B536574 
+ 5465      43616C6C 
+ 5465      6261636B 
+ 5466              	.LASF94:
+ 5467 05e1 43795379 		.ascii	"CySysTickCallbacks\000"
+ 5467      73546963 
+ 5467      6B43616C 
+ 5467      6C626163 
+ 5467      6B7300
+ 5468              	.LASF72:
+ 5469 05f4 696D6F54 		.ascii	"imoTrim1Value\000"
+ 5469      72696D31 
+ 5469      56616C75 
+ 5469      6500
+ 5470              	.LASF93:
+ 5471 0602 756E6971 		.ascii	"uniqueId\000"
+ 5471      75654964 
+ 5471      00
+ 5472              	.LASF25:
+ 5473 060b 666C6173 		.ascii	"flashCtlReg\000"
+ 5473      6843746C 
+ 5473      52656700 
+ 5474              	.LASF109:
+ 5475 0617 433A5C55 		.ascii	"C:\\Users\\Stephen\\Documents\\Firmware\\PSoC\\Boot"
+ 5475      73657273 
+ 5475      5C537465 
+ 5475      7068656E 
+ 5475      5C446F63 
+ 5476 0644 6C6F6164 		.ascii	"loader\\Bootloader.cydsn\000"
+ 5476      65725C42 
+ 5476      6F6F746C 
+ 5476      6F616465 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 159
 
 
- 5476      52656700 
+ 5476      722E6379 
  5477              	.LASF69:
- 5478 065a 43794465 		.ascii	"CyDelay\000"
+ 5478 065c 43794465 		.ascii	"CyDelay\000"
  5478      6C617900 
  5479              	.LASF86:
- 5480 0662 43795379 		.ascii	"CySysTickGetClockSource\000"
+ 5480 0664 43795379 		.ascii	"CySysTickGetClockSource\000"
  5480      73546963 
  5480      6B476574 
  5480      436C6F63 
  5480      6B536F75 
  5481              	.LASF82:
- 5482 067a 43795379 		.ascii	"CySysTickDisableInterrupt\000"
+ 5482 067c 43795379 		.ascii	"CySysTickDisableInterrupt\000"
  5482      73546963 
  5482      6B446973 
  5482      61626C65 
  5482      496E7465 
  5483              	.LASF97:
- 5484 0694 63796465 		.ascii	"cydelayFreqMhz\000"
+ 5484 0696 63796465 		.ascii	"cydelayFreqMhz\000"
  5484      6C617946 
  5484      7265714D 
  5484      687A00
  5485              	.LASF78:
- 5486 06a3 43795379 		.ascii	"CySysTickStop\000"
+ 5486 06a5 43795379 		.ascii	"CySysTickStop\000"
  5486      73546963 
  5486      6B53746F 
  5486      7000
  5487              	.LASF45:
- 5488 06b1 64697669 		.ascii	"divider\000"
+ 5488 06b3 64697669 		.ascii	"divider\000"
  5488      64657200 
  5489              	.LASF35:
- 5490 06b9 43795379 		.ascii	"CySysClkImoStart\000"
+ 5490 06bb 43795379 		.ascii	"CySysClkImoStart\000"
  5490      73436C6B 
  5490      496D6F53 
  5490      74617274 
  5490      00
  5491              	.LASF105:
- 5492 06ca 43795379 		.ascii	"CySysFlashSetWaitCycles\000"
+ 5492 06cc 43795379 		.ascii	"CySysFlashSetWaitCycles\000"
  5492      73466C61 
  5492      73685365 
  5492      74576169 
  5492      74437963 
  5493              	.LASF108:
- 5494 06e2 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyLib.c\000"
+ 5494 06e4 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyLib.c\000"
  5494      72617465 
  5494      645F536F 
  5494      75726365 
  5494      5C50536F 
  5495              	.LASF75:
- 5496 0701 6D696372 		.ascii	"microseconds\000"
+ 5496 0703 6D696372 		.ascii	"microseconds\000"
  5496      6F736563 
  5496      6F6E6473 
  5496      00
  5497              	.LASF39:
- 5498 070e 746D7052 		.ascii	"tmpReg\000"
+ 5498 0710 746D7052 		.ascii	"tmpReg\000"
  5498      656700
  5499              	.LASF28:
- 5500 0715 43795379 		.ascii	"CySysTickSetReload\000"
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\ccatIG1h.s 			page 160
+ 5500 0717 43795379 		.ascii	"CySysTickSetReload\000"
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccgboDyc.s 			page 160
 
 
  5500      73546963 

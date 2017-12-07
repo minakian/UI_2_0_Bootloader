@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
   28:Generated_Source\PSoC4/cyutils.c ****     * \reentrant No
   29:Generated_Source\PSoC4/cyutils.c ****     *
   30:Generated_Source\PSoC4/cyutils.c ****     ***************************************************************************/
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 2
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 2
 
 
   31:Generated_Source\PSoC4/cyutils.c ****     void CySetReg24(uint32 volatile * addr, uint32 value)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
   45:Generated_Source\PSoC4/cyutils.c ****         /***************************************************************************
   46:Generated_Source\PSoC4/cyutils.c ****         * Function Name: CyGetReg24
   47:Generated_Source\PSoC4/cyutils.c ****         ************************************************************************//**
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 3
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 3
 
 
   48:Generated_Source\PSoC4/cyutils.c ****         *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
   98              	.Ldebug_info0:
   99 0000 47010000 		.4byte	0x147
  100 0004 0400     		.2byte	0x4
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 4
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 4
 
 
  101 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -186,43 +186,43 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  103 000b 01       		.uleb128 0x1
  104 000c 1C000000 		.4byte	.LASF17
  105 0010 0C       		.byte	0xc
- 106 0011 2C010000 		.4byte	.LASF18
- 107 0015 6A010000 		.4byte	.LASF19
+ 106 0011 32010000 		.4byte	.LASF18
+ 107 0015 7F010000 		.4byte	.LASF19
  108 0019 00000000 		.4byte	.Ldebug_ranges0+0
  109 001d 00000000 		.4byte	0
  110 0021 00000000 		.4byte	.Ldebug_line0
  111 0025 02       		.uleb128 0x2
  112 0026 01       		.byte	0x1
  113 0027 06       		.byte	0x6
- 114 0028 B6010000 		.4byte	.LASF0
+ 114 0028 B9000000 		.4byte	.LASF0
  115 002c 02       		.uleb128 0x2
  116 002d 01       		.byte	0x1
  117 002e 08       		.byte	0x8
- 118 002f BF000000 		.4byte	.LASF1
+ 118 002f C5000000 		.4byte	.LASF1
  119 0033 02       		.uleb128 0x2
  120 0034 02       		.byte	0x2
  121 0035 05       		.byte	0x5
- 122 0036 60010000 		.4byte	.LASF2
+ 122 0036 66010000 		.4byte	.LASF2
  123 003a 02       		.uleb128 0x2
  124 003b 02       		.byte	0x2
  125 003c 07       		.byte	0x7
- 126 003d E7000000 		.4byte	.LASF3
+ 126 003d ED000000 		.4byte	.LASF3
  127 0041 02       		.uleb128 0x2
  128 0042 04       		.byte	0x4
  129 0043 05       		.byte	0x5
- 130 0044 AD010000 		.4byte	.LASF4
+ 130 0044 76010000 		.4byte	.LASF4
  131 0048 02       		.uleb128 0x2
  132 0049 04       		.byte	0x4
  133 004a 07       		.byte	0x7
- 134 004b D5000000 		.4byte	.LASF5
+ 134 004b DB000000 		.4byte	.LASF5
  135 004f 02       		.uleb128 0x2
  136 0050 08       		.byte	0x8
  137 0051 05       		.byte	0x5
- 138 0052 4D010000 		.4byte	.LASF6
+ 138 0052 53010000 		.4byte	.LASF6
  139 0056 02       		.uleb128 0x2
  140 0057 08       		.byte	0x8
  141 0058 07       		.byte	0x7
- 142 0059 15010000 		.4byte	.LASF7
+ 142 0059 1B010000 		.4byte	.LASF7
  143 005d 03       		.uleb128 0x3
  144 005e 04       		.byte	0x4
  145 005f 05       		.byte	0x5
@@ -230,15 +230,15 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  147 0064 02       		.uleb128 0x2
  148 0065 04       		.byte	0x4
  149 0066 07       		.byte	0x7
- 150 0067 08010000 		.4byte	.LASF8
+ 150 0067 0E010000 		.4byte	.LASF8
  151 006b 04       		.uleb128 0x4
- 152 006c B9000000 		.4byte	.LASF9
+ 152 006c 70010000 		.4byte	.LASF9
  153 0070 02       		.byte	0x2
  154 0071 D201     		.2byte	0x1d2
  155 0073 2C000000 		.4byte	0x2c
  156 0077 04       		.uleb128 0x4
- 157 0078 01010000 		.4byte	.LASF10
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 5
+ 157 0078 07010000 		.4byte	.LASF10
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 5
 
 
  158 007c 02       		.byte	0x2
@@ -251,11 +251,11 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  165 008a 02       		.uleb128 0x2
  166 008b 08       		.byte	0x8
  167 008c 04       		.byte	0x4
- 168 008d FA000000 		.4byte	.LASF12
+ 168 008d 00010000 		.4byte	.LASF12
  169 0091 02       		.uleb128 0x2
  170 0092 01       		.byte	0x1
  171 0093 08       		.byte	0x8
- 172 0094 5B010000 		.4byte	.LASF13
+ 172 0094 61010000 		.4byte	.LASF13
  173 0098 05       		.uleb128 0x5
  174 0099 6B000000 		.4byte	0x6b
  175 009d 05       		.uleb128 0x5
@@ -283,7 +283,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  197 00cb 77000000 		.4byte	0x77
  198 00cf 00000000 		.4byte	.LLST0
  199 00d3 09       		.uleb128 0x9
- 200 00d4 CD000000 		.4byte	.LASF16
+ 200 00d4 D3000000 		.4byte	.LASF16
  201 00d8 01       		.byte	0x1
  202 00d9 21       		.byte	0x21
  203 00da E7000000 		.4byte	0xe7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  212 00e9 98000000 		.4byte	0x98
  213 00ed 0B       		.uleb128 0xb
  214 00ee 06000000 		.4byte	.LASF21
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 6
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 6
 
 
  215 00f2 01       		.byte	0x1
@@ -316,7 +316,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  227 010d 34010000 		.4byte	0x134
  228 0111 21000000 		.4byte	.LLST1
  229 0115 0C       		.uleb128 0xc
- 230 0116 CD000000 		.4byte	.LASF16
+ 230 0116 D3000000 		.4byte	.LASF16
  231 011a 01       		.byte	0x1
  232 011b 3A       		.byte	0x3a
  233 011c 3F010000 		.4byte	0x13f
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  269 000e 01       		.uleb128 0x1
  270 000f 10       		.uleb128 0x10
  271 0010 17       		.uleb128 0x17
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 7
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 7
 
 
  272 0011 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  326 0047 0B       		.uleb128 0xb
  327 0048 27       		.uleb128 0x27
  328 0049 19       		.uleb128 0x19
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 8
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 8
 
 
  329 004a 11       		.uleb128 0x11
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  383 0081 18       		.uleb128 0x18
  384 0082 00       		.byte	0
  385 0083 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 9
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 9
 
 
  386 0084 0A       		.uleb128 0xa
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  440 00bb 49       		.uleb128 0x49
  441 00bc 13       		.uleb128 0x13
  442 00bd 00       		.byte	0
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 10
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 10
 
 
  443 00be 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  497              	.LLST3:
  498 0079 04000000 		.4byte	.LVL3
  499 007d 06000000 		.4byte	.LVL4
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 11
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 11
 
 
  500 0081 0100     		.2byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  554 0004 12000000 		.4byte	.LFE0
  555 0008 00000000 		.4byte	.LFB1
  556 000c 12000000 		.4byte	.LFE1
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 12
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 12
 
 
  557 0010 00000000 		.4byte	0
@@ -703,87 +703,87 @@ ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 1
  574              	.LASF11:
  575 00b3 666C6F61 		.ascii	"float\000"
  575      7400
- 576              	.LASF9:
- 577 00b9 75696E74 		.ascii	"uint8\000"
- 577      3800
+ 576              	.LASF0:
+ 577 00b9 7369676E 		.ascii	"signed char\000"
+ 577      65642063 
+ 577      68617200 
  578              	.LASF1:
- 579 00bf 756E7369 		.ascii	"unsigned char\000"
+ 579 00c5 756E7369 		.ascii	"unsigned char\000"
  579      676E6564 
  579      20636861 
  579      7200
  580              	.LASF16:
- 581 00cd 746D7041 		.ascii	"tmpAddr\000"
+ 581 00d3 746D7041 		.ascii	"tmpAddr\000"
  581      64647200 
  582              	.LASF5:
- 583 00d5 6C6F6E67 		.ascii	"long unsigned int\000"
+ 583 00db 6C6F6E67 		.ascii	"long unsigned int\000"
  583      20756E73 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 13
+
+
  583      69676E65 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 13
-
-
  583      6420696E 
  583      7400
  584              	.LASF3:
- 585 00e7 73686F72 		.ascii	"short unsigned int\000"
+ 585 00ed 73686F72 		.ascii	"short unsigned int\000"
  585      7420756E 
  585      7369676E 
  585      65642069 
  585      6E7400
  586              	.LASF12:
- 587 00fa 646F7562 		.ascii	"double\000"
+ 587 0100 646F7562 		.ascii	"double\000"
  587      6C6500
  588              	.LASF10:
- 589 0101 75696E74 		.ascii	"uint32\000"
+ 589 0107 75696E74 		.ascii	"uint32\000"
  589      333200
  590              	.LASF8:
- 591 0108 756E7369 		.ascii	"unsigned int\000"
+ 591 010e 756E7369 		.ascii	"unsigned int\000"
  591      676E6564 
  591      20696E74 
  591      00
  592              	.LASF7:
- 593 0115 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 593 011b 6C6F6E67 		.ascii	"long long unsigned int\000"
  593      206C6F6E 
  593      6720756E 
  593      7369676E 
  593      65642069 
  594              	.LASF18:
- 595 012c 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyutils.c\000"
+ 595 0132 47656E65 		.ascii	"Generated_Source\\PSoC4\\cyutils.c\000"
  595      72617465 
  595      645F536F 
  595      75726365 
  595      5C50536F 
  596              	.LASF6:
- 597 014d 6C6F6E67 		.ascii	"long long int\000"
+ 597 0153 6C6F6E67 		.ascii	"long long int\000"
  597      206C6F6E 
  597      6720696E 
  597      7400
  598              	.LASF13:
- 599 015b 63686172 		.ascii	"char\000"
+ 599 0161 63686172 		.ascii	"char\000"
  599      00
  600              	.LASF2:
- 601 0160 73686F72 		.ascii	"short int\000"
+ 601 0166 73686F72 		.ascii	"short int\000"
  601      7420696E 
  601      7400
- 602              	.LASF19:
- 603 016a 433A5C55 		.ascii	"C:\\Users\\Minakian\\Documents\\PSoC Creator\\Bootl"
- 603      73657273 
- 603      5C4D696E 
- 603      616B6961 
- 603      6E5C446F 
- 604 0198 6F61645C 		.ascii	"oad\\Bootloader.cydsn\000"
- 604      426F6F74 
- 604      6C6F6164 
- 604      65722E63 
- 604      7964736E 
- 605              	.LASF4:
- 606 01ad 6C6F6E67 		.ascii	"long int\000"
- 606      20696E74 
-ARM GAS  C:\Users\Minakian\AppData\Local\Temp\cc2MynnN.s 			page 14
+ 602              	.LASF9:
+ 603 0170 75696E74 		.ascii	"uint8\000"
+ 603      3800
+ 604              	.LASF4:
+ 605 0176 6C6F6E67 		.ascii	"long int\000"
+ 605      20696E74 
+ 605      00
+ 606              	.LASF19:
+ 607 017f 433A5C55 		.ascii	"C:\\Users\\Stephen\\Documents\\Firmware\\PSoC\\Boot"
+ 607      73657273 
+ 607      5C537465 
+ 607      7068656E 
+ 607      5C446F63 
+ARM GAS  C:\Users\Stephen\AppData\Local\Temp\ccx3YlTU.s 			page 14
 
 
- 606      00
- 607              	.LASF0:
- 608 01b6 7369676E 		.ascii	"signed char\000"
- 608      65642063 
- 608      68617200 
+ 608 01ac 6C6F6164 		.ascii	"loader\\Bootloader.cydsn\000"
+ 608      65725C42 
+ 608      6F6F746C 
+ 608      6F616465 
+ 608      722E6379 
  609              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
