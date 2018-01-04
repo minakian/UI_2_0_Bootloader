@@ -41,6 +41,10 @@
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Blue_LED.h" value="HEADER;;;;;Blue_LED" />
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Blue_LED_aliases.h" value="HEADER;;;;;Blue_LED" />
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Blue_LED_PM.c" value="SOURCE_C;CortexM0p;;;;Blue_LED" />
+  <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Green_LED.c" value="SOURCE_C;CortexM0p;;;;Green_LED" />
+  <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Green_LED.h" value="HEADER;;;;;Green_LED" />
+  <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Green_LED_aliases.h" value="HEADER;;;;;Green_LED" />
+  <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\Green_LED_PM.c" value="SOURCE_C;CortexM0p;;;;Green_LED" />
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\I2C_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;I2C_SCBCLK" />
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\I2C_SCBCLK.h" value="HEADER;;;;;I2C_SCBCLK" />
   <file name="C:\Users\Stephen\Documents\Firmware\PSoC\Bootloader\Bootloader.cydsn\codegentemp\I2C_sda.c" value="SOURCE_C;CortexM0p;;;;I2C_sda" />

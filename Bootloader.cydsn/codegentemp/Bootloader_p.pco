@@ -9,3 +9,4 @@ set_location "\I2C:SCB\" m0s8scbcell -1 -1 1
 set_location "\I2C:SCB_IRQ\" interrupt -1 -1 8
 set_io "Red_LED(0)" iocell 1 0
 set_io "Blue_LED(0)" iocell 1 2
+set_io "Green_LED(0)" iocell 2 0

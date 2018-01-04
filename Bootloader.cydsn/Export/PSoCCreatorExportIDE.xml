@@ -123,6 +123,10 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Blue_LED.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Blue_LED_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Blue_LED_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Green_LED.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Green_LED.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Green_LED_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Green_LED_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">

@@ -1,5 +1,5 @@
 # Bootloader
-# 2017-12-07 22:59:32Z
+# 2018-01-04 17:37:57Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -12,5 +12,6 @@ set_io "\I2C:scl(0)\" iocell 3 0
 set_io "Bootload_EN(0)" iocell 0 6
 set_io "Red_LED(0)" iocell 1 0
 set_io "Blue_LED(0)" iocell 1 2
+set_io "Green_LED(0)" iocell 2 0
 set_location "\I2C:SCB_IRQ\" interrupt -1 -1 8
 set_location "\I2C:SCB\" m0s8scbcell -1 -1 1

@@ -14,6 +14,10 @@
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
+    
+    Red_LED_Write(1);
+    Green_LED_Write(1);
+    Blue_LED_Write(1);
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     if(Bootload_EN_Read()){
@@ -22,7 +26,8 @@ int main(void)
         Bootloader_Start();
     } else {
         Blue_LED_Write(0);
-        CyDelay(1000);
+        Green_LED_Write(0);
+        CyDelay(250);
         Bootloader_Exit(Bootloader_EXIT_TO_BTLDB);
     }
 

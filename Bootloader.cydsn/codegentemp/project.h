@@ -32,6 +32,8 @@
 #include "Red_LED_aliases.h"
 #include "Blue_LED.h"
 #include "Blue_LED_aliases.h"
+#include "Green_LED.h"
+#include "Green_LED_aliases.h"
 #include "I2C_SCBCLK.h"
 #include "I2C_sda.h"
 #include "I2C_sda_aliases.h"
