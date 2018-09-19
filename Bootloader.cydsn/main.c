@@ -1,11 +1,11 @@
 /* ========================================
  *
- * Copyright YOUR COMPANY, THE YEAR
+ * Copyright Stephen Minakian, 2018
  * All Rights Reserved
  * UNPUBLISHED, LICENSED SOFTWARE.
  *
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
+ * WHICH IS THE PROPERTY OF Healthsmart International.
  *
  * ========================================
 */
@@ -19,7 +19,6 @@ int main(void)
     Green_LED_Write(1);
     Blue_LED_Write(1);
 
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     if(Bootload_EN_Read()){
         Red_LED_Write(0);
         CyDelay(1000);
@@ -33,7 +32,7 @@ int main(void)
 
     for(;;)
     {
-        /* Place your application code here. */
+        
     }
 }
 
